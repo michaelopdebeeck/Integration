@@ -1,0 +1,96 @@
+.weergave-e {
+  background-color: #E2E0DF;
+  height: 1em;
+  padding: 1em 20% 1em;
+  display: none;
+}
+
+.weergave-e p {
+  font-size: 1em;
+  text-align: left;
+}
+
+body h1 {
+  font-family: 'montserratbold';
+  font-size: 2em;
+  text-align: center;
+  padding: .5em;
+}
+
+.sorteren-e {
+  display: none;
+}
+
+.panden-vergelijken-e {
+  background-color: #F0652F;
+}
+
+.panden-vergelijken-e ul {
+  display: none;
+}
+
+.panden-vergelijken-e p {
+  display: none;
+}
+
+.panden-vergelijken-e input {
+  display: none;
+}
+
+.panden-vergelijken-e h3 {
+  font-family: 'montserratregular';
+  color: white;
+  padding: .5em;
+  text-align: center;
+}
+
+.huis-e img {
+  width: 100%;
+  display: block;
+}
+
+.huis-e h3 {
+  font-family: 'montserratregular';
+  background-color: #58595B;
+  padding: .5em;
+  text-align: center;
+  color: white;
+}
+
+.beschrijving-e {
+  display: none;
+}
+
+.prijs-e p:first-of-type {
+  font-family: 'montserratregular';
+  background-color: #1E7BB7;
+  color: white;
+  text-align: center;
+  padding: .5em;
+}
+
+.prijs-e p:last-of-type {
+  font-family: 'montserratregular';
+  background-color: #0E446D;
+  color: white;
+  text-align: center;
+  padding: .5em;
+}
+
+.foto-e {
+  display: none;
+}
+
+.aanbod-e p {
+  font-family: 'montserratregular';
+  background-color: #F0652F;
+  color: white;
+  text-align: center;
+  padding: .7em;
+}
+
+.icoon-e {
+  display: none;
+}
+
+.in-de-kijker-e h1 {}
