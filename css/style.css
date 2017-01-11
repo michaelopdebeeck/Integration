@@ -1,30 +1,34 @@
 /* ----------------------------------
         FONTS
 ---------------------------------- */
-<<<<<<< Updated upstream
-
-
-/* montserratregular */
-
 @font-face {
-  font-family: 'montserratregular';
-  src: url('../font/montserratregular/ontmontserrat-regular.eot');
-  src: url('../font/montserratregular/montserrat-regular.eot?#iefix') format('embedded-opentype'), url('../font/montserratregular/montserrat-regular.woff2') format('woff2'), url('../font/montserratregular/montserrat-regular.woff') format('woff'), url('../font/montserratregular/montserrat-regular.ttf') format('truetype'), url('../font/montserratregular/montserrat-regular.svg#montserratregular') format('svg');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'montserratbold';
+    src: url('../font/montserrat-bold-webfont.woff2') format('woff2'),
+         url('../font/montserrat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
-
-
-/* montserratlight */
-
 @font-face {
-  font-family: 'montserratlight';
-  src: url('../font/montserratlight/montserrat-light.eot');
-  src: url('../font/montserratlight/montserrat-light.eot?#iefix') format('embedded-opentype'), url('../font/montserratlight/montserrat-light.woff2') format('woff2'), url('../font/montserratlight/montserrat-light.woff') format('woff'), url('../font/montserratlight/montserrat-light.ttf') format('truetype'), url('../font/montserratlight/montserrat-light.svg#montserratlight') format('svg');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'montserratsemibold';
+    src: url('../font/montserrat-semibold-webfont.woff2') format('woff2'),
+         url('../font/montserrat-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
-
+@font-face {
+    font-family: 'montserratlight';
+    src: url('../font/montserrat-light-webfont.woff2') format('woff2'),
+         url('../font/montserrat-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../font/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../font/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /*--------------------------------------*/
 
@@ -35,36 +39,4 @@ body {
 
 li {
   list-style: none;
-=======
-@font-face {
-    font-family: 'montserratbold';
-    src: url('../font/montserrat-bold-webfont.woff2') format('woff2'),
-         url('../font/montserrat-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'montserratsemibold';
-    src: url('../font/montserrat-semibold-webfont.woff2') format('woff2'),
-         url('../font/montserrat-semibold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'montserratlight';
-    src: url('../font/montserrat-light-webfont.woff2') format('woff2'),
-         url('../font/montserrat-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'montserratregular';
-    src: url('../font/montserrat-regular-webfont.woff2') format('woff2'),
-         url('../font/montserrat-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
->>>>>>> Stashed changes
 }
