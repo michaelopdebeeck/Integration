@@ -31,49 +31,40 @@
   }
   /*--------------------------------------*/
   
-  body {
-    font-family: 'montserratregular';
-    margin: 0;
-  }
-  
-  li {
-    list-style: none;
-  }
-  
   h1 {
     font-family: 'montserratbold';
     color: #1E7BB7;
-    font-size: 36px;
+    font-size: 2em;
   }
   
   h2 {
     font-family: 'montserratbold';
     color: #1E7BB7;
-    font-size: 24px;
+    font-size: 1.5em;
   }
   
   h3 {
     font-family: 'montserratbold';
     color: #1E7BB7;
-    font-size: 18px;
+    font-size: 1em;
   }
   
   h4 {
     font-family: 'montserratbold';
     color: #1E7BB7;
-    font-size: 16px;
+    font-size: 0.7em;
   }
   
   h5 {
     font-family: 'montserratbold';
     color: #1E7BB7;
-    font-size: 14px;
+    font-size: 0.5em;
   }
   
   p {
     font-family: 'montserratregular';
     color: black;
-    font-size: 14px;
+    font-size: 1em;
   }
   /*---------------------------------------*/
 
