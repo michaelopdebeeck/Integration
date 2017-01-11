@@ -10,3 +10,12 @@ section.text-container-s{
   background-color : #E2E0DF;
   color : black;
 }
+section.text-container-s:nth-of-type(3){
+  background-color : #58595B;
+  color : white;
+}
+
+photo-container-s figcaption{
+  position : absolute;
+  top : 0;
+}
