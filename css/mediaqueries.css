@@ -1,0 +1,12 @@
+section.photo-container-s {
+  background-color : #0E446D;
+  color : white;
+}
+section.photo-container-s:first-of-type{
+  background-color : white;
+  color : #0E446D;
+}
+section.text-container-s{
+  background-color : #E2E0DF;
+  color : black;
+}
