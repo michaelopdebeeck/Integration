@@ -1,5 +1,10 @@
+EEN_L {
+  background-image: "../images/Homepage/Background.png";
+}
+
 nav {
   margin-bottom: 5%;
+  border-bottom: solid white;
 }
 
 nav li {
@@ -16,6 +21,7 @@ nav .logo_L {
 
 hr {
   float: none;
+  margin-top: inherit;
 }
 
 .logo_L {
