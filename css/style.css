@@ -1,27 +1,33 @@
 /* ----------------------------------
         FONTS
 ---------------------------------- */
+
+
 /* montserratregular */
+
 @font-face {
-    font-family: 'montserratregular';
-    src: url('../font/montserratregular/ontmontserrat-regular.eot');
-    src: url('../font/montserratregular/montserrat-regular.eot?#iefix') format('embedded-opentype'),
-         url('../font/montserratregular/montserrat-regular.woff2') format('woff2'),
-         url('../font/montserratregular/montserrat-regular.woff') format('woff'),
-         url('../font/montserratregular/montserrat-regular.ttf') format('truetype'),
-         url('../font/montserratregular/montserrat-regular.svg#montserratregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'montserratregular';
+  src: url('../font/montserratregular/ontmontserrat-regular.eot');
+  src: url('../font/montserratregular/montserrat-regular.eot?#iefix') format('embedded-opentype'), url('../font/montserratregular/montserrat-regular.woff2') format('woff2'), url('../font/montserratregular/montserrat-regular.woff') format('woff'), url('../font/montserratregular/montserrat-regular.ttf') format('truetype'), url('../font/montserratregular/montserrat-regular.svg#montserratregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
+
+
 /* montserratlight */
+
 @font-face {
-    font-family: 'montserratlight';
-    src: url('../font/montserratlight/montserrat-light.eot');
-    src: url('../font/montserratlight/montserrat-light.eot?#iefix') format('embedded-opentype'),
-         url('../font/montserratlight/montserrat-light.woff2') format('woff2'),
-         url('../font/montserratlight/montserrat-light.woff') format('woff'),
-         url('../font/montserratlight/montserrat-light.ttf') format('truetype'),
-         url('../font/montserratlight/montserrat-light.svg#montserratlight') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'montserratlight';
+  src: url('../font/montserratlight/montserrat-light.eot');
+  src: url('../font/montserratlight/montserrat-light.eot?#iefix') format('embedded-opentype'), url('../font/montserratlight/montserrat-light.woff2') format('woff2'), url('../font/montserratlight/montserrat-light.woff') format('woff'), url('../font/montserratlight/montserrat-light.ttf') format('truetype'), url('../font/montserratlight/montserrat-light.svg#montserratlight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/*--------------------------------------*/
+
+body {
+  font-family: montserratregular;
+  margin: 0;
 }
