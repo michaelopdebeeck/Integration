@@ -1,13 +1,42 @@
-/*
-Lichtgrijs: #E2E0DF
-Licht blauw: #1E7BB7
-Donker blauw: #0E446D
-Donker grijs: #58595B
-Oranje: #F0652F
-*/
+@font-face {
+    font-family: 'montserratbold';
+    src: url('../font/montserrat-bold-webfont.woff2') format('woff2'),
+         url('../font/montserrat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'montserratsemibold';
+    src: url('../font/montserrat-semibold-webfont.woff2') format('woff2'),
+         url('../font/montserrat-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'montserratlight';
+    src: url('../font/montserrat-light-webfont.woff2') format('woff2'),
+         url('../font/montserrat-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../font/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../font/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+.clearfix {
+    clear: both;
+}
 
 header {
     background-color: #0E446D;
+    font-family: 'montserratsemibold';
+    text-transform: uppercase;
 }
 
 /* LOGO */
@@ -21,5 +50,67 @@ a.logo:active {
     height: 100px;
     width: 150px;
     display: block;
+    float: left;
     text-indent: -9999px;
 }
+ 
+a.menu-knop:link,
+a.menu-knop:visited,
+a.menu-knop:active {
+    float: right;
+    margin: 3em 3em;
+    text-decoration: none;
+    color: white;
+    border-bottom: 3px solid #0E446D;
+    padding: 0.25em;
+}
+
+a.menu-knop:hover {
+    float: right;
+    margin: 3em 3em;
+    text-decoration: none;
+    border-bottom: 3px solid #F0652F;
+}
+
+
+header nav ul li a:link,
+header nav ul li a:visited,
+header nav ul li a:active {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 0.5em 0;
+    color: white;
+    border-bottom: 3px solid #0E446D;
+    font-family: 'montserratregular';
+}
+
+header nav ul li a:hover {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 0.5em 0;
+    color: white;
+    border-bottom: 3px solid #F0652F;
+    font-family: 'montserratregular';
+}
+
+header nav ul li a:focus {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 0.5em 0;
+    color: white;
+    border-bottom: px solid #F0652F;
+    font-family: 'montserratregular';
+}
+
+
+
+/*
+Lichtgrijs: #E2E0DF
+Licht blauw: #1E7BB7
+Donker blauw: #0E446D
+Donker grijs: #58595B
+Oranje: #F0652F
+*/
