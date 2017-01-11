@@ -1,0 +1,50 @@
+@media screen and (min-width: 670px) {
+    a.menu-knop {
+        display: none;
+    }
+    
+    header div#container {
+        max-width: 75%;
+        margin: 0 auto;
+    }
+    
+     div#container nav {
+        display: block;
+        float: right;
+        width: 70%;
+        clear: none;
+    }
+  
+    
+    header nav ul li a:link,
+    header nav ul li a:visited,
+    header nav ul li a:active {
+        display: block;
+        float: left;
+        width: 25%;
+        margin-top: 1.5em;
+        padding: 1.5em 0;
+        
+        border-bottom: 2px solid white;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        transition: all 0.5s;    }
+    
+    header nav ul li a:hover {
+        border-bottom: 5px solid #F0652F;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        transition: all 0.5s;       
+    }
+    
+    hr {
+        border: 0;
+        background-color: white;
+        color: white;
+        height: 2px;
+        width: 100%;
+        padding: 1em;
+        background-color: red;
+    }

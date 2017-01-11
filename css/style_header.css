@@ -72,6 +72,9 @@ a.menu-knop:hover {
     border-bottom: 3px solid #F0652F;
 }
 
+header nav {
+    clear: both;
+}
 
 header nav ul li a:link,
 header nav ul li a:visited,
@@ -101,7 +104,7 @@ header nav ul li a:focus {
     display: block;
     padding: 0.5em 0;
     color: white;
-    border-bottom: px solid #F0652F;
+    border-bottom: 3px solid #F0652F;
     font-family: 'montserratregular';
 }
 
