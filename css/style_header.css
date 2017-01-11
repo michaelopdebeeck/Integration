@@ -44,7 +44,7 @@ a.logo:link,
 a.logo:visited,
 a.logo:hover,
 a.logo:active {
-    background-image: url(../images/Investr_logo.png);
+    background-image: url(../images/Investr_logo.svg);
     background-repeat: no-repeat;
     background-size: 150px;
     height: 100px;
