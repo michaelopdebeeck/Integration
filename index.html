@@ -7,7 +7,8 @@
   <link rel="stylesheet" type="text/css" href="css/reset.css" />
   <link rel="stylesheet" type="text/css" href="css/style.css" />
   <link rel="stylesheet" type="text/css" href="css/homepage.css" />
-  <link rel="stylesheet" type="text/css" href="css/mediaqueries.css" /> </head>
+  <link rel="stylesheet" type="text/css" href="css/mediaqueries.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1,  minimum-scale=1"> </head>
 
 <body>
   <section class="EEN_L">
@@ -22,10 +23,19 @@
       </nav>
     </header>
     <main>
-      <h1>Investing Made Easy</h1>
       <form>
-        <input type="text" placeholder="Locatie (stad of postcode)">
-        <input type="button" value="Zoek">
+        <h1>Investing Made Easy</h1>
+        <input class="Zoekbalk" type="text" placeholder="Locatie (stad of postcode)">
+        <input class="button" type="button" value="Zoek">
+        <select name="type vastgoed" class="type_vastgoed">
+          <option value="Huis">Huis </option>
+          <option value="Appartement">Appartement</option>
+          <option value="Studentenhuisvesting">Studentenhuisvesting</option>
+          <option value="Grond">Grond</option>
+          <option value="Bedrijfsvastgoed">Bedrijfsvastgoed</option>
+          <option value="Garage">Garage</option>
+          <option value="Assistentieflats">Assistentieflats</option>
+        </select>
         <select name="type vastgoed">
           <option value="Huis">Huis </option>
           <option value="Appartement">Appartement</option>
@@ -48,42 +58,25 @@
         </select>
       </form>
   </section>
-  <section>
+  <!--°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°-->
+  <section class="TWEE_L">
     <div>
-      <h1>Waarom Investr</h1>
-      <div>
-        <h2>Zoek</h2> <img src="images/Homepage/Bol1.png">
-        <p>Geef zoekcriteria in die voor uw investeringen belangrijk zijn en maak uw persoonlijke shortlist van vastgoedinvesteringen.</p>
-        <input type="button" value="Zoek"> </div>
-      <div>
-        <h2>Bekijk</h2> <img src="images/Homepage/Bol2.png">
-        <p>Onze site biedt u de mogelijkheid om ons aanbod van panden op eigen tempo te bekijken en uw investering te plannen van vastgoedinvesteringen.</p>
-        <input type="button" value="Aanbod"> </div>
-      <div>
-        <h2>Vergelijk</h2> <img src="images/Homepage/Bol3.png">
-        <p>Dankzij de door ons berekende gegevens en onze handige vergelijk functie kan u snel en eenvoudig vergelijken en de investering zoeken die het best bij u past </p>
-        <input type="button" value="Registreer"> </div>
-    </div>
+      <h1>Waarom Investr?</h1>
+      <h2>Zoek</h2> <img src="images/Homepage/Bol1.png">
+      <p>Geef zoekcriteria in die voor uw investeringen belangrijk zijn en maak uw persoonlijke shortlist van vastgoedinvesteringen.</p>
+      <input type="button" class="button" value="Zoek"> </div>
+    <div>
+      <h2>Bekijk</h2> <img src="images/Homepage/Bol2.png">
+      <p>Onze site biedt u de mogelijkheid om ons aanbod van panden op eigen tempo te bekijken en uw investering te plannen van vastgoedinvesteringen.</p>
+      <input type="button" class="button" value="Aanbod"> </div>
+    <div>
+      <h2>Vergelijk</h2> <img src="images/Homepage/Bol3.png">
+      <p>Dankzij de door ons berekende gegevens en onze handige vergelijk functie kan u snel en eenvoudig vergelijken en de investering zoeken die het best bij u past </p>
+      <input type="button" class="button" value="Registreer"> </div>
   </section>
   <!--°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°-->
-  <section>
-    <div>
-      <h1>Waarom Investr</h1>
-      <div>
-        <h2>Zoek</h2> <img src="images/Homepage/Bol1.png">
-        <p>Geef zoekcriteria in die voor uw investeringen belangrijk zijn en maak uw persoonlijke shortlist van vastgoedinvesteringen.</p>
-        <input type="button" value="Zoek"> </div>
-      <div>
-        <h2>Bekijk</h2> <img src="images/Homepage/Bol2.png">
-        <p>Onze site biedt u de mogelijkheid om ons aanbod van panden op eigen tempo te bekijken en uw investering te plannen van vastgoedinvesteringen.</p>
-        <input type="button" value="Aanbod"> </div>
-      <div>
-        <h2>Vergelijk</h2> <img src="images/Homepage/Bol3.png">
-        <p>Dankzij de door ons berekende gegevens en onze handige vergelijk functie kan u snel en eenvoudig vergelijken en de investering zoeken die het best bij u past </p>
-        <input type="button" value="Registreer"> </div>
-  </section>
-  <!--°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°-->
-  <section>
+  <section class="DRIE_L">
+    <h1>Nieuws</h1>
     <figure> <img src="images/Homepage/Nieuws1.png" alt="Steeds meer huizen te koop">
       <figcaption>Steeds meer huizen te koop</figcaption>
     </figure>
@@ -95,11 +88,14 @@
     </figure>
     <figure> <img src="images/Homepage/Nieuws4.png" alt="Huizen steeds sneller verkockt">
       <figcaption>Huizen steeds sneller verkockt</figcaption>
-      <input type="button" value="Meer nieuws"> </figure>
+      <input type="button" class="button" value="Meer nieuws >"> </figure>
   </section>
-  <section>
-    <article><img src="images/Homepage/Facebook.png" alt="Facebook">
-      <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Finvestr.be%2Fposts%2F1080951558682729&width=500" width="500" height="584" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+  <section class="VIER_L">
+    <h1>Social media</h1>
+    <article>
+      <div class="Fb"><img src="images/Homepage/Facebook.png" class="like" alt="Facebook">
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Finvestr.be%2Fposts%2F1080951558682729&width=500" height="584" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+      </div>
     </article>
     <article>
       <h3>Blog</h3>
