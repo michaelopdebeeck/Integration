@@ -1,32 +1,100 @@
-section.photo-container-s {
+.photo-container-s p{
+  text-align : center;
+  display : inline-block;
+  color : white;
+  padding : 50px 10%;
+}
+.photo-container-s {
   background-color : #0E446D;
   color : white;
 }
-section.photo-container-s:first-of-type{
+.photo-container-s:first-of-type{
   background-color : white;
   color : #0E446D;
 }
-section.text-container-s{
-  background-color : #E2E0DF;
-  color : black;
+.photo-container-s:first-of-type p{
+  color : #0E446D;
 }
-section.text-container-s:nth-of-type(3){
-  background-color : #58595B;
-  color : white;
-}
+
 .photo-container-s img{
-  width: 50%;
+  width: 100%;
   position: relative;
-  margin : 1% auto 10% auto;
+  margin : 0 auto 0 auto;
+  display : inline-block;
 }
 .photo-container-s figure{
   position: relative;
+  display : inline-block;
+  width : 100%;
 }
 .photo-container-s figcaption{
+  color : white;
+  display : inline-block;
+  text-align : center;
+  box-sizing: border-box;
   width: 100%;
-  height: 100%;
   position: absolute;
-  top: 10px;
+  top : 0;
+  padding : 10px 10px;
   left: 0;
   z-index : 5;
+  background-color : rgba(10,10,10,0.5);
+}
+
+.overons h3 {
+  padding : 20px 10px;
+}
+
+@media screen and (min-width: 480px) {
+  .overons h3 {
+    color : red;
+  }
+  .photo-container-s figure{
+    width : 250px;
+    display : block;
+    left : -110px;
+    margin : 0 auto;
+  }
+  .photo-container-s p {
+  display : inline-block;
+  text-align : center;
+  box-sizing: border-box;
+  width: 100%;
+  position: absolute;
+  top : 0;
+  padding : 30% 25px;
+  left: 240px;
+  z-index : 5;
+  }
+}
+@media screen and (min-width: 800px) {
+  .overons h3 {
+    color : green;
+  }
+  .photo-container-s figure{
+    display : inline-block;
+    left : 0;
+  }
+  .photo-container-s p {
+    position : static;
+    left : 0;
+    top : 0;
+  }
+}
+
+/*----------------------------------TEXT CONTAINER-------------------------------*/
+.text-container-s{
+  background-color : #E2E0DF;
+  color : black;
+}
+.text-container-s p {
+  color : black;
+  padding : 10px 10px;
+  font-size : 12px;
+}
+.text-container-s:nth-of-type(3){
+  background-color : #58595B;
+}
+.text-container-s:nth-of-type(3) p{
+  color : white;
 }
