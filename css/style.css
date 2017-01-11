@@ -31,3 +31,7 @@ body {
   font-family: montserratregular;
   margin: 0;
 }
+
+li {
+  list-style: none;
+}
