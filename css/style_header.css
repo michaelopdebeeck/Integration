@@ -39,36 +39,52 @@ header {
     text-transform: uppercase;
 }
 
-/* LOGO */
 a.logo:link,
 a.logo:visited,
 a.logo:hover,
 a.logo:active {
     background-image: url(../images/Investr_logo.svg);
     background-repeat: no-repeat;
-    background-size: 150px;
-    height: 100px;
-    width: 150px;
     display: block;
     float: left;
+    height: 1.5em;
+    width: 100px;
     text-indent: -9999px;
+    
+    margin: 1.75em;
 }
- 
+
 a.menu-knop:link,
 a.menu-knop:visited,
 a.menu-knop:active {
     float: right;
-    margin: 3em 3em;
+    
     text-decoration: none;
     color: white;
+    
     border-bottom: 3px solid #0E446D;
-    padding: 0.25em;
+
+    padding: 0.5em 0;
+    margin: 1.5em;
 }
 
 a.menu-knop:hover {
+    display: block;
     float: right;
-    margin: 3em 3em;
+    
     text-decoration: none;
+    color: white;
+    
+    border-bottom: 3px solid #F0652F;
+}
+
+a.menu-knop:focus {
+    display: block;
+    float: right;
+    
+    text-decoration: none;
+    color: white;
+    
     border-bottom: 3px solid #F0652F;
 }
 
@@ -79,33 +95,36 @@ header nav {
 header nav ul li a:link,
 header nav ul li a:visited,
 header nav ul li a:active {
+    display: block;
     text-decoration: none;
     text-align: center;
-    display: block;
-    padding: 0.5em 0;
     color: white;
-    border-bottom: 3px solid #0E446D;
+    
     font-family: 'montserratregular';
+    border-bottom: 3px solid #0E446D;
+    padding: 0.5em 0;
 }
 
 header nav ul li a:hover {
+    display: block;
     text-decoration: none;
     text-align: center;
-    display: block;
-    padding: 0.5em 0;
     color: white;
-    border-bottom: 3px solid #F0652F;
+    
     font-family: 'montserratregular';
+    border-bottom: 3px solid #F0652F;
+    padding: 0.5em 0;
 }
 
 header nav ul li a:focus {
+    display: block;
     text-decoration: none;
     text-align: center;
-    display: block;
-    padding: 0.5em 0;
     color: white;
-    border-bottom: 3px solid #F0652F;
+    
     font-family: 'montserratregular';
+    border-bottom: 3px solid #F0652F;
+    padding: 0.5em 0;
 }
 
 

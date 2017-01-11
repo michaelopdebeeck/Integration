@@ -8,14 +8,29 @@
         margin: 0 auto;
     }
     
-     div#container nav {
+    div#container nav {
         display: block;
         float: right;
-        width: 70%;
+        width: 69%;
         clear: none;
+        
     }
-  
     
+    header nav ul li a:link,
+    header nav ul li a:visited,
+    header nav ul li a:active {
+        display: block;
+        float: left;
+        width: 25%;
+        margin-top: 1.75em;
+        
+        border-bottom: 2px solid white;
+    }
+    
+    header nav ul li a:hover {
+        border-bottom: 4px solid #F0652F;
+    }
+    /*
     header nav ul li a:link,
     header nav ul li a:visited,
     header nav ul li a:active {
@@ -47,4 +62,4 @@
         width: 100%;
         padding: 1em;
         background-color: red;
-    }
+    }*/
