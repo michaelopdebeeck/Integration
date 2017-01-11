@@ -1,0 +1,25 @@
+/*
+Lichtgrijs: #E2E0DF
+Licht blauw: #1E7BB7
+Donker blauw: #0E446D
+Donker grijs: #58595B
+Oranje: #F0652F
+*/
+
+header {
+    background-color: #0E446D;
+}
+
+/* LOGO */
+a.logo:link,
+a.logo:visited,
+a.logo:hover,
+a.logo:active {
+    background-image: url(../images/Investr_logo.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    height: 100px;
+    width: 150px;
+    display: block;
+    text-indent: -9999px;
+}
