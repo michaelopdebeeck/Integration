@@ -67,11 +67,13 @@
     float: left;
 }
 
+/*
 .detailpand h2{
     font-family: 'montserratbold';
     color: #0E446D;
     font-size: 1.5em;
 }
+*/
 
 .limbo{
     width: 85px;
@@ -99,13 +101,11 @@
     text-align: center;
 }
 
-/*
 .panduitleg h3{
     font-family: 'montserratregular';
     color: darkgray;
     font-size: 1em;
 }
-*/
 
 /*
 .panduitleg article p{
