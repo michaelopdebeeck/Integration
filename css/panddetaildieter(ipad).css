@@ -82,7 +82,7 @@
 }
 
 .panduitleg{
-    width: 60%;
+    width: 70%;
     margin: 0;
     float: left;
 }
@@ -109,7 +109,10 @@
 
 /*
 .panduitleg article p{
-    font-weight: 600;
+    font-family: 'montserratregular';
+    color: black;
+    font-size: 0.7em;
+    line-height: 1.4em;
 }
 */
 
