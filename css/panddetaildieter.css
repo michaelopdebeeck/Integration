@@ -70,6 +70,8 @@
 */
   /*---------------------------------------*/
 
+
+
 .clearfix:after {
 	visibility: hidden;
 	display: block;
@@ -82,6 +84,7 @@
 .detailpand{
     width: 80%;
     margin: 0 auto;
+    display: block;
 }
 
 .detailpand h1{
@@ -144,14 +147,14 @@
     font-family: 'montserratregular';
     color: black;
     font-size: 0.8em;
-    line-height: 1.1em;
+    line-height: 1.2em;
 }
 
 .panduitleg table{
     border-collapse: collapse;
 }
 
-.panduitleg table, .panduitleg th, .panduitleg td{
+.panduitleg th, .panduitleg td{
     border: 1px solid #d9d9d9;
 }
 
@@ -159,11 +162,93 @@
     font-family:'montserratbold';
     color: black;
     background-color: #f2f2f2;
-    font-size: 0.6em;
+    font-size: 0.7em;
+    padding: 10px 10px 10px 10px;
 }
 
 .vergunningen td{
     font-family:'montserratregular';
     color: black;
+    font-size: 0.7em;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.detailpand h4{
+    font-family: 'montserratbold';
+    color: #0E446D;
+    font-size: 1em;
+    margin-top: 50px;
+}
+
+.brugshuisje{
+    width: 32%;
+    margin: 0 4px 0 0;
+    display: inline-block;
+}
+
+.brugshuisje:last-of-type{
+    margin: 0;
+}
+.panduitleg figure{
+    margin: 0;
+}
+
+.brugshuisje figcaption{
+    font-family:'montserratregular';
+    color: black;
+    font-size: 0.7em;
+    margin: 2px 0;
+    text-align: center;
+}
+
+.brugshuisje table, .brugshuisje th, .brugshuisje td{
+    border: hidden;
+    width: 100%;
+    align-content: center;
+}
+
+.brugshuisje th{
+    font-family: 'montserratbold';
+    color: black;
+    font-size: 0.4em;
+    width: 50%;
+    text-align: left;
+    padding: 5px 10px 3px 25px;
+}
+
+.brugshuisje td{
+    font-family: 'montserratregular';
+    color: grey;
+    font-size: 0.2em;
+    padding-right: 10px;
+}
+
+.pandtables{
+    width: 28%;
+    margin-top: 40px;
+    float:right;
+}
+.pandtables th{
+    font-family: 'montserratregular';
+    color: grey;
     font-size: 0.6em;
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+.pandtables td{
+    font-family: 'montserratregular';
+    color: #0E446D;
+    font-size: 0.6em;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.financieeldetail{
+    margin-top: 25px;
+}
+
+.financieeldetail td{
+    padding: 5px 0;
 }
