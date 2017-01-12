@@ -29,48 +29,8 @@
     font-weight: normal;
     font-style: normal;
   }
-  /*--------------------------------------*/
-  
-/*
-  h1 {
-    font-family: 'montserratbold';
-    color: #1E7BB7;
-    font-size: 2em;
-  }
-  
-  h2 {
-    font-family: 'montserratbold';
-    color: #1E7BB7;
-    font-size: 1.5em;
-  }
-  
-  h3 {
-    font-family: 'montserratbold';
-    color: #1E7BB7;
-    font-size: 1em;
-  }
-  
-  h4 {
-    font-family: 'montserratbold';
-    color: #1E7BB7;
-    font-size: 0.7em;
-  }
-  
-  h5 {
-    font-family: 'montserratbold';
-    color: #1E7BB7;
-    font-size: 0.5em;
-  }
-  
-  p {
-    font-family: 'montserratregular';
-    color: black;
-    font-size: 1em;
-  }
-*/
-  /*---------------------------------------*/
 
-
+/*DetailPagina*/
 
 .clearfix:after {
 	visibility: hidden;
@@ -87,11 +47,13 @@
     display: block;
 }
 
+/*
 .detailpand h1{
     font-family: 'montserratbold';
     color: #0E446D;
     font-size: 1.2em;
 }
+*/
 .detailpand hr{
     margin: 0;
 }
@@ -137,18 +99,22 @@
     text-align: center;
 }
 
+/*
 .panduitleg h3{
     font-family: 'montserratregular';
     color: darkgray;
     font-size: 1em;
 }
+*/
 
+/*
 .panduitleg article p{
     font-family: 'montserratregular';
     color: black;
-    font-size: 0.8em;
-    line-height: 1.2em;
+    font-size: 0.7em;
+    line-height: 1.4em;
 }
+*/
 
 .panduitleg table{
     border-collapse: collapse;
@@ -174,12 +140,14 @@
     font-weight: 600;
 }
 
+/*
 .detailpand h4{
     font-family: 'montserratbold';
     color: #0E446D;
     font-size: 1em;
     margin-top: 50px;
 }
+*/
 
 .brugshuisje{
     width: 32%;
