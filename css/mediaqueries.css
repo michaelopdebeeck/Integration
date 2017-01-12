@@ -27,7 +27,7 @@
     font-style: normal;
 }
 
-@media screen and (min-width: 675px) {
+@media screen and (min-width: 650px) {
     a.menu-knop {
         display: none;
     }
@@ -39,13 +39,13 @@
         margin-left: 0;
         
     }
-    header div#container {
+    div.container {
         max-width: 75%;
         margin: 0 auto;
         position: relative;
     }
     
-    div#container nav {
+    div.container nav {
         display: block;
         float: right;
         width: 69%;
