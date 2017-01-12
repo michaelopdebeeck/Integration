@@ -253,23 +253,25 @@
     }
     .BOL1 {
       float: left;
-      width: 30%;
+      width: 25%;
       margin-top: 0%;
       margin-right: 0;
-      margin-left: 4%;
+      margin-left: 7%;
       height: 100%;
     }
     .BOL2 {
       float: left;
-      width: 30%;
+      width: 25%;
       margin-top: 15%;
       margin-right: 0;
+      margin-left: 7%;
     }
     .BOL3 {
       float: left;
-      width: 30%;
+      width: 25%;
       margin-top: 8%;
       margin-right: 0;
+      margin-left: 7%;
     }
     .button {
       font-family: 'montserratbold';
