@@ -1,9 +1,17 @@
-.EEN_e {
+.container {
   background-color: #0E446D;
-  padding-bottom: 10%;
 }
 
-.EEN_e h1 {
+.EEN_L {
+  background-color: #0E446D;
+  padding-bottom: 5%;
+}
+
+form h1 {
+  font-size: 22px;
+  width: 80%;
+  margin: 0% 20% 5% 10%;
+  text-align: center;
   color: white;
 }
 
@@ -12,9 +20,10 @@
   border: none;
   width: 80%;
   margin: 0% 10%;
+  padding: 0;
 }
 
-.button-e {
+.button_M {
   border-radius: 0;
   font-family: 'montserratbold';
   padding: 0;
@@ -28,12 +37,8 @@
   margin: 2% 10%;
 }
 
-.zoekbalk-e {
-  width: 80%;
-  margin: 2% 10%;
-  height: 30px;
-  border: none;
-  padding: 0;
+.EEN_L .button {
+  display: none;
 }
 
 select {
