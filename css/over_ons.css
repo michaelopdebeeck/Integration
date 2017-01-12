@@ -1,3 +1,6 @@
+footer {
+  height : 50px;
+}
 .photo-container-s p{
   text-align : center;
   display : inline-block;
@@ -42,59 +45,99 @@
 }
 
 .overons h3 {
-  padding : 20px 10px;
+  padding : 30px 10px 15px 10px;
 }
-
+/*----------------------------------TEXT CONTAINER-------------------------------*/
+.text-container-s{
+  background-color : #E2E0DF;
+  color : black;
+  border-left: 2px solid #0E446D;
+  border-right: 2px solid #0E446D;
+  border-bottom: 2px solid #0E446D;
+}
+.text-container-s p {
+  color : black;
+  padding : 0px 10px 20px 10px;
+  font-size : 12px;
+}
+.text-container-s:nth-of-type(3){
+  background-color : #58595B;
+  border-bottom: 0px solid #0E446D;
+}
+.text-container-s:nth-of-type(3) p{
+  color : white;
+}
+/*---------------------------------------QUERRIES------------------------------------*/
 @media screen and (min-width: 480px) {
-  .overons h3 {
-    color : red;
-  }
   .photo-container-s figure{
     width : 250px;
     display : block;
-    left : -110px;
-    margin : 0 auto;
+    margin : 0;
   }
   .photo-container-s p {
-  display : inline-block;
-  text-align : center;
-  box-sizing: border-box;
-  width: 100%;
-  position: absolute;
-  top : 0;
-  padding : 30% 25px;
-  left: 240px;
-  z-index : 5;
+    display : inline-block;
+    text-align : center;
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    top : 0;
+    padding : 30% 25px;
+    left: 240px;
+    z-index : 5;
+  }
+  .text-container-s p {
+    display : inline-block;
+    margin : 0;
+    width : 80%;
+    padding-left : 10%;
+    font-size : 14px;
   }
 }
-@media screen and (min-width: 800px) {
-  .overons h3 {
-    color : green;
-  }
+@media screen and (min-width: 650px) {
   .photo-container-s figure{
     display : inline-block;
     left : 0;
+    width : 33.3333%;
+    float : left;
+  }
+  .photo-container-s img{
+     
   }
   .photo-container-s p {
     position : static;
     left : 0;
     top : 0;
   }
+  .photo-container-s {
+    clear : both;
+    width : 100%;
+    margin : 0;
+    height : 470px;
+  }
+  .text-container-s {
+    clear : both;
+    width : 100%;
+    margin : 0;
+  }
+  .overons h2 {
+    width : 850px;
+    margin : 50px auto 5px auto;
+  }
+  .overons hr {
+    width : 800px;
+    margin : 0px auto 1px auto;
+  }
 }
-
-/*----------------------------------TEXT CONTAINER-------------------------------*/
-.text-container-s{
-  background-color : #E2E0DF;
-  color : black;
-}
-.text-container-s p {
-  color : black;
-  padding : 10px 10px;
-  font-size : 12px;
-}
-.text-container-s:nth-of-type(3){
-  background-color : #58595B;
-}
-.text-container-s:nth-of-type(3) p{
-  color : white;
+@media screen and (min-width: 800px) {
+   .photo-container-s {
+    clear : both;
+    width : 800px;
+    margin : 0 auto;
+    height : 480px;
+  }
+  .text-container-s {
+    clear : both;
+    width : 796px;
+    margin : 0 auto;
+  }
 }
