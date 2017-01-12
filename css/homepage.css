@@ -17,7 +17,6 @@
   }
   
   h1 {
-    font-size: 22px;
     width: 80%;
     margin: 0% 20% 5% 10%;
     text-align: center;
@@ -139,7 +138,6 @@
   }
   
   .VIER_L h2 {
-    font-size: 20px;
     width: 100%;
     margin: 0% 0% 5% 0%;
     text-decoration: underline;
@@ -201,6 +199,7 @@
   @media screen and (min-width: 650px) {
     .EEN_L {
       box-sizing: border-box;
+      background: fixed;
       height: 100%;
       width: 100%;
       background-image: url("../images/Homepage/Background.png");
@@ -248,49 +247,52 @@
       padding-bottom: 100%;
     }
     .TWEE_L h1 {
-      margin-left: 10%;
       width: 80%;
+      margin: 5% 20% 0% 10%;
+      text-align: center;
     }
     .BOL1 {
       float: left;
       width: 30%;
+      margin-top: 0%;
       margin-right: 0;
+      margin-left: 4%;
       height: 100%;
     }
     .BOL2 {
       float: left;
       width: 30%;
-      margin-top: 40%;
+      margin-top: 15%;
       margin-right: 0;
     }
     .BOL3 {
       float: left;
       width: 30%;
-      margin-top: 20%;
+      margin-top: 8%;
       margin-right: 0;
     }
     .button {
-      border-radius: 0;
       font-family: 'montserratbold';
-      padding: 0;
+      width: 35%;
       border: none;
       color: white;
-      box-sizing: border-box;
+      text-align: center;
       background-color: #F0652F;
-      height: 30px;
+      height: 40px;
       border: none;
-      margin: 2% 0% 2%;
+      margin: 3% 0% 2% 30%;
     }
     .TWEE_L h2 {
       text-align: center;
+      width: 100%;
     }
     .TWEE_L img {
-      width: 80%;
+      width: 70%;
       margin-left: 10%;
     }
     .TWEE_L p {
       text-align: center;
-      width: 80%;
+      width: 70%;
       margin: 0;
       margin-left: 10%;
     }
