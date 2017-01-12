@@ -2,6 +2,10 @@
     width: 100%;
   }
   
+  h2 {
+    color: #1E7BB7;
+  }
+  
   header {
     background-color: transparent;
   }
@@ -240,9 +244,29 @@
       margin: 0.5% 0%;
     }
     /*------------------------------------*/
+    .TWEE_L {
+      padding-bottom: 100%;
+    }
+    .TWEE_L h1 {
+      margin-left: 10%;
+      width: 80%;
+    }
     .BOL1 {
       float: left;
       width: 30%;
+      margin-right: 0;
+      height: 100%;
+    }
+    .BOL2 {
+      float: left;
+      width: 30%;
+      margin-top: 40%;
+      margin-right: 0;
+    }
+    .BOL3 {
+      float: left;
+      width: 30%;
+      margin-top: 20%;
       margin-right: 0;
     }
     .button {
