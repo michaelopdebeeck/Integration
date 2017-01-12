@@ -8,6 +8,10 @@
   margin-bottom
 }*/
 
+body {
+  width: 100%;
+}
+
 .EEN_L {
   background-color: #0E446D;
   padding-bottom: 10%;
@@ -26,6 +30,7 @@ h1 {
   border: none;
   width: 80%;
   margin: 0% 10%;
+  padding: 0;
 }
 
 .button {
@@ -38,7 +43,7 @@ h1 {
   background-color: #F0652F;
   height: 30px;
   border: none;
-  width: 80.888%;
+  width: 80%;
   margin: 2% 10%;
 }
 
@@ -50,7 +55,7 @@ select {
   background-color: white;
   height: 30px;
   border: none;
-  width: 80.888%;
+  width: 80%;
   margin: 2% 10%;
 }
 
@@ -72,7 +77,9 @@ select {
 }
 
 .TWEE_L img {
+  width: 80%;
   margin-left: 5%;
+  margin: 0 10% 4% 10%;
 }
 
 .TWEE_L p {
@@ -100,8 +107,8 @@ select {
 
 .DRIE_L img {
   width: 80%;
-  margin-left: 10%;
-  margin-bottom: 4%;
+  display: inline;
+  padding: 0 10% 4% 10%;
 }
 
 figure {
@@ -123,7 +130,7 @@ figcaption {
 }
 
 
-/*--------------------------*/
+/*--------------------SOCIAL MEDIA------*/
 
 .VIER_L {
   background-color: #cccccc;
@@ -134,8 +141,17 @@ figcaption {
   color: #0E446D;
 }
 
+.VIER_L h2 {
+  font-size: 20px;
+  width: 100%;
+  margin: 0% 0% 5% 0%;
+  text-decoration: underline;
+  color: #1E7BB7;
+}
+
 .Fb {
   width: 100%;
+  margin: 0% 0% -5% 0%;
 }
 
 .like {
@@ -146,7 +162,30 @@ iframe {
   width: 100%
 }
 
+.VIER_L .logo_L {
+  width: 20%;
+  height: 20%;
+  margin-bottom: 0%;
+}
+
+.VIER_L hr {
+  margin-top: 0%;
+}
+
+.VIER_L p {
+  width: 80%;
+  margin-left: 10%;
+}
+
 .logo_L {
   width: 10%;
   height: 10%;
+}
+
+.twitter {
+  display: none;
+}
+
+.LinkedIN {
+  width: 100%;
 }
