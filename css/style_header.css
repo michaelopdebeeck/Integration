@@ -51,7 +51,8 @@ a.logo:active {
     width: 100px;
     text-indent: -9999px;
     
-    margin: 1.75em;
+    margin-top: 1.75em;
+    margin-left: 1.75em;
 }
 
 a.menu-knop:link,
