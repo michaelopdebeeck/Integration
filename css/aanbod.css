@@ -1,9 +1,9 @@
-.EEN_L {
+.EEN_e {
   background-color: #0E446D;
   padding-bottom: 10%;
 }
 
-.EEN_L h1 {
+.EEN_e h1 {
   color: white;
 }
 
@@ -14,7 +14,7 @@
   margin: 0% 10%;
 }
 
-.button {
+.button-e {
   border-radius: 0;
   font-family: 'montserratbold';
   padding: 0;
@@ -28,7 +28,7 @@
   margin: 2% 10%;
 }
 
-.zoekbalk {
+.zoekbalk-e {
   width: 80%;
   margin: 2% 10%;
   height: 30px;
