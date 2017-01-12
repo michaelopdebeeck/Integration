@@ -1,3 +1,53 @@
+.EEN_L {
+  background-color: #0E446D;
+  padding-bottom: 10%;
+}
+
+.EEN_L h1 {
+  color: white;
+}
+
+.Zoekbalk {
+  height: 30px;
+  border: none;
+  width: 80%;
+  margin: 0% 10%;
+}
+
+.button {
+  border-radius: 0;
+  font-family: 'montserratbold';
+  padding: 0;
+  border: none;
+  color: white;
+  box-sizing: border-box;
+  background-color: #F0652F;
+  height: 30px;
+  border: none;
+  width: 80%;
+  margin: 2% 10%;
+}
+
+.zoekbalk {
+  width: 80%;
+  margin: 2% 10%;
+  height: 30px;
+  border: none;
+  padding: 0;
+}
+
+select {
+  font-family: 'montserratregular';
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  background-color: white;
+  height: 30px;
+  border: none;
+  width: 80%;
+  margin: 2% 10%;
+}
+
 .weergave-e {
   background-color: #E2E0DF;
   height: 1em;
@@ -94,3 +144,24 @@ body h1 {
 }
 
 .in-de-kijker-e h1 {}
+
+
+/*
+.in-de-kijker-e img {
+  width: 100%;
+}
+*/
+
+.scroll-e {
+  width: 700%px;
+  overflow-y: hidden;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.scroll-e img {
+  height: 100%;
+  width: 100%;
+  display: inline;
+  white-space: nowrap;
+}
