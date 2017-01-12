@@ -23,16 +23,16 @@ footer {
   width: 100%;
   position: relative;
   margin : 0 auto 0 auto;
-  display : inline-block;
+  display : block;
 }
 .photo-container-s figure{
   position: relative;
-  display : inline-block;
+  display : block;
   width : 100%;
 }
 .photo-container-s figcaption{
   color : white;
-  display : inline-block;
+  display : block;
   text-align : center;
   box-sizing: border-box;
   width: 100%;
