@@ -3,7 +3,6 @@ footer {
 }
 .photo-container-s p{
   text-align : center;
-  display : inline-block;
   color : white;
   padding : 50px 10%;
 }
@@ -21,9 +20,9 @@ footer {
 
 .photo-container-s img{
   width: 100%;
-  position: relative;
-  margin : 0 auto 0 auto;
-  display : block;
+}
+.photo-container-s div{
+  width : 100%;
 }
 .photo-container-s figure{
   position: relative;
@@ -61,66 +60,37 @@ footer {
   font-size : 12px;
 }
 .text-container-s:nth-of-type(3){
-  background-color : #58595B;
+  background-color : #b3b4b7;
   border-bottom: 0px solid #0E446D;
+  border-top: 2px solid #0E446D;
 }
 .text-container-s:nth-of-type(3) p{
-  color : white;
+  color : black;
 }
 /*---------------------------------------QUERRIES------------------------------------*/
 @media screen and (min-width: 480px) {
-  .photo-container-s figure{
-    width : 250px;
-    display : block;
-    margin : 0;
-  }
-  .photo-container-s p {
-    display : inline-block;
-    text-align : center;
-    box-sizing: border-box;
-    width: 100%;
-    position: absolute;
-    top : 0;
-    padding : 30% 25px;
-    left: 250px;
-    z-index : 5;
-  }
-  .text-container-s p {
-    display : inline-block;
-    margin : 0;
-    width : 80%;
-    padding-left : 10%;
-    font-size : 14px;
-  }
+ 
 }
 @media screen and (min-width: 650px) {
   .photo-container-s figure{
-    display : inline-block;
-    left : 0;
-    width : 33.3333%;
-    float : left;
+    width : 100%;
   }
-  .photo-container-s img{
-     
+  .photo-container-s div{
+     width : 33.333%;
+     float : left;
   }
   .photo-container-s p {
-    position : static;
-    left : 0;
-    top : 0;
   }
   .photo-container-s {
     clear : both;
     width : 100%;
-    margin : 0;
-    height : 470px;
+    /*height : 480px;*/
   }
   .text-container-s {
     clear : both;
-    width : 100%;
-    margin : 0;
   }
   .overons h2 {
-    width : 850px;
+    width : 800px;
     margin : 50px auto 5px auto;
   }
   .overons hr {
@@ -133,7 +103,6 @@ footer {
     clear : both;
     width : 800px;
     margin : 0 auto;
-    height : 480px;
   }
   .text-container-s {
     clear : both;
