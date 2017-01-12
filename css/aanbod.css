@@ -51,11 +51,12 @@ select {
 .weergave-e {
   background-color: #E2E0DF;
   height: 1em;
-  padding: 1em 20% 1em;
+  padding: 1em 10% 1em;
   display: none;
 }
 
 .weergave-e p {
+  font-family: 'montserratregular';
   font-size: 1em;
   text-align: left;
 }
@@ -143,15 +144,6 @@ body h1 {
   display: none;
 }
 
-.in-de-kijker-e h1 {}
-
-
-/*
-.in-de-kijker-e img {
-  width: 100%;
-}
-*/
-
 .scroll-e {
   width: 700%px;
   overflow-y: hidden;
@@ -164,4 +156,22 @@ body h1 {
   width: 100%;
   display: inline;
   white-space: nowrap;
+}
+
+@media screen and (min-width: 650px) {
+  .weergave-e {
+    display: block;
+  }
+  .weergave-e img {
+    margin: 0 .5em;
+    width: 2em;
+    height: 2em;
+  }
+  .weergave-e ul li {
+    float: left;
+    display: inline-block;
+  }
+  .weergave-e p {
+    margin: 0 0.5em 0 0;
+  }
 }
