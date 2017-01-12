@@ -5,71 +5,83 @@
   <title>Home - Investr</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="css/reset.css" />
-  <link rel="stylesheet" type="text/css" href="css/homepage.css" />
   <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/style_header.css" />
+  <link rel="stylesheet" type="text/css" href="css/homepage.css" />
   <link rel="stylesheet" type="text/css" href="css/mediaqueries.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1,  minimum-scale=1"> </head>
 
 <body>
   <section class="EEN_L">
     <header>
-      <nav> <img class="logo_L" src="images/Investr_logo.png">
-        <ul>
-          <li>Home</li>
-          <li>Aanbod</li>
-          <li>Nieuws</li>
-          <li>Meer</li>
+      <div id="container"> <a class="logo" href="../index.html" title="Investr">investr</a> <a class="menu-knop" href="#"><span class="hamburger-lines">&#9776;</span> menu</a>
+        <nav>
+          <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">aanbod</a></li>
+            <li><a href="#">nieuws</a></li>
+            <li><a href="#">meer ></a></li>
+          </ul>
+        </nav>
+        <br class="clearfix" />
+        <ul id="register">
+          <li><a href="#">registren</a></li>
+          <li><a href="#">aanmelden</a></li>
+          <li><a href="#">nl</a></li>
         </ul>
-      </nav>
-    </header>
+      </div>
+      <div class="menu-line"></div>
+      <br class="clearfix" /> </header>
     <main>
       <form>
         <h1>Investing Made Easy</h1>
         <input class="Zoekbalk" type="text" placeholder="Locatie (stad of postcode)">
         <input class="button" type="button" value="Zoek">
-        <select name="type vastgoed" class="type_vastgoed">
-          <option value="Huis">Huis </option>
-          <option value="Appartement">Appartement</option>
-          <option value="Studentenhuisvesting">Studentenhuisvesting</option>
-          <option value="Grond">Grond</option>
-          <option value="Bedrijfsvastgoed">Bedrijfsvastgoed</option>
-          <option value="Garage">Garage</option>
-          <option value="Assistentieflats">Assistentieflats</option>
-        </select>
-        <select name="type vastgoed">
-          <option value="Huis">Huis </option>
-          <option value="Appartement">Appartement</option>
-          <option value="Studentenhuisvesting">Studentenhuisvesting</option>
-          <option value="Grond">Grond</option>
-          <option value="Bedrijfsvastgoed">Bedrijfsvastgoed</option>
-          <option value="Garage">Garage</option>
-          <option value="Assistentieflats">Assistentieflats</option>
-        </select>
-        <select name="Eigen inbreng">
-          <option value="Geen financiering">Geen financiering </option>
-          <option value="3 jaar">3 jaar</option>
-          <option value="5 jaar">5 jaar</option>
-          <option value="8 jaar">8 jaar</option>
-          <option value="10 jaar">10 jaar</option>
-          <option value="12 jaar">12 jaar</option>
-          <option value="15 jaar">15 jaar</option>
-          <option value="20 jaar">20 jaar</option>
-          <option value="25 jaar">25 jaar</option>
-        </select>
-      </form>
+        <div class="details">
+          <select name="type vastgoed" class="type_vastgoed">
+            <option value="Huis">Huis </option>
+            <option value="Appartement">Appartement</option>
+            <option value="Studentenhuisvesting">Studentenhuisvesting</option>
+            <option value="Grond">Grond</option>
+            <option value="Bedrijfsvastgoed">Bedrijfsvastgoed</option>
+            <option value="Garage">Garage</option>
+            <option value="Assistentieflats">Assistentieflats</option>
+          </select>
+          <select name="type vastgoed">
+            <option value="Huis">Huis </option>
+            <option value="Appartement">Appartement</option>
+            <option value="Studentenhuisvesting">Studentenhuisvesting</option>
+            <option value="Grond">Grond</option>
+            <option value="Bedrijfsvastgoed">Bedrijfsvastgoed</option>
+            <option value="Garage">Garage</option>
+            <option value="Assistentieflats">Assistentieflats</option>
+          </select>
+          <select name="Eigen inbreng">
+            <option value="Geen financiering">Geen financiering </option>
+            <option value="3 jaar">3 jaar</option>
+            <option value="5 jaar">5 jaar</option>
+            <option value="8 jaar">8 jaar</option>
+            <option value="10 jaar">10 jaar</option>
+            <option value="12 jaar">12 jaar</option>
+            <option value="15 jaar">15 jaar</option>
+            <option value="20 jaar">20 jaar</option>
+            <option value="25 jaar">25 jaar</option>
+          </select>
+        </div>
+        <input class="button_M" type="button" value="Zoek"> </form>
   </section>
   <!--°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°-->
   <section class="TWEE_L">
-    <div>
+    <div class="BOL1">
       <h1>Waarom Investr?</h1>
       <h2>Zoek</h2> <img src="images/Homepage/Bol1.png">
       <p>Geef zoekcriteria in die voor uw investeringen belangrijk zijn en maak uw persoonlijke shortlist van vastgoedinvesteringen.</p>
       <input type="button" class="button" value="Zoek"> </div>
-    <div>
+    <div class="BOL1">
       <h2>Bekijk</h2> <img src="images/Homepage/Bol2.png">
       <p>Onze site biedt u de mogelijkheid om ons aanbod van panden op eigen tempo te bekijken en uw investering te plannen van vastgoedinvesteringen.</p>
       <input type="button" class="button" value="Aanbod"> </div>
-    <div>
+    <div class="BOL1">
       <h2>Vergelijk</h2> <img src="images/Homepage/Bol3.png">
       <p>Dankzij de door ons berekende gegevens en onze handige vergelijk functie kan u snel en eenvoudig vergelijken en de investering zoeken die het best bij u past </p>
       <input type="button" class="button" value="Registreer"> </div>
@@ -116,7 +128,7 @@
         <p>De hypothecaire lening op 10 jaar onder de drempel van 1%. Investeren in vastgoed kan nog meer renderen.</p>
       </article>
     </article>
-    <article>
+    <article class="tweet">
       <blockquote class="twitter-tweet" data-lang="nl">
         <p lang="nl" dir="ltr">Recordaantal vastgoedtransacties begin 2016. <a href="https://twitter.com/hashtag/vastgoed?src=hash">#vastgoed</a> blijkt hét alternatief voor spaarboekje <a href="https://twitter.com/hashtag/Immo?src=hash">#Immo</a> <a href="https://twitter.com/hashtag/beleggen?src=hash">#beleggen</a> <a href="https://t.co/hDxBTXZOjq">https://t.co/hDxBTXZOjq</a></p>&mdash; Investr (@Investr_be) <a href="https://twitter.com/Investr_be/status/730407551720919040">11 mei 2016</a></blockquote>
       <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
