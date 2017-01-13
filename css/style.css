@@ -74,11 +74,149 @@
     font-family: 'montserratlight';
     line-height: 1.4;
     color: black;
-<<<<<<< HEAD
     font-weight: 400;
     font-size: 0.7em;
 =======
     font-size: 1em;
->>>>>>> origin/master
-  }
-  /*---------------------------------------*/
+}
+
+
+/* ------------------------------------------
+            HEADER & FOOTER
+------------------------------------------ */
+
+.clearfix {
+    clear: both;
+}
+
+header {
+    background-color: #0E446D;
+    font-family: 'montserratsemibold';
+    text-transform: uppercase;
+}
+
+a.logo:link,
+a.logo:visited,
+a.logo:hover,
+a.logo:active {
+    background-image: url(../images/Investr_logo.svg);
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    height: 1.5em;
+    width: 100px;
+    text-indent: -9999px;
+    
+    margin-top: 1.75em;
+    margin-left: 1.75em;
+}
+
+a.menu-knop:link,
+a.menu-knop:visited,
+a.menu-knop:active {
+    float: right;
+    
+    text-decoration: none;
+    color: white;
+    
+    border-bottom: 3px solid #0E446D;
+
+    padding: 0.5em 0;
+    margin: 1.5em;
+}
+
+a.menu-knop:hover {
+    display: block;
+    float: right;
+    
+    text-decoration: none;
+    color: white;
+    
+    border-bottom: 3px solid #F0652F;
+}
+
+a.menu-knop:focus {
+    display: block;
+    float: right;
+    
+    text-decoration: none;
+    color: white;
+    
+    border-bottom: 3px solid #F0652F;
+}
+
+header nav {
+    clear: both;
+}
+
+header nav ul li a:link,
+header nav ul li a:visited,
+header nav ul li a:active {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    
+    font-family: 'montserratregular';
+    border-bottom: 3px solid #0E446D;
+    padding: 0.5em 0;
+}
+
+header nav ul li a:hover {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    
+    font-family: 'montserratregular';
+    border-bottom: 3px solid #F0652F;
+    padding: 0.5em 0;
+}
+
+header nav ul li a:focus {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    
+    font-family: 'montserratregular';
+    border-bottom: 3px solid #F0652F;
+    padding: 0.5em 0;
+}
+
+header ul#register {
+    display: none;
+}
+
+
+footer {
+    background-color: #E2E0DF;
+}
+
+footer div.fMenu {
+    display: block;
+    width: 25%;
+    float: left;
+    
+    padding: 1em 0;
+    text-align: center;
+}
+
+footer div.fMenu h4 {
+    text-transform: uppercase;
+    font-family: 'montserratregular';
+    font-size: 0.6em;
+    color: #58595B;
+}
+
+footer div.fMenu a {
+    text-transform: uppercase;
+    font-family: 'montserratlight';
+    font-size: 0.5em;
+    color: #58595B;
+    text-decoration: none;
+}
+
+/* ------------------------------------------
+            EINDE HEADER & FOOTER
+------------------------------------------ */
