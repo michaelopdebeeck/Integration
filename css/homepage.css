@@ -1,4 +1,4 @@
-  body {
+body {
   width: 100%;
 }
 
@@ -241,7 +241,7 @@ iframe {
     background-repeat: no-repeat;
   }
   .EEN_L h1 {
-    margin-top: 15%;
+    margin-top: 10%;
   }
   .Zoekbalk {
     height: 40px;
@@ -280,7 +280,7 @@ iframe {
   .OverLay {
     display: block;
     z-index: -2;
-    padding-bottom: 70%;
+    padding-bottom: 50%;
     width: 100%;
     position: absolute;
   }
@@ -428,7 +428,7 @@ iframe {
   }
   .Tekst {
     float: left;
-    width: 60%;
+    width: 70%;
     margin-left: 2%;
   }
   .DRIE_L .button {
@@ -457,24 +457,26 @@ iframe {
     font-size: 40px;
   }
   .social {
-    overflow: hidden;
-    margin-left: 5%
+    float: left;
+    margin-left: 5%;
+    width: 30%;
+    height: 50%;
   }
   .VIER_L article {
     background-color: white;
-    width: 21%;
-    margin-left: 2%;
-    margin-bottom: 2%;
-    padding: 0;
     float: left;
+    width: 100%;
+    margin: 0 0 10% 2%;
+    border: 0;
+    padding: 0;
     overflow: hidden;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
   }
   .VIER_L img {
     border-radius: 100%;
-    margin: 0 0 0 0;
+    margin: 2% 0% 2% 2%;
     height: 30%;
-    width: 30%;
+    width: 15%;
     padding: 0;
     float: left;
   }
@@ -494,15 +496,68 @@ iframe {
     text-decoration: none;
     opacity: 0.8;
     width: 100%;
-    height: 10%;
     padding-bottom: 0%;
     margin-left: 0%;
-    margin-top: 10%;
+    margin-top: 11%;
     background: white;
   }
-  /*------------------------------------*/
-  @media screen and (min-width: 860px) {
-    select {
-      width: 32.8%;
-    }
+}
+
+.FB h2 {
+  color: #475BA1;
+}
+
+.Twitter h2 {
+  color: #6CADDF;
+}
+
+.Twitter h2 {
+  color: #6CADDF;
+}
+
+.VIER_L .Blog {
+  min-height: 182px;
+  float: left;
+  width: 60%;
+  margin-left: 5%;
+  width: 54%;
+}
+
+.Blog p {
+  width: 100%;
+  margin-left: 0;
+  margin-bottom: 10%;
+}
+
+.Blog h2 {
+  margin-top: 9%;
+}
+
+.Blog h3 {
+  font-family: "montserratlight";
+  margin-top: 0%;
+}
+
+.Blog .button {
+  font-family: 'montserratbold';
+  height: 40px;
+  width: 25%;
+  float: right;
+  margin: 0% 6% 5% 0%;
+}
+
+.scroll {
+  position: relative;
+  width: 100%;
+  height: 160px;
+  overflow: scroll;
+}
+
+
+/*------------------------------------*/
+
+@media screen and (min-width: 860px) {
+  select {
+    width: 32.8%;
   }
+}
