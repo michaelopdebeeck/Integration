@@ -2,11 +2,12 @@
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <title>Meer - Investr</title>
+    <title>Login - Investr</title>
       <link rel="stylesheet" type="text/css" href="../css/reset.css" />
       <link rel="stylesheet" type="text/css" href="../css/style.css" />
       <link rel="stylesheet" type="text/css" href="../css/mediaqueries.css" />
-      
+        <meta name="viewport" content="width=device-width, initial-scale=1,  minimum-scale=1">
+
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
       <script src="../script/script.js"></script>
 </head>
@@ -24,24 +25,36 @@
               </ul>
           </nav>
           <br class="clearfix" />
-          <ul id="register">        
-            <li><a href="#">registren</a></li>
-            <li><a href="#">aanmelden</a></li>
+          <ul id="register">
+            <li><a href="registreren.html">registren</a></li>
+            <li><a href="login.html">aanmelden</a></li>
             <li><a href="#">nl</a></li>
         </ul>
         </div>
         <div class="menu-line"></div>
         <br class="clearfix" />
     </header>
-    <main>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis vero incidunt assumenda, nisi necessitatibus enim inventore, sed veniam voluptatem officia voluptas adipisci tenetur tempora ipsum, cupiditate ea quibusdam repellendus consequuntur!</p>
+    <main id="nieuws">
+        <h1>Login</h1>
+        <h2>Log in op uw Investr-profiel</h2>
+        
+        <form action="#">
+            <input type="text" name="userName" placeholder="GEBRUIKERSNAAM">
+            <input type="text" name="firstName" placeholder="WACHTWOORD">
+            <input type="submit" value="LOGIN">
+            <a href="#"><img src="../images/Registreer/loginfacebook.png" alt="registreer met facebook"></a>
+            <a href="#"><img src="../images/Registreer/linkedinButton.png" alt="registreer met linkedin"></a>
+            <p><a href="#">Wachtwoord vergeten?</a></p>
+        </form>
+        <br class="clearfix" />
+
     </main>
     <footer>
         <div class="container">
             <div class="fMenu">
                 <ul>
                    <h4>investr</h4>
-                    <li><a href="#">over ons</a></li>
+                    <li><a href="over_ons.html">over ons</a></li>
                     <li><a href="#">contact</a></li>
                 </ul>
             </div>
@@ -70,8 +83,13 @@
                 </ul>
             </div>
             <br class="clearfix" />
+
         </div>
-        
+        <div class="powered">
+            <img src="../images/Investr_logo_footer.svg" alt="logo Investr" />
+            <p>2017 Investr. All Rights Reserved. Privacy Policy. Terms of Use</p>
+            <p>powered by <a href="http://www.erasmushogeschool.be/opleidingen/bachelors/multimedia-communicatietechnologie-multec" target="_blank">Layers - EhB</a></p>
+        </div>
     </footer>
 </body>
 </html>
