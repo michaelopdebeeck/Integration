@@ -156,13 +156,14 @@
 
 .brugshuizen{
     width: 100%;
-    
+    margin-bottom: 50px;
 }
 
 .brugshuisje{
     width: 30%;
     display: inline-block;
-    border: 3px solid black;
+    border: 3px solid darkgrey;
+    border-radius: 7px;
     margin-right: 2%;
 }
 
@@ -273,6 +274,14 @@
     color: white;
     background-color: #F0652F;
     padding: 10px 0 10px 0;
+}
+
+.socialmediad{
+    background-color: #F0652F;
+}
+
+.socialmediad td{
+    color: white;
 }
 
 .pandtables ul{
