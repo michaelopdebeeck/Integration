@@ -306,12 +306,13 @@ body h1 {
     display: block;
   }
   .weergave-e img {
-    margin: 0 .5em;
+    margin: 0 .5em 0 .5em;
     width: 2em;
     height: 2em;
   }
   .weergave-e ul li {
     float: left;
+    margin: 0 0 .5em 0;
     display: inline-block;
   }
   .weergave-e p {
