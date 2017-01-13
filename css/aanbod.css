@@ -164,7 +164,14 @@ body h1 {
 }
 
 @media screen and (min-width: 650px) {
+  .EEN_L header {
+    background-color: transparent;
+  }
+  .container {
+    background-color: transparent;
+  }
   .EEN_L {
+    background-color: transparent;
     box-sizing: border-box;
     height: 100%;
     width: 100%;
@@ -230,13 +237,16 @@ body h1 {
     box-sizing: border-box;
     box-shadow: 0px 0px 15px #58595B;
     border-radius: 7px;
+    max-width: 720px;
+    margin: 3% auto 3% auto;
+    position: relative;
   }
   .huis-e img {
     width: auto;
     height: 8em;
     float: left;
     margin: 1em;
-    max-width: 177.42px;
+    width: 177.42px;
   }
   .huis-e h3 {
     background-color: transparent;
@@ -263,6 +273,7 @@ body h1 {
     padding: .5em;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    float: inherit;
   }
   .scroll-e {
     width: 700%px;
@@ -278,5 +289,77 @@ body h1 {
   }
   .in-de-kijker-e {
     margin: 1em;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .container-e {
+    max-width: 75%;
+    margin: 0 auto;
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  .sorteren-e {
+    max-width: 12.5%;
+    margin: 2% auto 0 0;
+    position: relative;
+    float: left;
+    display: block;
+    line-height: normal;
+    background-color: #E2E0DF;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+  }
+  .sorteren-e p {
+    font-family: 'montserratlight';
+    font-weight: 600;
+    line-height: 2em;
+    margin: .5em;
+  }
+  .sorteren-e ul {
+    margin: .5em;
+  }
+  .sorteren-e ul li:first-of-type {
+    font-weight: 600;
+    color: black;
+    text-decoration: underline;
+  }
+  .sorteren-e ul li a {
+    font-family: 'montserratlight';
+    font-size: .7em;
+    text-decoration: none;
+    color: gray;
+  }
+  .panden-vergelijken-e {
+    max-width: 12.5%;
+    margin: 2% auto 0 0;
+    position: relative;
+    text-align: right;
+    float: right;
+    display: block;
+    background-color: #E2E0DF;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+  }
+  .panden-vergelijken-e ul {
+    display: block;
+  }
+  .panden-vergelijken-e input {
+    display: block;
+    background-color: #F0652F;
+  }
+  .panden-vergelijken-e h3 {
+    font-family: 'montserratregular';
+    color: black;
+    padding: .5em;
+    text-align: center;
+  }
+  .panden-vergelijken-e ul li img {
+    width: 50%;
+    height: auto;
+    position: relative;
+    float: left;
   }
 }
