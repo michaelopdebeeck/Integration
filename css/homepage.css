@@ -160,11 +160,60 @@ select {
 
 .VIER_L {
   background-color: #cccccc;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.social {
+  padding-bottom: 5%;
 }
 
 .VIER_L h1 {
   padding-top: 10%;
   color: #0E446D;
+}
+
+.VIER_L article {
+  width: 80%;
+  margin-bottom: 5%;
+  background-color: white;
+  margin-left: 10%;
+  overflow: hidden;
+}
+
+.VIER_L h2 {
+  float: left;
+  font-size: 1em;
+  padding-top: 2%;
+}
+
+.VIER_L img {
+  width: 10%;
+  padding: 2%;
+  float: left;
+}
+
+.VIER_L .Blog {
+  width: 80%;
+}
+
+.Blog h2 {
+  margin-bottom: 5%;
+}
+
+.Blog button {
+  margin-top: 10%;
+}
+
+.scroll {
+  position: relative;
+  margin-top: 5%;
+  width: 80%;
+  height: 160px;
+  overflow: scroll;
+  margin-left: 20%;
+  margin-right: 5%;
+  margin-bottom: 5%;
 }
 
 
@@ -306,7 +355,7 @@ select {
     margin-left: 25%;
     text-align: center;
   }
-  /*---------------NIEUWS_ZIE : "http://neuethemes.net/preview/material/"--------------*/
+  /*---------------NIEUWS--------------*/
   .DRIE_L {
     box-sizing: border-box;
     overflow: hidden;
@@ -334,6 +383,7 @@ select {
     padding: 0;
     float: left;
     overflow: hidden;
+    margin-right: 0;
   }
   .DRIE_L img {
     border-radius: 100%;
@@ -378,11 +428,12 @@ select {
     float: right;
     margin: 3% 6.5% 5% 0%;
   }
-  /*--------------------------------------*/
+  /*---------------------------------SOCIAL MEDIA-----*/
   .VIER_L {
     box-sizing: border-box;
     overflow: hidden;
-    padding-bottom: 5%;
+    display: inline-block;
+    padding-bottom: 6%;
     height: 100%;
     width: 100%;
     background-color: #e6e6e6;
@@ -439,65 +490,61 @@ select {
     margin-top: 11%;
     background: white;
   }
+  .FB h2 {
+    color: #475BA1;
+  }
+  .Twitter h2 {
+    color: #6CADDF;
+  }
+  .Twitter h2 {
+    color: #6CADDF;
+  }
+  .VIER_L .Blog {
+    min-height: 182px;
+    float: left;
+    width: 60%;
+    margin-left: 5%;
+    margin-bottom: 0%;
+    width: 54%;
+  }
+  .Blog p {
+    width: 90%;
+    margin-left: 0;
+    margin-right: 5%;
+    margin-bottom: 5%;
+  }
+  .Blog h2 {
+    width: 80%;
+    margin-top: 2%;
+    margin-left: 6%;
+    float: left;
+  }
+  .Blog h3 {
+    font-family: "montserratlight";
+    margin-top: 0%;
+  }
+  .Blog .button {
+    font-family: 'montserratbold';
+    height: 40px;
+    width: 25%;
+    float: right;
+    margin: 3% 6% 2% 0%;
+  }
+  .scroll {
+    position: relative;
+    margin: 5% 5% 0% 20%;
+    width: 80%;
+    float: left height: 160px;
+    overflow: scroll;
+  }
+  .Blog img {
+    width: 10%;
+    float: left;
+  }
 }
 
-.FB h2 {
-  color: #475BA1;
-}
-
-.Twitter h2 {
-  color: #6CADDF;
-}
-
-.Twitter h2 {
-  color: #6CADDF;
-}
-
-.VIER_L .Blog {
-  min-height: 182px;
-  float: left;
-  width: 60%;
-  margin-left: 5%;
-  width: 54%;
-}
-
-.Blog p {
-  width: 90%;
-  margin-left: 0;
-  margin-right: 5%;
-  margin-bottom: 5%;
-}
-
-.Blog h2 {
-  margin-top: 5%;
-  margin-left: 20%;
-}
-
-.Blog h3 {
-  font-family: "montserratlight";
-  margin-top: 0%;
-}
-
-.Blog .button {
-  font-family: 'montserratbold';
-  height: 40px;
-  width: 25%;
-  float: right;
-  margin: 0% 6% 5% 0%;
-}
-
-.scroll {
-  position: relative;
-  margin-top: 5%;
-  width: 80%;
-  height: 160px;
-  overflow: scroll;
-  margin-left: 20%;
-  margin-right: 5%;
-}
-
-.Blog img {
-  width: 10%;
+VIER_L article:hover {
+  box-shadow: 10px 10px 5px black;
 }
 
 
