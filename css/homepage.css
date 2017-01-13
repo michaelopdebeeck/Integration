@@ -1,361 +1,508 @@
-    body {
-    width: 100%;
-  }
-  
-  h2 {
-    color: #1E7BB7;
-  }
-  
-  p {
-    font-weight: 400;
-    font-size: 0.7em;
-  }
-  
-  header {
-    background-color: transparent;
-  }
-  
-  .OverLay {
-    display: none;
-  }
-  /*---------------------------------*/
-  
+  body {
+  width: 100%;
+}
+
+h2 {
+  color: #1E7BB7;
+}
+
+p {
+  font-weight: 400;
+  font-size: 0.7em;
+}
+
+header {
+  background-color: transparent;
+}
+
+.OverLay {
+  display: none;
+}
+
+
+/*---------------------------------*/
+
+.EEN_L {
+  background-color: #0E446D;
+  padding-bottom: 24%;
+}
+
+h1 {
+  width: 80%;
+  margin: 0% 20% 5% 10%;
+  text-align: center;
+  color: white;
+}
+
+.Zoekbalk {
+  height: 30px;
+  border: none;
+  width: 80%;
+  margin: 0% 10%;
+  padding: 0;
+}
+
+.button_M {
+  border-radius: 0;
+  font-family: 'montserratbold';
+  padding: 0;
+  border: none;
+  color: white;
+  box-sizing: border-box;
+  background-color: #F0652F;
+  height: 30px;
+  border: none;
+  width: 80%;
+  margin: 2% 10%;
+}
+
+.button {
+  border-radius: 0;
+  font-family: 'montserratbold';
+  padding: 0;
+  border: none;
+  color: white;
+  box-sizing: border-box;
+  background-color: #F0652F;
+  height: 30px;
+  border: none;
+  width: 80%;
+  margin: 2% 10%;
+}
+
+.EEN_L .button {
+  display: none;
+}
+
+select {
+  font-family: 'montserratregular';
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  background-color: white;
+  height: 30px;
+  border: none;
+  width: 80%;
+  margin: 2% 10%;
+}
+
+
+/*-----------------------------------*/
+
+.TWEE_L {
+  padding-bottom: 10%;
+}
+
+.TWEE_L h1 {
+  margin-top: 10%;
+  color: #0E446D;
+}
+
+.TWEE_L h2 {
+  text-align: center;
+  margin: 10% 0 5% 0;
+}
+
+.TWEE_L img {
+  width: 80%;
+  margin-left: 5%;
+  margin: 0 10% 4% 10%;
+}
+
+.TWEE_L p {
+  text-align: center;
+  margin: 5% 5% 5% 5%;
+}
+
+.TWEE_L button {
+  width: 90%;
+  margin-left: 5%;
+}
+
+
+/*--------------------------------*/
+
+.DRIE_L {
+  background-color: #e6e6e6;
+  padding-bottom: 10%;
+}
+
+.DRIE_L h1 {
+  padding-top: 10%;
+  color: #0E446D;
+}
+
+.DRIE_L img {
+  width: 80%;
+  display: inline;
+  padding: 0 10% 4% 10%;
+}
+
+figure {
+  position: relative;
+}
+
+figcaption {
+  opacity: 0.8;
+  width: 80%;
+  height: 10%;
+  line-height: 2;
+  padding-bottom: 5%;
+  text-align: center;
+  background-color: #0E446D;
+  position: absolute;
+  top: 0;
+  margin-left: 10%;
+  color: white;
+}
+
+
+/*--------------------SOCIAL MEDIA------*/
+
+.VIER_L {
+  background-color: #cccccc;
+}
+
+.VIER_L h1 {
+  padding-top: 10%;
+  color: #0E446D;
+}
+
+.VIER_L h2 {
+  width: 100%;
+  margin: 0% 0% 5% 0%;
+  text-decoration: underline;
+  color: #1E7BB7;
+}
+
+.Fb {
+  width: 100%;
+  margin: 0% 0% 0% 0%;
+}
+
+.like {
+  display: none;
+}
+
+iframe {
+  width: 100%
+}
+
+.VIER_L .logo_L {
+  width: 20%;
+  height: 20%;
+  margin-bottom: 0%;
+}
+
+.VIER_L hr {
+  margin-top: 0%;
+}
+
+.VIER_L p {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.logo_L {
+  width: 10%;
+  height: 10%;
+}
+
+.twitter {
+  display: none;
+}
+
+.tweet {
+  width: 100%;
+  background-color: white;
+}
+
+.twitter-tweet {
+  margin-bottom: 0;
+  border: 0;
+}
+
+.LinkedIN {
+  margin-top: -10px;
+  width: 100%;
+}
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MEDIA-------*/
+
+@media screen and (min-width: 650px) {
   .EEN_L {
-    background-color: #0E446D;
-    padding-bottom: 24%;
+    box-sizing: border-box;
+    background: fixed;
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/Homepage/Background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
   }
-  
-  h1 {
-    width: 80%;
-    margin: 0% 20% 5% 10%;
-    text-align: center;
-    color: white;
+  .EEN_L h1 {
+    margin-top: 15%;
   }
-  
   .Zoekbalk {
-    height: 30px;
-    border: none;
-    width: 80%;
-    margin: 0% 10%;
-    padding: 0;
+    height: 40px;
+    width: 70%;
+    margin: 0% 0% 0% 10%;
   }
-  
-  .button_M {
-    border-radius: 0;
-    font-family: 'montserratbold';
-    padding: 0;
-    border: none;
-    color: white;
-    box-sizing: border-box;
-    background-color: #F0652F;
-    height: 30px;
-    border: none;
-    width: 80%;
-    margin: 2% 10%;
-  }
-  
-  .button {
-    border-radius: 0;
-    font-family: 'montserratbold';
-    padding: 0;
-    border: none;
-    color: white;
-    box-sizing: border-box;
-    background-color: #F0652F;
-    height: 30px;
-    border: none;
-    width: 80%;
-    margin: 2% 10%;
-  }
-  
   .EEN_L .button {
+    display: inline;
+    height: 40px;
+    width: 100px;
+    margin: 0% 0%;
+    border-radius: 0px;
+    font-family: 'montserratbold';
+    padding: 0;
+    border: none;
+    color: white;
+    box-sizing: border-box;
+    background-color: #F0652F;
+  }
+  .details {
+    width: 70%;
+    margin-left: 10%;
+  }
+  .EEN_L .button_M {
     display: none;
   }
-  
+  .type_vastgoed {
+    margin-left: 0%;
+  }
   select {
-    font-family: 'montserratregular';
-    padding: 0;
-    border: none;
-    box-sizing: border-box;
+    height: 40px;
+    width: 32.5%;
+    margin: 0.8% 0%;
+  }
+  /*------------------------------------*/
+  .OverLay {
+    display: block;
+    z-index: -2;
+    padding-bottom: 70%;
+    width: 100%;
+    position: absolute;
+  }
+  .Appear {
+    display: block;
+    z-index: -1;
+    padding-bottom: 70%;
+    width: 100%;
+    position: absolute;
     background-color: white;
-    height: 30px;
-    border: none;
-    width: 80%;
-    margin: 2% 10%;
+    -webkit-transition: width 2s;
+    transition: width 2s;
   }
-  /*-----------------------------------*/
-  
+  .TWEE_L:hover .Appear {
+    width: 0%;
+  }
   .TWEE_L {
-    padding-bottom: 10%;
+    overflow: hidden;
+    padding-bottom: 5%;
   }
-  
   .TWEE_L h1 {
-    margin-top: 10%;
-    color: #0E446D;
+    width: 80%;
+    margin: 5% 20% 0% 10%;
+    text-align: center;
+    font-size: 40px;
   }
-  
+  .BOL1 {
+    float: left;
+    width: 20%;
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-left: 12%;
+    height: 100%;
+  }
+  .BOL2 {
+    float: left;
+    width: 20%;
+    margin-top: 10%;
+    margin-right: 0;
+    margin-left: 9%;
+  }
+  .BOL3 {
+    float: left;
+    width: 20%;
+    margin-top: 5%;
+    margin-right: 0;
+    margin-left: 7%;
+  }
+  .button {
+    font-family: 'montserratbold';
+    width: 70%;
+    border: none;
+    color: white;
+    text-align: center;
+    background-color: #F0652F;
+    height: 40px;
+    border: none;
+    margin: 3% 0% 5% 10%;
+  }
   .TWEE_L h2 {
     text-align: center;
-    margin: 10% 0 5% 0;
+    width: 100%;
   }
-  
   .TWEE_L img {
-    width: 80%;
-    margin-left: 5%;
-    margin: 0 10% 4% 10%;
+    width: 70%;
+    margin-left: 10%;
+    filter: grayscale(100%)
   }
-  
+  .TWEE_L:hover img {
+    width: 70%;
+    margin-left: 10%;
+    transition: filter 2s;
+    filter: none;
+  }
   .TWEE_L p {
     text-align: center;
-    margin: 5% 5% 5% 5%;
-  }
-  
-  .TWEE_L button {
-    width: 90%;
-    margin-left: 5%;
-  }
-  /*--------------------------------*/
-  
-  .DRIE_L {
-    background-color: #e6e6e6;
-    padding-bottom: 10%;
-  }
-  
-  .DRIE_L h1 {
-    padding-top: 10%;
-    color: #0E446D;
-  }
-  
-  .DRIE_L img {
-    width: 80%;
-    display: inline;
-    padding: 0 10% 4% 10%;
-  }
-  
-  figure {
-    position: relative;
-  }
-  
-  figcaption {
-    opacity: 0.8;
-    width: 80%;
-    height: 10%;
-    line-height: 2;
-    padding-bottom: 5%;
-    text-align: center;
-    background-color: #0E446D;
-    position: absolute;
-    top: 0;
+    width: 70%;
+    margin: 0;
     margin-left: 10%;
+  }
+  .TWEE_L button {
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+  }
+  /*---------------NIEUWS_ZIE : "http://neuethemes.net/preview/material/"--------------*/
+  .DRIE_L {
+    box-sizing: border-box;
+    overflow: hidden;
+    background: fixed;
+    padding-bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/Homepage/Background.2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .DRIE_L h1 {
+    width: 80%;
     color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: 0% 20% 0% 10%;
+    text-align: center;
+    font-size: 40px;
   }
-  /*--------------------SOCIAL MEDIA------*/
-  
-  .VIER_L {
-    background-color: #cccccc;
+  .DRIE_L article {
+    background-color: white;
+    width: 40%;
+    margin-left: 6.5%;
+    padding: 0;
+    float: left;
+    overflow: hidden;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
   }
-  
-  .VIER_L h1 {
-    padding-top: 10%;
+  .DRIE_L img {
+    border-radius: 100%;
+    margin: 40px 0 0 0;
+    height: 30%;
+    width: 30%;
+    margin-left: 5%;
+    padding: 0;
+    float: left;
+  }
+  .DRIE_L p {
+    width: 80%;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    top: 0;
+  }
+  .DRIE_L h2 {
+    font-family: 'montserratbold';
     color: #0E446D;
-  }
-  
-  .VIER_L h2 {
+    font-size: 1.2em;
+    line-height: 1;
+    position: inherit;
+    top: 0;
+    opacity: 0.8;
     width: 100%;
-    margin: 0% 0% 5% 0%;
-    text-decoration: underline;
-    color: #1E7BB7;
+    height: 10%;
+    padding-bottom: 0%;
+    margin-left: 0%;
+    margin-top: 10%;
+    background: white;
   }
-  
-  .Fb {
+  .Tekst {
+    float: left;
+    width: 60%;
+    margin-left: 2%;
+  }
+  .DRIE_L .button {
+    font-family: 'montserratbold';
+    height: 40px;
+    margin: 5% 0;
+    width: 14%;
+    float: right;
+    margin: 3% 6.5% 5% 0%;
+  }
+  /*--------------------------------------*/
+  .VIER_L {
+    box-sizing: border-box;
+    overflow: hidden;
+    padding-bottom: 5%;
+    height: 100%;
     width: 100%;
-    margin: 0% 0% 0% 0%;
+    background-color: #e6e6e6;
   }
-  
-  .like {
-    display: none;
+  .VIER_L h1 {
+    width: 80%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: 0% 20% 0% 10%;
+    text-align: center;
+    font-size: 40px;
   }
-  
-  iframe {
-    width: 100%
+  .social {
+    overflow: hidden;
+    margin-left: 5%
   }
-  
-  .VIER_L .logo_L {
-    width: 20%;
-    height: 20%;
-    margin-bottom: 0%;
+  .VIER_L article {
+    background-color: white;
+    width: 21%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    padding: 0;
+    float: left;
+    overflow: hidden;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
   }
-  
-  .VIER_L hr {
-    margin-top: 0%;
+  .VIER_L img {
+    border-radius: 100%;
+    margin: 0 0 0 0;
+    height: 30%;
+    width: 30%;
+    padding: 0;
+    float: left;
   }
-  
   .VIER_L p {
     width: 80%;
-    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    top: 0;
   }
-  
-  .logo_L {
-    width: 10%;
+  .VIER_L h2 {
+    font-family: 'montserratbold';
+    color: #0E446D;
+    font-size: 1.2em;
+    line-height: 1;
+    position: inherit;
+    top: 0;
+    text-decoration: none;
+    opacity: 0.8;
+    width: 100%;
     height: 10%;
+    padding-bottom: 0%;
+    margin-left: 0%;
+    margin-top: 10%;
+    background: white;
   }
-  
-  .twitter {
-    display: none;
-  }
-  
-  .tweet {
-    width: 100%;
-    background-color: white;
-  }
-  
-  .twitter-tweet {
-    margin-bottom: 0;
-    border: 0;
-  }
-  
-  .LinkedIN {
-    margin-top: -10px;
-    width: 100%;
-  }
-  /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MEDIA-------*/
-  
-  @media screen and (min-width: 650px) {
-    .EEN_L {
-      box-sizing: border-box;
-      background: fixed;
-      height: 100%;
-      width: 100%;
-      background-image: url("../images/Homepage/Background.png");
-      background-size: cover;
-      background-repeat: no-repeat;
-    }
-    .EEN_L h1 {
-      margin-top: 15%;
-    }
-    .Zoekbalk {
-      height: 40px;
-      width: 70%;
-      margin: 0% 0% 0% 10%;
-    }
-    .EEN_L .button {
-      display: inline;
-      height: 40px;
-      width: 100px;
-      margin: 0% 0%;
-      border-radius: 0px;
-      font-family: 'montserratbold';
-      padding: 0;
-      border: none;
-      color: white;
-      box-sizing: border-box;
-      background-color: #F0652F;
-    }
-    .details {
-      width: 70%;
-      margin-left: 10%;
-    }
-    .EEN_L .button_M {
-      display: none;
-    }
-    .type_vastgoed {
-      margin-left: 0%;
-    }
+  /*------------------------------------*/
+  @media screen and (min-width: 860px) {
     select {
-      height: 40px;
-      width: 32.5%;
-      margin: 0.5% 0%;
+      width: 32.8%;
     }
-    /*------------------------------------*/
-    .OverLay {
-      display: block;
-      z-index: -2;
-      padding-bottom: 70%;
-      width: 100%;
-      position: absolute;
-    }
-    .Appear {
-      display: block;
-      z-index: -1;
-      padding-bottom: 70%;
-      width: 100%;
-      position: absolute;
-      background-color: white;
-      -webkit-transition: width 2s;
-      transition: width 2s;
-    }
-    .TWEE_L:hover .Appear {
-      width: 0%;
-    }
-    .TWEE_L {
-      overflow: hidden;
-      padding-bottom: 2%;
-    }
-    .TWEE_L h1 {
-      width: 80%;
-      margin: 2% 20% 0% 10%;
-      text-align: center;
-      font-size: 40px;
-    }
-    .BOL1 {
-      float: left;
-      width: 20%;
-      margin-top: 0%;
-      margin-right: 0%;
-      margin-left: 13%;
-      height: 100%;
-    }
-    .BOL2 {
-      float: left;
-      width: 20%;
-      margin-top: 10%;
-      margin-right: 0;
-      margin-left: 7%;
-    }
-    .BOL3 {
-      float: left;
-      width: 20%;
-      margin-top: 5%;
-      margin-right: 0;
-      margin-left: 7%;
-    }
-    .button {
-      font-family: 'montserratbold';
-      width: 70%;
-      border: none;
-      color: white;
-      text-align: center;
-      background-color: #F0652F;
-      height: 40px;
-      border: none;
-      margin: 3% 0% 5% 10%;
-    }
-    .TWEE_L h2 {
-      text-align: center;
-      width: 100%;
-    }
-    .TWEE_L img {
-      width: 70%;
-      margin-left: 10%;
-      filter: grayscale(100%)
-    }
-    .TWEE_L:hover img {
-      width: 70%;
-      margin-left: 10%;
-      transition: filter 2s;
-      filter: none;
-    }
-    .TWEE_L p {
-      text-align: center;
-      width: 70%;
-      margin: 0;
-      margin-left: 10%;
-    }
-    .TWEE_L button {
-      width: 50%;
-      margin-left: 25%;
-      text-align: center;
-    }
-    /*---------------NIEUWS_ZIE : "http://neuethemes.net/preview/material/"--------------*/
-    .DRIE_L {}
-    /*------------------------------------*/
+  }
