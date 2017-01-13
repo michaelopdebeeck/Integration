@@ -76,9 +76,7 @@
         margin: 0.5em auto;
         display: block;
         width: 85%;
-        
         color: #58595B;
-        
         border: 0;
         border-radius: 2px;
         padding: 0.5em;
@@ -99,7 +97,7 @@
         font-size: 0.5em;
         text-align: center;
         color: white;
-        margin: 0.5em 0;
+        margin: 1em 0;
     }
     
     header div.aanmelden p a {
