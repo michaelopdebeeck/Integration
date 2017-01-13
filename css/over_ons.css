@@ -61,15 +61,17 @@ footer {
 }
 
 .overons h3 {
-  padding : 30px 10px 15px 10px;
+  padding : 30px 10px 15px 0px;
 }
 /*----------------------------------TEXT CONTAINER-------------------------------*/
 .text-container-s{
   background-color : #E2E0DF;
   color : black;
+/*
   border-left: 2px solid #0E446D;
   border-right: 2px solid #0E446D;
   border-bottom: 2px solid #0E446D;
+*/
 }
 .text-container-s p {
   color : black;
@@ -78,7 +80,7 @@ footer {
 }
 .text-container-s:nth-of-type(3){
   background-color : #b3b4b7;
-  border-bottom: 0px solid #0E446D;
+/*  border-bottom: 0px solid #0E446D;*/
 }
 .text-container-s:nth-of-type(3) p{
   color : black;
@@ -136,9 +138,15 @@ footer {
   }
 }
 @media screen and (min-width: 800px) {
-   .photo-container-s {
+  .overons hr {
+    margin-left : 12.5%;
+  }
+  .overons h2 {
+    margin-left : 12.5%;
+  }
+  .photo-container-s {
     clear : both;
-    width : 800px;
+    width : 75%;
     margin : 0 auto;
     height : 200%;
   }
@@ -147,7 +155,7 @@ footer {
   }
   .text-container-s {
     clear : both;
-    width : 796px;
+    width : 75%;
     margin : 0 auto;
   }
 }
