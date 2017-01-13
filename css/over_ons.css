@@ -65,7 +65,7 @@ footer {
 }
 /*----------------------------------TEXT CONTAINER-------------------------------*/
 .text-container-s{
-  background-color : #E2E0DF;
+  background-color : #b3b4b7;
   color : black;
 /*
   border-left: 2px solid #0E446D;
@@ -79,7 +79,7 @@ footer {
   font-size : 12px;
 }
 .text-container-s:nth-of-type(3){
-  background-color : #b3b4b7;
+  background-color :  #E2E0DF;
 /*  border-bottom: 0px solid #0E446D;*/
 }
 .text-container-s:nth-of-type(3) p{
@@ -140,6 +140,7 @@ footer {
 @media screen and (min-width: 800px) {
   .overons hr {
     margin-left : 12.5%;
+    width : 75%;
   }
   .overons h2 {
     margin-left : 12.5%;
