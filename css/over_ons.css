@@ -1,11 +1,14 @@
 
+
+
 .clearfix:after {
   content: " ";
   display: block;
   clear: both;
   visibility: hidden;
-  line-height: 0; height: 0;
+  line-height: 0; height: 0;s
 }
+
 footer {
   height : 50px;
 }
@@ -108,7 +111,8 @@ footer {
   }
   .photo-container-s div{
     width : 33.333%;
-    
+    float : left;
+    clear : none;
   }
   .photo-container-s p {
     box-sizing : border-box;
