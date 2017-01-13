@@ -127,33 +127,32 @@ select {
   padding-bottom: 10%;
 }
 
+.DRIE_L article {
+  width: 80%;
+  margin: 0 10% 4% 10%;
+  background: white;
+  overflow: hidden;
+}
+
 .DRIE_L h1 {
   padding-top: 10%;
   color: #0E446D;
 }
 
 .DRIE_L img {
-  width: 80%;
+  width: 100%;
   display: inline;
-  padding: 0 10% 4% 10%;
 }
 
-figure {
-  position: relative;
+.DRIE_L h2 {
+  width: 100%;
+  font-size: 1em;
+  margin: 5%;
 }
 
-figcaption {
-  opacity: 0.8;
-  width: 80%;
-  height: 10%;
-  line-height: 2;
-  padding-bottom: 5%;
-  text-align: center;
-  background-color: #0E446D;
-  position: absolute;
-  top: 0;
-  margin-left: 10%;
-  color: white;
+.DRIE_L p {
+  width: 90%;
+  margin: 5%;
 }
 
 
@@ -166,65 +165,6 @@ figcaption {
 .VIER_L h1 {
   padding-top: 10%;
   color: #0E446D;
-}
-
-.VIER_L h2 {
-  width: 100%;
-  margin: 0% 0% 5% 0%;
-  text-decoration: underline;
-  color: #1E7BB7;
-}
-
-.Fb {
-  width: 100%;
-  margin: 0% 0% 0% 0%;
-}
-
-.like {
-  display: none;
-}
-
-iframe {
-  width: 100%
-}
-
-.VIER_L .logo_L {
-  width: 20%;
-  height: 20%;
-  margin-bottom: 0%;
-}
-
-.VIER_L hr {
-  margin-top: 0%;
-}
-
-.VIER_L p {
-  width: 80%;
-  margin-left: 10%;
-}
-
-.logo_L {
-  width: 10%;
-  height: 10%;
-}
-
-.twitter {
-  display: none;
-}
-
-.tweet {
-  width: 100%;
-  background-color: white;
-}
-
-.twitter-tweet {
-  margin-bottom: 0;
-  border: 0;
-}
-
-.LinkedIN {
-  margin-top: -10px;
-  width: 100%;
 }
 
 
@@ -394,7 +334,6 @@ iframe {
     padding: 0;
     float: left;
     overflow: hidden;
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
   }
   .DRIE_L img {
     border-radius: 100%;
@@ -428,7 +367,7 @@ iframe {
   }
   .Tekst {
     float: left;
-    width: 70%;
+    width: 60%;
     margin-left: 2%;
   }
   .DRIE_L .button {
@@ -470,11 +409,10 @@ iframe {
     border: 0;
     padding: 0;
     overflow: hidden;
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
   }
   .VIER_L img {
     border-radius: 100%;
-    margin: 2% 0% 2% 2%;
+    margin: 2% 0% 2% 3%;
     height: 30%;
     width: 15%;
     padding: 0;
@@ -497,7 +435,7 @@ iframe {
     opacity: 0.8;
     width: 100%;
     padding-bottom: 0%;
-    margin-left: 0%;
+    margin-left: 4%;
     margin-top: 11%;
     background: white;
   }
@@ -524,13 +462,15 @@ iframe {
 }
 
 .Blog p {
-  width: 100%;
+  width: 90%;
   margin-left: 0;
-  margin-bottom: 10%;
+  margin-right: 5%;
+  margin-bottom: 5%;
 }
 
 .Blog h2 {
-  margin-top: 9%;
+  margin-top: 5%;
+  margin-left: 20%;
 }
 
 .Blog h3 {
@@ -548,9 +488,16 @@ iframe {
 
 .scroll {
   position: relative;
-  width: 100%;
+  margin-top: 5%;
+  width: 80%;
   height: 160px;
   overflow: scroll;
+  margin-left: 20%;
+  margin-right: 5%;
+}
+
+.Blog img {
+  width: 10%;
 }
 
 
