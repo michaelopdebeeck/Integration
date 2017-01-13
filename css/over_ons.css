@@ -107,8 +107,8 @@ footer {
     width : 100%;
   }
   .photo-container-s div{
-     width : 33.333%;
-     float : left;
+    width : 33.333%;
+    
   }
   .photo-container-s p {
     box-sizing : border-box;
