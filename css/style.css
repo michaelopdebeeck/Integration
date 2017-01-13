@@ -232,22 +232,22 @@ footer div.powered p a:hover {
 /* ------------------------------------------
            NIEUWS
 ------------------------------------------ */
-main#nieuws h1 {
+main#login h1 {
     text-align: center;
 }
 
-main#nieuws h2 {
+main#login h2 {
     text-align: center;
     font-size: 0.9em;
     color: #1E7BB7;
 }
 
-main#nieuws form {
+main#login form {
     width: 80%;
     margin: 1em auto;
 }
 
-main#nieuws form input[type="text"] {
+main#login form input[type="text"] {
     width: 98%;
     margin: 0.5em 0;
     display: block;
@@ -258,11 +258,11 @@ main#nieuws form input[type="text"] {
     padding: 0.5em;
 }
 
-main#nieuws form input[type="radio"] {
+main#login form input[type="radio"] {
    
 }
     
-main#nieuws form input[type="submit"] {
+main#login form input[type="submit"] {
     width: 90%;
     border: 0;
     background-color: #F0652F;
@@ -274,14 +274,30 @@ main#nieuws form input[type="submit"] {
     margin: 1em;
     }
 
-main#nieuws a {
+main#login a {
     width: 50%;
     margin-bottom: 1em;
 }
 
-main#nieuws a img {
+main#login a img {
     width: 90%;
     margin: 0.24em 1em;
+}
+
+main#login p {
+    width: 100%;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+main#login p a:link,
+main#login p a:active,
+main#login p a:visited {
+    color: black;
+}
+
+main#login p a:hover {
+    color: #F0652F;
 }
 
 
