@@ -32,7 +32,7 @@
 
 /*DetailPagina*/
 
-.clearfix:after {
+.clearfixd:after {
 	visibility: hidden;
 	display: block;
 	font-size: 0;
@@ -42,7 +42,7 @@
 	}
 
 .detailpand{
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
     display: block;
 }
@@ -67,18 +67,14 @@
     float: left;
 }
 
-/*
 .detailpand h2{
-    font-family: 'montserratbold';
-    color: #0E446D;
-    font-size: 1.5em;
+    color: darkgrey;
 }
-*/
 
 .limbo{
-    width: 85px;
-    height: 35px;
-    margin-top: 4px;
+    width: 100px;
+    height: 50px;
+    margin-top: 7px;
 }
 
 .panduitleg{
@@ -88,33 +84,44 @@
 }
 
 .panduitleg img{
-    width: 90%;
-    height: auto;
-    margin: 0;
+    width: 75%;
+    margin: 0 auto;
+    display: block;
 }
 
 .dbutton, .cbutton{
     font-family: 'montserratregular';
-    color: black;
-    font-size: 0.8em;
-    margin: 10px auto;
+    color: white;
+    font-size: 1em;
+    margin: 15px 100px;
+    padding: 10px 0;
     text-align: center;
+    border-radius: 10px;
 }
 
+.dbutton{
+    background-color: #F0652F;
+}
+
+.cbutton{
+    background-color: #0E446D;
+}
+/*
 .panduitleg h3{
     font-family: 'montserratregular';
     color: darkgray;
     font-size: 1em;
 }
+*/
 
-/*
 .panduitleg article p{
     font-weight: 600;
 }
-*/
 
 .panduitleg table{
     border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 50px;
 }
 
 .panduitleg th, .panduitleg td{
@@ -124,9 +131,10 @@
 .vergunningen th{
     font-family:'montserratbold';
     color: black;
-    background-color: #f2f2f2;
+    background-color: #E2E0DF;
     font-size: 0.7em;
     padding: 10px 10px 10px 10px;
+    text-align: left;
 }
 
 .vergunningen td{
@@ -146,73 +154,90 @@
 }
 */
 
+.brugshuizen{
+    width: 100%;
+    
+}
+
 .brugshuisje{
     width: 32%;
-    margin: 0 4px 0 0;
+    margin: 0 auto;
     display: inline-block;
+    border: 1px solid black;
 }
 
 .brugshuisje:last-of-type{
     margin: 0;
 }
-.panduitleg figure{
-    margin: 0;
+.panduitleg figure img{
+    width: 100%;
 }
 
 .brugshuisje figcaption{
-    font-family:'montserratregular';
+    font-family:'montserratbold';
     color: black;
-    font-size: 0.7em;
+    font-size: 1em;
     margin: 2px 0;
     text-align: center;
+    background-color: #E2E0DF;
 }
 
 .brugshuisje table, .brugshuisje th, .brugshuisje td{
     border: hidden;
     width: 100%;
-    align-content: center;
+    margin: 0;
 }
 
 .brugshuisje th{
     font-family: 'montserratbold';
     color: black;
-    font-size: 0.4em;
+    font-size: 0.8em;
     width: 50%;
     text-align: left;
-    padding: 5px 10px 3px 25px;
+    padding: 5px 10px 3px 15px;
 }
 
 .brugshuisje td{
     font-family: 'montserratregular';
     color: grey;
-    font-size: 0.2em;
-    padding-right: 10px;
+    font-size: 0.7em;
+    padding-right: 15px;
+    text-align: right;
 }
 
 .pandtables{
-    width: 28%;
-    margin-top: 40px;
+    width: 35%;
+    margin-top: 10px;
     float:right;
 }
+
+.pandtables table{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
 .pandtables th{
     font-family: 'montserratregular';
     color: grey;
-    font-size: 0.6em;
+    font-size: 1em;
     text-align: left;
-    padding-bottom: 5px;
+    padding-bottom: 20px;
 }
 
 .pandtables td{
     font-family: 'montserratregular';
     color: #0E446D;
-    font-size: 0.6em;
+    font-size: 1em;
     font-weight: 600;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
+
+/*
 .financieeldetail{
     margin-top: 25px;
 }
+*/
 
 .financieeldetail td{
     padding: 5px 0;

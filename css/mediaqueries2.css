@@ -1,0 +1,185 @@
+  @font-face {
+  font-family: 'montserratbold';
+  src: url('../font/montserrat-bold-webfont.woff2') format('woff2'), url('../font/montserrat-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'montserratsemibold';
+  src: url('../font/montserrat-semibold-webfont.woff2') format('woff2'), url('../font/montserrat-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'montserratlight';
+  src: url('../font/montserrat-light-webfont.woff2') format('woff2'), url('../font/montserrat-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'montserratregular';
+  src: url('../font/montserrat-regular-webfont.woff2') format('woff2'), url('../font/montserrat-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (min-width: 650px) {
+    a.menu-knop {
+        display: none;
+    }
+    
+    a.logo:link,
+    a.logo:visited,
+    a.logo:hover,
+    a.logo:active {
+        margin-left: 0;
+        
+    }
+    div.container {
+        max-width: 75%;
+        margin: 0 auto;
+        position: relative;
+    }
+    
+    div.container nav {
+        display: block;
+        float: right;
+        width: 69%;
+        clear: none;
+        position: relative;
+        z-index:3;
+    }
+    
+    header nav ul li a:link,
+    header nav ul li a:visited,
+    header nav ul li a:active {
+        display: block;
+        float: left;
+        width: 25%;
+        margin-top: 1.75em;
+        
+        border-bottom: 2px solid white;
+    }
+    
+    header nav ul li a:hover {
+        border-bottom: 2px solid #F0652F;
+    }
+    
+    header div.menu-line {
+        height: 2px;
+        background-color: white;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        top: 60px;
+        width: 100%;
+        z-index: 2;
+        
+    }
+    
+    header a#taal:link,
+    header a#taal:visited,
+    header a#taal:active {
+        float: right;
+        display: block;
+        background-color: #0E446D;
+        color: white;
+        padding: 0.5em;
+        font-size: 0.8em;
+        text-decoration: none;
+        border-bottom: 2px solid white;
+        border-right: 2px solid white;
+        border-left: 2px solid white;
+    }
+    
+    header a#taal:hover {
+        border-bottom: 2px solid #F0652F;
+        border-right: 2px solid #F0652F;
+        border-left: 2px solid #F0652F;
+        color: #F0652F;
+    }
+
+    header div.aanmelden {
+        display: block;
+        float: right;
+        width: 190px;
+        background-color: #0E446D;
+    }
+    
+    header div.aanmelden h4 {
+        font-size: 0.8em;
+        font-family: 'montserratregular';
+        color: white;
+        float: left;
+        margin: 1em 0
+    }
+    
+    
+    
+    header div.aanmelden form {
+        clear: both;
+        display: block;
+        width: 190px;
+    }
+    
+    header div.aanmelden form input[type="text"] {
+        margin: 0.5em auto;
+        display: block;
+        width: 85%;
+        
+        color: #58595B;
+        
+        border: 0;
+        border-radius: 2px;
+        padding: 0.5em;
+    }
+    
+    header div.aanmelden form input[type="submit"] {
+        margin-left: 30px;
+        width: 65%;
+        border: 0;
+        background-color: #F0652F;
+        color: white;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+    
+    header div.aanmelden p {
+        width: 190px;
+        font-size: 0.5em;
+        text-align: center;
+        color: white;
+        margin: 0.5em 0;
+    }
+    
+    header div.aanmelden p a {
+        color: white;
+        margin: 5em;
+        font-size: 1.1em;
+    }
+    
+    header ul#register {
+        display: none;
+    }
+    
+    header ul#register li a:link,
+    header ul#register li a:visited,
+    header ul#register li a:active {
+        float: left;
+        color: white;
+        padding: 0.5em;
+        font-family: 'montserratregular';
+        font-size: 0.8em;
+        border-bottom: 2px solid white;
+        border-right: 2px solid white;
+        margin-bottom: 1em;
+        text-decoration: none;
+    }
+    
+    header ul#register li:first-child a {
+        background-color: #F0652F;
+        border-left: 2px solid white;
+    }

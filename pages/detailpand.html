@@ -4,11 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <title>Pand Detail - Investr</title>
+    <link rel="stylesheet" type="text/css" href="../css/reset.css" />
     <link rel="stylesheet" type="text/css" href="../css/panddetaildieter.css">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style_header.css" />
+    <link rel="stylesheet" type="text/css" href="../css/mediaqueries.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"> </head>
 
-<body class="clearfix">
+<body class="clearfixd">
+    
+    <header>
+      <div class="container">
+          <a class="logo" href="../index.html" title="Investr">investr</a>
+          <a class="menu-knop" href="#"><span class="hamburger-lines">&#9776;</span> menu</a>
+           <nav>
+              <ul>
+                  <li><a href="#">home</a></li>
+                  <li><a href="#">aanbod</a></li>
+                  <li><a href="#">nieuws</a></li>
+                  <li><a href="#">meer ></a></li>
+              </ul>
+          </nav>        <br class="clearfix" />
+
+                  <ul id="register">
+                  
+            <li><a href="#">registren</a></li>
+            <li><a href="#">aanmelden</a></li>
+            <li><a href="#">nl</a></li>
+        </ul>
+        </div>
+        <div class="menu-line"></div>
+
+        <br class="clearfix" />
+    </header>
     
     <main class="detailpand">
             <h3>Pand Detail</h3>
@@ -18,7 +46,7 @@
             <h1>Nieuwbouw woning in Overpelt</h1> 
             
         <div class="panduitleg">
-            <img src="../images/panddetail/fotopand.jpg"> 
+            <img src="../images/panddetail/fotopand.jpg">
             <p class="dbutton">Download Rendementsrapport</p>
             <p class="cbutton">Contacteer Makelaar</p>
             <hr>
@@ -56,7 +84,7 @@
             </table>
             
             <h3>Andere panden in de kijker</h3>
-            
+            <div class="brugshuizen">
             <div class="brugshuisje">
             <figure> <img src="../images/Aanbod/typisch_brugs_huisje.jpeg" alt="Typisch Brugs Huisje"> </figure>
             <figcaption>Huis</figcaption>
@@ -101,6 +129,7 @@
                 </tr>
             </table>
             </div>
+        </div>
         </div>
         
         <div class="pandtables">
@@ -132,19 +161,19 @@
             </table>
             
             <table class="financieeldetail">
-                <tr>
+                <tr class="financieeldetail1">
                     <th>Financieel Detail</th>
                     <th>Meer Info</th>
                 </tr>
-                <tr>
+                <tr class="financieeldetail2">
                     <td>Totaal</td>
                     <td>€108 821,91</td>
                 </tr>
-                <tr>
+                <tr class="financieeldetail3">
                     <td>Eigen Inbreng</td>
                     <td>€108 821,91</td>
                 </tr>
-                <tr>
+                <tr class="financieeldetail4">
                     <td>Netto Rendement</td>
                     <td>5,35%</td>
                 </tr>
@@ -165,5 +194,4 @@
             </table>
         </div>
     </main>
-    <footer> </footer>
 </body>

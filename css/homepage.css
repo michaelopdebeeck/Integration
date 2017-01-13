@@ -1,4 +1,4 @@
-  body {
+    body {
     width: 100%;
   }
   
@@ -6,14 +6,23 @@
     color: #1E7BB7;
   }
   
+  p {
+    font-weight: 400;
+    font-size: 0.7em;
+  }
+  
   header {
     background-color: transparent;
+  }
+  
+  .OverLay {
+    display: none;
   }
   /*---------------------------------*/
   
   .EEN_L {
     background-color: #0E446D;
-    padding-bottom: 20%;
+    padding-bottom: 24%;
   }
   
   h1 {
@@ -32,6 +41,20 @@
   }
   
   .button_M {
+    border-radius: 0;
+    font-family: 'montserratbold';
+    padding: 0;
+    border: none;
+    color: white;
+    box-sizing: border-box;
+    background-color: #F0652F;
+    height: 30px;
+    border: none;
+    width: 80%;
+    margin: 2% 10%;
+  }
+  
+  .button {
     border-radius: 0;
     font-family: 'montserratbold';
     padding: 0;
@@ -195,6 +218,7 @@
     margin-top: -10px;
     width: 100%;
   }
+  /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MEDIA-------*/
   
   @media screen and (min-width: 650px) {
     .EEN_L {
@@ -217,7 +241,7 @@
     .EEN_L .button {
       display: inline;
       height: 40px;
-      width: 8%;
+      width: 100px;
       margin: 0% 0%;
       border-radius: 0px;
       font-family: 'montserratbold';
@@ -243,46 +267,68 @@
       margin: 0.5% 0%;
     }
     /*------------------------------------*/
+    .OverLay {
+      display: block;
+      z-index: -2;
+      padding-bottom: 70%;
+      width: 100%;
+      position: absolute;
+    }
+    .Appear {
+      display: block;
+      z-index: -1;
+      padding-bottom: 70%;
+      width: 100%;
+      position: absolute;
+      background-color: white;
+      -webkit-transition: width 2s;
+      transition: width 2s;
+    }
+    .TWEE_L:hover .Appear {
+      width: 0%;
+    }
     .TWEE_L {
-      padding-bottom: 100%;
+      overflow: hidden;
+      padding-bottom: 2%;
     }
     .TWEE_L h1 {
       width: 80%;
-      margin: 5% 20% 0% 10%;
+      margin: 2% 20% 0% 10%;
       text-align: center;
+      font-size: 40px;
     }
     .BOL1 {
       float: left;
-      width: 25%;
+      width: 20%;
       margin-top: 0%;
-      margin-right: 0;
-      margin-left: 7%;
+      margin-right: 0%;
+      margin-left: 13%;
       height: 100%;
     }
     .BOL2 {
       float: left;
-      width: 25%;
-      margin-top: 15%;
+      width: 20%;
+      margin-top: 10%;
       margin-right: 0;
       margin-left: 7%;
     }
     .BOL3 {
       float: left;
-      width: 25%;
-      margin-top: 8%;
+      width: 20%;
+      margin-top: 5%;
       margin-right: 0;
       margin-left: 7%;
     }
     .button {
       font-family: 'montserratbold';
-      width: 35%;
+      width: 70%;
       border: none;
       color: white;
       text-align: center;
       background-color: #F0652F;
       height: 40px;
       border: none;
-      margin: 3% 0% 2% 30%;
+      margin: 3% 0% 5% 10%;
     }
     .TWEE_L h2 {
       text-align: center;
@@ -291,6 +337,13 @@
     .TWEE_L img {
       width: 70%;
       margin-left: 10%;
+      filter: grayscale(100%)
+    }
+    .TWEE_L:hover img {
+      width: 70%;
+      margin-left: 10%;
+      transition: filter 2s;
+      filter: none;
     }
     .TWEE_L p {
       text-align: center;
@@ -303,4 +356,6 @@
       margin-left: 25%;
       text-align: center;
     }
-  }
+    /*---------------NIEUWS_ZIE : "http://neuethemes.net/preview/material/"--------------*/
+    .DRIE_L {}
+    /*------------------------------------*/

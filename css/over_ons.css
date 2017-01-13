@@ -1,3 +1,4 @@
+
 .clearfix:after {
   content: " ";
   display: block;
@@ -8,6 +9,7 @@
 footer {
   height : 50px;
 }
+
 .photo-container-s p{
   text-align : center;
   color : white;
