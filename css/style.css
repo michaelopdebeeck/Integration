@@ -77,10 +77,6 @@
     font-weight: 400;
     font-size: 0.7em;
     font-size: 1em;
-<<<<<<< HEAD
-  }
-  /*---------------------------------------*/
-=======
 }
 
 
@@ -129,20 +125,8 @@ a.menu-knop:active {
 a.menu-knop:hover {
     display: block;
     float: right;
-    
     text-decoration: none;
     color: white;
-    
-    border-bottom: 3px solid #F0652F;
-}
-
-a.menu-knop:focus {
-    display: block;
-    float: right;
-    
-    text-decoration: none;
-    color: white;
-    
     border-bottom: 3px solid #F0652F;
 }
 
@@ -161,24 +145,12 @@ header nav ul li a:active {
     text-decoration: none;
     text-align: center;
     color: white;
-    
     font-family: 'montserratregular';
     border-bottom: 3px solid #0E446D;
     padding: 0.5em 0;
 }
 
 header nav ul li a:hover {
-    display: block;
-    text-decoration: none;
-    text-align: center;
-    color: white;
-    
-    font-family: 'montserratregular';
-    border-bottom: 3px solid #F0652F;
-    padding: 0.5em 0;
-}
-
-header nav ul li a:focus {
     display: block;
     text-decoration: none;
     text-align: center;
@@ -225,4 +197,3 @@ footer div.fMenu a {
 /* ------------------------------------------
             EINDE HEADER & FOOTER
 ------------------------------------------ */
->>>>>>> origin/master

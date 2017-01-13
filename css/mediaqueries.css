@@ -38,6 +38,7 @@
         margin-left: 0;
         
     }
+
     div.container {
         max-width: 75%;
         margin: 0 auto;
@@ -81,7 +82,7 @@
     }
     
     header ul#register {
-        width: 223px;
+        width: 240px;
         float: right;
         display: block;
         
@@ -92,7 +93,7 @@
     header ul#register li a:active {
         float: left;
         color: white;
-        padding: 0.25em 0.5em;
+        padding: 0.5em;
         font-family: 'montserratregular';
         font-size: 0.8em;
         text-decoration: none;
@@ -101,7 +102,21 @@
         margin-bottom: 1em;
     }
     
-    header ul#register li:first-child a {
+    header ul#register li a:hover {
+        border-bottom: 2px solid #F0652F;
+
+    }
+
+    
+    header ul#register li:first-child a:link,
+    header ul#register li:first-child a:visited,
+    header ul#register li:first-child a:active {
         background-color: #F0652F;
         border-left: 2px solid white;
     }
+    
+    header ul#register li:first-child a:hover {
+        background-color: white;
+        color: #F0652F;
+    }
+
