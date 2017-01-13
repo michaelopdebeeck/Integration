@@ -347,8 +347,15 @@ body h1 {
     display: block;
   }
   .panden-vergelijken-e input {
+    font-family: 'montserratregular';
+    color: white;
     display: block;
     background-color: #F0652F;
+    padding: .5em;
+    margin: .5em;
+    width: 90%;
+    border-radius: 7px;
+    border: none;
   }
   .panden-vergelijken-e h3 {
     font-family: 'montserratregular';
@@ -356,10 +363,27 @@ body h1 {
     padding: .5em;
     text-align: center;
   }
+  .panden-vergelijken-e ul li {
+    padding: 0 .5em;
+  }
   .panden-vergelijken-e ul li img {
-    width: 50%;
+    width: 77%;
     height: auto;
     position: relative;
-    float: left;
+    padding: .5em .5em .5em 0;
+  }
+  .panden-vergelijken-e ul li .vuilbak-e {
+    width: 15%;
+    height: auto;
+    float: right;
+    padding: 1.7em 0;
+  }
+  .panden-vergelijken-e p {
+    font-family: 'montserratlight';
+    letter-spacing: .2px;
+    font-size: .8em;
+    display: block;
+    text-align: left;
+    padding: .5em;
   }
 }
