@@ -160,9 +160,10 @@
 }
 
 .brugshuisje{
-    width: 32%;
+    width: 30%;
     display: inline-block;
     border: 3px solid black;
+    margin-right: 2%;
 }
 
 .brugshuisje:last-of-type{
@@ -291,3 +292,8 @@
     border-left: 1px solid white;
     border-right: 1px solid white;
 }
+
+
+/*Mediaqueries*/
+
+
