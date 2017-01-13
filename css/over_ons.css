@@ -1,9 +1,17 @@
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0; height: 0;
+}
 footer {
   height : 50px;
 }
 .photo-container-s p{
   text-align : center;
   color : white;
+  background-color : #0E446D;
   padding : 50px 10%;
 }
 .photo-container-s {
@@ -16,10 +24,12 @@ footer {
 }
 .photo-container-s:first-of-type p{
   color : #0E446D;
+  background-color : white;
 }
 
 .photo-container-s img{
   width: 100%;
+  display : block;
 }
 .photo-container-s div{
   width : 100%;
@@ -28,7 +38,12 @@ footer {
   position: relative;
   display : block;
   width : 100%;
+  background-color : #0E446D;
 }
+.photo-container-s:first-of-type figure {
+  background-color : white;
+}
+
 .photo-container-s figcaption{
   color : white;
   display : block;
@@ -62,14 +77,28 @@ footer {
 .text-container-s:nth-of-type(3){
   background-color : #b3b4b7;
   border-bottom: 0px solid #0E446D;
-  border-top: 2px solid #0E446D;
 }
 .text-container-s:nth-of-type(3) p{
   color : black;
 }
 /*---------------------------------------QUERRIES------------------------------------*/
-@media screen and (min-width: 480px) {
- 
+@media screen and (min-width: 400px) {
+  .photo-container-s div {
+    100%;
+  }
+  .photo-container-s figure {
+    width : 50%;
+    display : block;
+    float : left;
+  }
+  .photo-container-s p {
+    box-sizing : border-box;
+    width : 50%;
+    padding : 15% 2% 0 2%;
+    margin : 0 auto;
+    text-align : center;
+    float : left;
+  }
 }
 @media screen and (min-width: 650px) {
   .photo-container-s figure{
@@ -80,6 +109,11 @@ footer {
      float : left;
   }
   .photo-container-s p {
+    box-sizing : border-box;
+    width : 100%;
+    height : 145px;
+    margin : 0 auto;
+    padding : 20% 15%;
   }
   .photo-container-s {
     clear : both;
@@ -103,6 +137,10 @@ footer {
     clear : both;
     width : 800px;
     margin : 0 auto;
+    height : 200%;
+  }
+  .photo-container-s figure {
+    display : block;
   }
   .text-container-s {
     clear : both;
