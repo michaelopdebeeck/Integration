@@ -133,7 +133,7 @@
     color: black;
     background-color: #E2E0DF;
     font-size: 0.7em;
-    padding: 10px 10px 10px 10px;
+    padding: 10px;
     text-align: left;
 }
 
@@ -161,9 +161,8 @@
 
 .brugshuisje{
     width: 32%;
-    margin: 0 auto;
     display: inline-block;
-    border: 1px solid black;
+    border: 3px solid black;
 }
 
 .brugshuisje:last-of-type{
@@ -177,7 +176,7 @@
     font-family:'montserratbold';
     color: black;
     font-size: 1em;
-    margin: 2px 0;
+    padding: 10px 0;
     text-align: center;
     background-color: #E2E0DF;
 }
@@ -194,7 +193,7 @@
     font-size: 0.8em;
     width: 50%;
     text-align: left;
-    padding: 5px 10px 3px 15px;
+    padding: 10px 15px;
 }
 
 .brugshuisje td{
@@ -265,10 +264,14 @@
 
 .pandtables iframe{
     width: 100%;
+    margin-bottom: 50px;
 }
 
 .pandtables h3{
     text-align: center;
+    color: white;
+    background-color: #F0652F;
+    padding: 10px 0 10px 0;
 }
 
 .pandtables ul{
@@ -276,6 +279,15 @@
 }
 .pandtables li{
     display: inline;
-    width: 33%;
-    margin: 0 auto;
+    width: 33.20%;
+    float: left;
+    background-color: #F0652F;
+    color: white;
+    padding: 10px 0 10px 0;
+    border-top: 1px solid white;
+}
+
+.fb{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
 }

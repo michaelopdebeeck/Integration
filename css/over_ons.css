@@ -1,4 +1,3 @@
-
 .clearfix:after {
   content: " ";
   display: block;
@@ -6,6 +5,7 @@
   visibility: hidden;
   line-height: 0; height: 0;
 }
+
 footer {
   height : 50px;
 }
@@ -84,7 +84,7 @@ footer {
   color : black;
 }
 /*---------------------------------------QUERRIES------------------------------------*/
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 440px) {
   .photo-container-s div {
     100%;
   }
@@ -107,15 +107,16 @@ footer {
     width : 100%;
   }
   .photo-container-s div{
-     width : 33.333%;
-     float : left;
+    width : 33.333%;
+    float : left;
+    clear : none;
   }
   .photo-container-s p {
     box-sizing : border-box;
     width : 100%;
-    height : 145px;
+    height : 175px;
     margin : 0 auto;
-    padding : 20% 15%;
+    padding : 15% 10%;
   }
   .photo-container-s {
     clear : both;
