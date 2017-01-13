@@ -56,20 +56,7 @@ select {
   display: none;
 }
 
-.weergave-blok-e {
-  background-color: #E2E0DF;
-  height: 1em;
-  padding: 1em 10% 1em;
-  display: none;
-}
-
 .weergave-e p {
-  font-family: 'montserratregular';
-  font-size: 1em;
-  text-align: left;
-}
-
-.weergave-blok-e p {
   font-family: 'montserratregular';
   font-size: 1em;
   text-align: left;
@@ -86,15 +73,7 @@ body h1 {
   display: none;
 }
 
-.sorteren-blok-e {
-  display: none;
-}
-
 .panden-vergelijken-e {
-  background-color: #F0652F;
-}
-
-.panden-vergelijken-blok-e {
   background-color: #F0652F;
 }
 
@@ -102,23 +81,11 @@ body h1 {
   display: none;
 }
 
-.panden-vergelijken-blok-e ul {
-  display: none;
-}
-
 .panden-vergelijken-e p {
   display: none;
 }
 
-.panden-vergelijken-blok-e p {
-  display: none;
-}
-
 .panden-vergelijken-e input {
-  display: none;
-}
-
-.panden-vergelijken-blok-e input {
   display: none;
 }
 
@@ -129,19 +96,7 @@ body h1 {
   text-align: center;
 }
 
-.panden-vergelijken-blok-e h3 {
-  font-family: 'montserratregular';
-  color: white;
-  padding: .5em;
-  text-align: center;
-}
-
 .huis-e img {
-  width: 100%;
-  display: block;
-}
-
-.huis-blok-e img {
   width: 100%;
   display: block;
 }
@@ -154,19 +109,7 @@ body h1 {
   color: white;
 }
 
-.huis-blok-e h3 {
-  font-family: 'montserratregular';
-  background-color: #58595B;
-  padding: .5em;
-  text-align: center;
-  color: white;
-}
-
 .beschrijving-e {
-  display: none;
-}
-
-.beschrijving-blok-e {
   display: none;
 }
 
@@ -198,26 +141,11 @@ body h1 {
   padding: .7em;
 }
 
-.aanbod-blok-e p {
-  font-family: 'montserratregular';
-  background-color: #F0652F;
-  color: white;
-  text-align: center;
-  padding: .7em;
-}
-
 .icoon-e {
   display: none;
 }
 
 .scroll-e {
-  width: 700%px;
-  overflow-y: hidden;
-  overflow-x: auto;
-  white-space: nowrap;
-}
-
-.scroll-blok-e {
   width: 700%px;
   overflow-y: hidden;
   overflow-x: auto;
@@ -231,15 +159,90 @@ body h1 {
   white-space: nowrap;
 }
 
+.in-de-kijker-e {
+  margin: 1em 0;
+}
+
+
+/*----------------------- AANBOD BLOK -----------------------*/
+
+.weergave-blok-e {
+  background-color: #E2E0DF;
+  height: 1em;
+  padding: 1em 10% 1em;
+  display: none;
+}
+
+.weergave-blok-e p {
+  font-family: 'montserratregular';
+  font-size: 1em;
+  text-align: left;
+}
+
+.sorteren-blok-e {
+  display: none;
+}
+
+.panden-vergelijken-blok-e {
+  background-color: #F0652F;
+}
+
+.panden-vergelijken-blok-e ul {
+  display: none;
+}
+
+.panden-vergelijken-blok-e p {
+  display: none;
+}
+
+.panden-vergelijken-blok-e input {
+  display: none;
+}
+
+.panden-vergelijken-blok-e h3 {
+  font-family: 'montserratregular';
+  color: white;
+  padding: .5em;
+  text-align: center;
+}
+
+.huis-blok-e img {
+  width: 100%;
+  display: block;
+}
+
+.huis-blok-e h3 {
+  font-family: 'montserratregular';
+  background-color: #58595B;
+  padding: .5em;
+  text-align: center;
+  color: white;
+}
+
+.beschrijving-blok-e {
+  display: none;
+}
+
+.aanbod-blok-e p {
+  font-family: 'montserratregular';
+  background-color: #F0652F;
+  color: white;
+  text-align: center;
+  padding: .7em;
+}
+
+.scroll-blok-e {
+  width: 700%px;
+  overflow-y: hidden;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
 .scroll-blok-e img {
   height: 100%;
   width: 90%;
   display: inline;
   white-space: nowrap;
-}
-
-.in-de-kijker-e {
-  margin: 1em 0;
 }
 
 .in-de-kijker-blok-e {
@@ -315,11 +318,10 @@ body h1 {
     margin: 0 0.5em 0 0;
   }
   .huis-e {
-    height: 10em;
+    height: 11em;
     margin: 3%;
     box-sizing: border-box;
-    box-shadow: 0px 0px 15px #58595B;
-    border-radius: 7px;
+    border-bottom: solid 1px rgba(125, 125, 125, 0.6);
     max-width: 720px;
     margin: 3% auto 3% auto;
     position: relative;
@@ -373,7 +375,103 @@ body h1 {
   .in-de-kijker-e {
     margin: 1em;
   }
+  /*--------------------- AANBOD BLOK 650px ---------------------*/
+  .weergave-blok-e {
+    display: block;
+  }
+  .weergave-blok-e img {
+    margin: 0 .5em;
+    width: 2em;
+    height: 2em;
+  }
+  .weergave-blok-e ul li {
+    float: left;
+    display: inline-block;
+  }
+  .weergave-blok-e p {
+    margin: 0 0.5em 0 0;
+  }
+  .container-blok-e {
+    max-width: 75%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .huis-blok-e {
+    height: 20em;
+    width: 200px;
+    float: left;
+    margin: 3%;
+    box-sizing: border-box;
+    max-width: 720px;
+    margin: 3%;
+    position: relative;
+  }
+  .huis-blok-e img {
+    height: auto;
+    float: left;
+    margin: 0;
+    width: 200px;
+  }
+  .huis-blok-e h3 {
+    margin: 9em auto auto;
+    text-align: center;
+    color: white;
+  }
+  .beschrijving-blok-e {
+    border-right: solid 1px #58595B;
+    border-left: solid 1px #58595B;
+    display: block;
+    padding: .2em 1em;
+    font-family: 'montserratlight';
+    font-size: 14px;
+  }
+  .beschrijving-blok-e p {
+    display: inline-block;
+    margin: .5em;
+  }
+  .beschrijving-blok-e p:nth-child(3) {
+    display: inline-block;
+    margin: .5em .5em .5em 2.2em;
+  }
+  .beschrijving-blok-e p {
+    display: inline-block;
+    margin: .5em;
+  }
+  .beschrijving-blok-e img {
+    margin: .3em;
+    width: 10%;
+    height: auto;
+    display: inline-block;
+  }
+  .aanbod-blok-e p {
+    font-family: 'montserratregular';
+    background-color: #F0652F;
+    color: white;
+    text-align: center;
+    padding: .7em;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+  }
+  .scroll-blok-e {
+    width: 700%px;
+    overflow-y: hidden;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .scroll-blok-e img {
+    height: auto;
+    width: 40%;
+    display: inline;
+    white-space: nowrap;
+  }
+  .in-de-kijker-blok-e {
+    display: inline-block;
+    margin: 1em 0;
+  }
 }
+
+
+/*------------------------------------------------*/
 
 @media screen and (min-width: 850px) {
   .container-e {
@@ -392,8 +490,6 @@ body h1 {
     display: block;
     line-height: normal;
     background-color: #E2E0DF;
-    border-top-right-radius: 7px;
-    border-bottom-right-radius: 7px;
   }
   .sorteren-e p {
     font-family: 'montserratlight';
@@ -423,8 +519,6 @@ body h1 {
     float: right;
     display: block;
     background-color: #E2E0DF;
-    border-top-left-radius: 7px;
-    border-bottom-left-radius: 7px;
   }
   .panden-vergelijken-e ul {
     display: block;
@@ -462,6 +556,91 @@ body h1 {
     padding: 1.7em 0;
   }
   .panden-vergelijken-e p {
+    font-family: 'montserratlight';
+    letter-spacing: .2px;
+    font-size: .8em;
+    display: block;
+    text-align: left;
+    padding: .5em;
+  }
+  .container-blok-e {
+    max-width: 732px;
+  }
+  /*--------------------- AANBOD BLOK ---------------------*/
+  .sorteren-blok-e {
+    max-width: 12.5%;
+    margin: 2% auto 0 0;
+    position: relative;
+    float: left;
+    display: block;
+    line-height: normal;
+    background-color: #E2E0DF;
+  }
+  .sorteren-blok-e p {
+    font-family: 'montserratlight';
+    font-weight: 600;
+    line-height: 2em;
+    margin: .5em;
+  }
+  .sorteren-blok-e ul {
+    margin: .5em;
+  }
+  .sorteren-blok-e ul li:first-of-type {
+    font-weight: 600;
+    color: black;
+    text-decoration: underline;
+  }
+  .sorteren-blok-e ul li a {
+    font-family: 'montserratlight';
+    font-size: .7em;
+    text-decoration: none;
+    color: gray;
+  }
+  .panden-vergelijken-blok-e {
+    max-width: 12.5%;
+    margin: 2% auto 0 0;
+    position: relative;
+    text-align: right;
+    float: right;
+    display: block;
+    background-color: #E2E0DF;
+  }
+  .panden-vergelijken-blok-e ul {
+    display: block;
+  }
+  .panden-vergelijken-blok-e input {
+    font-family: 'montserratregular';
+    color: white;
+    display: block;
+    background-color: #F0652F;
+    padding: .5em;
+    margin: .5em;
+    width: 90%;
+    border-radius: 7px;
+    border: none;
+  }
+  .panden-vergelijken-blok-e h3 {
+    font-family: 'montserratregular';
+    color: black;
+    padding: .5em;
+    text-align: center;
+  }
+  .panden-vergelijken-blok-e ul li {
+    padding: 0 .5em;
+  }
+  .panden-vergelijken-blok-e ul li img {
+    width: 77%;
+    height: auto;
+    position: relative;
+    padding: .5em .5em .5em 0;
+  }
+  .panden-vergelijken-blok-e ul li .vuilbak-e {
+    width: 15%;
+    height: auto;
+    float: right;
+    padding: 1.7em 0;
+  }
+  .panden-vergelijken-blok-e p {
     font-family: 'montserratlight';
     letter-spacing: .2px;
     font-size: .8em;
