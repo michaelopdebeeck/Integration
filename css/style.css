@@ -181,7 +181,9 @@ footer div.fMenu h4 {
     color: #58595B;
 }
 
-footer div.fMenu a {
+footer div.fMenu a:link,
+footer div.fMenu a:visited,
+footer div.fMenu a:active {
     text-transform: uppercase;
     font-family: 'montserratlight';
     font-size: 0.5em;
