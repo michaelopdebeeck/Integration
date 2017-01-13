@@ -56,7 +56,20 @@ select {
   display: none;
 }
 
+.weergave-blok-e {
+  background-color: #E2E0DF;
+  height: 1em;
+  padding: 1em 10% 1em;
+  display: none;
+}
+
 .weergave-e p {
+  font-family: 'montserratregular';
+  font-size: 1em;
+  text-align: left;
+}
+
+.weergave-blok-e p {
   font-family: 'montserratregular';
   font-size: 1em;
   text-align: left;
@@ -73,7 +86,15 @@ body h1 {
   display: none;
 }
 
+.sorteren-blok-e {
+  display: none;
+}
+
 .panden-vergelijken-e {
+  background-color: #F0652F;
+}
+
+.panden-vergelijken-blok-e {
   background-color: #F0652F;
 }
 
@@ -81,11 +102,23 @@ body h1 {
   display: none;
 }
 
+.panden-vergelijken-blok-e ul {
+  display: none;
+}
+
 .panden-vergelijken-e p {
   display: none;
 }
 
+.panden-vergelijken-blok-e p {
+  display: none;
+}
+
 .panden-vergelijken-e input {
+  display: none;
+}
+
+.panden-vergelijken-blok-e input {
   display: none;
 }
 
@@ -96,7 +129,19 @@ body h1 {
   text-align: center;
 }
 
+.panden-vergelijken-blok-e h3 {
+  font-family: 'montserratregular';
+  color: white;
+  padding: .5em;
+  text-align: center;
+}
+
 .huis-e img {
+  width: 100%;
+  display: block;
+}
+
+.huis-blok-e img {
   width: 100%;
   display: block;
 }
@@ -109,7 +154,19 @@ body h1 {
   color: white;
 }
 
+.huis-blok-e h3 {
+  font-family: 'montserratregular';
+  background-color: #58595B;
+  padding: .5em;
+  text-align: center;
+  color: white;
+}
+
 .beschrijving-e {
+  display: none;
+}
+
+.beschrijving-blok-e {
   display: none;
 }
 
@@ -141,11 +198,26 @@ body h1 {
   padding: .7em;
 }
 
+.aanbod-blok-e p {
+  font-family: 'montserratregular';
+  background-color: #F0652F;
+  color: white;
+  text-align: center;
+  padding: .7em;
+}
+
 .icoon-e {
   display: none;
 }
 
 .scroll-e {
+  width: 700%px;
+  overflow-y: hidden;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.scroll-blok-e {
   width: 700%px;
   overflow-y: hidden;
   overflow-x: auto;
@@ -159,7 +231,18 @@ body h1 {
   white-space: nowrap;
 }
 
+.scroll-blok-e img {
+  height: 100%;
+  width: 90%;
+  display: inline;
+  white-space: nowrap;
+}
+
 .in-de-kijker-e {
+  margin: 1em 0;
+}
+
+.in-de-kijker-blok-e {
   margin: 1em 0;
 }
 

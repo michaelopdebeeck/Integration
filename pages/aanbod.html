@@ -5,39 +5,114 @@
   <meta charset="UTF-8">
   <title>Aanbod - Investr</title>
 
+  <link rel="stylesheet" type="text/css" href="../css/aanbod.css" />
+  <link rel="stylesheet" type="text/css" href="../css/aanbod.css" />
   <link rel="stylesheet" type="text/css" href="../css/style.css" />
   <link rel="stylesheet" type="text/css" href="../css/reset.css" />
+  <link rel="stylesheet" type="text/css" href="../css/style_header.css" />
   <link rel="stylesheet" type="text/css" href="../css/mediaqueries.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1,  minimum-scale=1">
+
 </head>
 
 <body>
+  <section class="EEN_L">
+    <header>
+      <div class="container">
+        <a class="logo" href="../index.html" title="Investr">investr</a>
+        <a class="menu-knop" href="#"><span class="hamburger-lines">&#9776;</span> menu</a>
+        <nav>
+          <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">aanbod</a></li>
+            <li><a href="#">nieuws</a></li>
+            <li><a href="#">meer ></a></li>
+          </ul>
+        </nav>
+        <br class="clearfix" />
 
-  <section class="weergave-e">
-    <p>Weergave:</p>
+        <ul id="register">
+
+          <li><a href="#">registren</a></li>
+          <li><a href="#">aanmelden</a></li>
+          <li><a href="#">nl</a></li>
+        </ul>
+      </div>
+      <div class="menu-line"></div>
+
+      <br class="clearfix" />
+    </header>
+
+
+
+    <form>
+      <h1>Investing Made Easy</h1>
+      <input class="Zoekbalk" type="text" placeholder="Locatie (stad of postcode)">
+      <input class="button" type="button" value="Zoek">
+      <div class="details">
+        <select name="type vastgoed" class="type_vastgoed">
+          <option value="Huis">Huis </option>
+          <option value="Appartement">Appartement</option>
+          <option value="Studentenhuisvesting">Studentenhuisvesting</option>
+          <option value="Grond">Grond</option>
+          <option value="Bedrijfsvastgoed">Bedrijfsvastgoed</option>
+          <option value="Garage">Garage</option>
+          <option value="Assistentieflats">Assistentieflats</option>
+        </select>
+        <select name="type vastgoed">
+          <option value="Huis">Huis </option>
+          <option value="Appartement">Appartement</option>
+          <option value="Studentenhuisvesting">Studentenhuisvesting</option>
+          <option value="Grond">Grond</option>
+          <option value="Bedrijfsvastgoed">Bedrijfsvastgoed</option>
+          <option value="Garage">Garage</option>
+          <option value="Assistentieflats">Assistentieflats</option>
+        </select>
+        <select name="Eigen inbreng">
+          <option value="Geen financiering">Geen financiering </option>
+          <option value="3 jaar">3 jaar</option>
+          <option value="5 jaar">5 jaar</option>
+          <option value="8 jaar">8 jaar</option>
+          <option value="10 jaar">10 jaar</option>
+          <option value="12 jaar">12 jaar</option>
+          <option value="15 jaar">15 jaar</option>
+          <option value="20 jaar">20 jaar</option>
+          <option value="25 jaar">25 jaar</option>
+        </select>
+      </div>
+      <input class="button_M" type="button" value="Zoek"> </form>
+  </section>
+
+  <section class="weergave-blok-e">
+    <ul>
+      <li>
+        <p>Weergave: </p>
+      </li>
+      <li><img src="../images/Aanbod/Balk_weergave.svg" alt="Balk weergave"></li>
+      <li><img src="../images/Aanbod/Blok_weergave.svg" alt="Blok weergave"></li>
+    </ul>
   </section>
 
   <h1>Panden</h1>
 
-  <section class="sorteren-e">
-    <p>Zoekresultaten:</p>
-    <div class="cijfer-e">28</div>
-
+  <section class="sorteren-blok-e">
     <p>Sorteer op</p>
     <ul>
-      <li><a href="#">Laagste prijs</a></li>
-      <li><a href="#">Hoogste prijs</a></li>
-      <li><a href="#">Per makelaar</a></li>
-      <li><a href="#">Laagste totaal prijs (+ kosten)</a></li>
-      <li><a href="#">Hoogste totaal prijs (+ kosten)</a></li>
-      <li><a href="#">Laagste bruto-rendement</a></li>
-      <li><a href="#">Hoogste bruto-rendement</a></li>
-      <li><a href="#">Laagste huurprijs/maand pand</a></li>
-      <li><a href="#">Hoogste huurprijs/maand pand</a></li>
-      <li><a href="#">Kleinste bewoonbare oppervlakte</a></li>
-      <li><a href="#">Grootste bewoonbare oppervlakte</a></li>
+      <li><a href="#">- Laagste prijs</a></li>
+      <li><a href="#">- Hoogste prijs</a></li>
+      <li><a href="#">- Per makelaar</a></li>
+      <li><a href="#">- Laagste totaal prijs (+ kosten)</a></li>
+      <li><a href="#">- Hoogste totaal prijs (+ kosten)</a></li>
+      <li><a href="#">- Laagste bruto-rendement</a></li>
+      <li><a href="#">- Hoogste bruto-rendement</a></li>
+      <li><a href="#">- Laagste huurprijs/maand pand</a></li>
+      <li><a href="#">- Hoogste huurprijs/maand pand</a></li>
+      <li><a href="#">- Kleinste bewoonbare oppervlakte</a></li>
+      <li><a href="#">- Grootste bewoonbare oppervlakte</a></li>
     </ul>
   </section>
-  <section class="panden-vergelijken-e">
+
+  <section class="panden-vergelijken-blok-e">
     <p>Panden vergelijken</p>
 
     <ul>
@@ -62,169 +137,60 @@
     <input type="button" value="Aanmelden">
   </section>
 
-  <article class="huis-mini-e">
-    <img src="../images/panddetail/fotopand.jpg" alt="Foto pand">
-    <div class="beschrijving-mini-e">
-      <h3>Nieuwbouw woning</h3>
-      <img src="../images/Aanbod/piggy-bank.svg" alt="icon geldvarken">
-      <p>Investment: €270 727,16</p>
-      <img src="../images/Aanbod/Compass-48.png" alt="icon locatie">
-      <p>Locatie: Overpelt</p>
-    </div>
-    <div class="aanbod-e">
-      <p>Bekijk aanbod</p>
-    </div>
-  </article>
-  <article class="huis-mini-e">
-    <img src="../images/panddetail/fotopand.jpg" alt="Foto pand">
-    <div class="beschrijving-mini-e">
-      <h3>Nieuwbouw woning</h3>
-      <img src="../images/Aanbod/piggy-bank.svg" alt="icon geldvarken">
-      <p>Investment: €270 727,16</p>
-      <img src="../images/Aanbod/Compass-48.png" alt="icon locatie">
-      <p>Locatie: Overpelt</p>
-    </div>
-    <div class="aanbod-e">
-      <p>Bekijk aanbod</p>
-    </div>
-  </article>
-  <article class="huis-mini-e">
-    <img src="../images/panddetail/fotopand.jpg" alt="Foto pand">
-    <div class="beschrijving-mini-e">
-      <h3>Nieuwbouw woning</h3>
-      <img src="../images/Aanbod/piggy-bank.svg" alt="icon geldvarken">
-      <p>Investment: €270 727,16</p>
-      <img src="../images/Aanbod/Compass-48.png" alt="icon locatie">
-      <p>Locatie: Overpelt</p>
-    </div>
-    <div class="aanbod-e">
-      <p>Bekijk aanbod</p>
-    </div>
-  </article>
-  <article class="huis-mini-e">
-    <img src="../images/panddetail/fotopand.jpg" alt="Foto pand">
-    <div class="beschrijving-mini-e">
-      <h3>Nieuwbouw woning</h3>
-      <img src="../images/Aanbod/piggy-bank.svg" alt="icon geldvarken">
-      <p>Investment: €270 727,16</p>
-      <img src="../images/Aanbod/Compass-48.png" alt="icon locatie">
-      <p>Locatie: Overpelt</p>
-    </div>
-    <div class="aanbod-e">
-      <p>Bekijk aanbod</p>
-    </div>
-  </article>
-  <article class="huis-mini-e">
-    <img src="../images/panddetail/fotopand.jpg" alt="Foto pand">
-    <div class="beschrijving-mini-e">
-      <h3>Nieuwbouw woning</h3>
-      <img src="../images/Aanbod/piggy-bank.svg" alt="icon geldvarken">
-      <p>Investment: €270 727,16</p>
-      <img src="../images/Aanbod/Compass-48.png" alt="icon locatie">
-      <p>Locatie: Overpelt</p>
-    </div>
-    <div class="aanbod-e">
-      <p>Bekijk aanbod</p>
-    </div>
-  </article>
-  <article class="huis-mini-e">
-    <img src="../images/panddetail/fotopand.jpg" alt="Foto pand">
-    <div class="beschrijving-mini-e">
-      <h3>Nieuwbouw woning</h3>
-      <img src="../images/Aanbod/piggy-bank.svg" alt="icon geldvarken">
-      <p>Investment: €270 727,16</p>
-      <img src="../images/Aanbod/Compass-48.png" alt="icon locatie">
-      <p>Locatie: Overpelt</p>
-    </div>
-    <div class="aanbod-e">
-      <p>Bekijk aanbod</p>
-    </div>
-  </article>
-  <article class="huis-mini-e">
-    <img src="../images/panddetail/fotopand.jpg" alt="Foto pand">
-    <div class="beschrijving-mini-e">
-      <h3>Nieuwbouw woning</h3>
-      <img src="../images/Aanbod/piggy-bank.svg" alt="icon geldvarken">
-      <p>Investment: €270 727,16</p>
-      <img src="../images/Aanbod/Compass-48.png" alt="icon locatie">
-      <p>Locatie: Overpelt</p>
-    </div>
-    <div class="aanbod-e">
-      <p>Bekijk aanbod</p>
-    </div>
-  </article>
-  <article class="huis-mini-e">
-    <img src="../images/panddetail/fotopand.jpg" alt="Foto pand">
-    <div class="beschrijving-mini-e">
-      <h3>Nieuwbouw woning</h3>
-      <img src="../images/Aanbod/piggy-bank.svg" alt="icon geldvarken">
-      <p>Investment: €270 727,16</p>
-      <img src="../images/Aanbod/Compass-48.png" alt="icon locatie">
-      <p>Locatie: Overpelt</p>
-    </div>
-    <div class="aanbod-e">
-      <p>Bekijk aanbod</p>
-    </div>
-  </article>
-  <article class="huis-mini-e">
-    <img src="../images/panddetail/fotopand.jpg" alt="Foto pand">
-    <div class="beschrijving-mini-e">
-      <h3>Nieuwbouw woning</h3>
-      <img src="../images/Aanbod/piggy-bank.svg" alt="icon geldvarken">
-      <p>Investment: €270 727,16</p>
-      <img src="../images/Aanbod/Compass-48.png" alt="icon locatie">
-      <p>Locatie: Overpelt</p>
-    </div>
-    <div class="aanbod-e">
-      <p>Bekijk aanbod</p>
-    </div>
-  </article>
-  <article class="huis-mini-e">
-    <img src="../images/panddetail/fotopand.jpg" alt="Foto pand">
-    <div class="beschrijving-mini-e">
-      <h3>Nieuwbouw woning</h3>
-      <img src="../images/Aanbod/piggy-bank.svg" alt="icon geldvarken">
-      <p>Investment: €270 727,16</p>
-      <img src="../images/Aanbod/Compass-48.png" alt="icon locatie">
-      <p>Locatie: Overpelt</p>
-    </div>
-    <div class="aanbod-e">
-      <p>Bekijk aanbod</p>
-    </div>
-  </article>
-  <article class="huis-mini-e">
-    <img src="../images/panddetail/fotopand.jpg" alt="Foto pand">
-    <div class="beschrijving-mini-e">
-      <h3>Nieuwbouw woning</h3>
-      <img src="../images/Aanbod/piggy-bank.svg" alt="icon geldvarken">
-      <p>Investment: €270 727,16</p>
-      <img src="../images/Aanbod/Compass-48.png" alt="icon locatie">
-      <p>Locatie: Overpelt</p>
-    </div>
-    <div class="aanbod-e">
-      <p>Bekijk aanbod</p>
-    </div>
-  </article>
-  <article class="huis-mini-e">
-    <img src="../images/panddetail/fotopand.jpg" alt="Foto pand">
-    <div class="beschrijving-mini-e">
-      <h3>Nieuwbouw woning</h3>
-      <img src="../images/Aanbod/piggy-bank.svg" alt="icon geldvarken">
-      <p>Investment: €270 727,16</p>
-      <img src="../images/Aanbod/Compass-48.png" alt="icon locatie">
-      <p>Locatie: Overpelt</p>
-    </div>
-    <div class="aanbod-e">
-      <p>Bekijk aanbod</p>
-    </div>
-  </article>
+  <div class="container-blok-e">
+    <article class="huis-blok-e">
+      <img src="../images/panddetail/fotopand.jpg" alt="Foto pand">
+      <div class="beschrijving-blok-e">
+        <h3>Nieuwbouw woning</h3>
+        <img src="../images/Aanbod/piggy-bank.svg" alt="icon geldvarken">
+        <p>Investment: €270 727,16</p>
+        <img src="../images/Aanbod/Compass-48.png" alt="icon locatie">
+        <p>Locatie: Overpelt</p>
+      </div>
+      <div class="aanbod-blok-e">
+        <p>Bekijk aanbod</p>
+      </div>
+    </article>
+    <article class="huis-blok-e">
+      <img src="../images/panddetail/fotopand.jpg" alt="Foto pand">
+      <div class="beschrijving-blok-e">
+        <h3>Nieuwbouw woning</h3>
+        <img src="../images/Aanbod/piggy-bank.svg" alt="icon geldvarken">
+        <p>Investment: €270 727,16</p>
+        <img src="../images/Aanbod/Compass-48.png" alt="icon locatie">
+        <p>Locatie: Overpelt</p>
+      </div>
+      <div class="aanbod-blok-e">
+        <p>Bekijk aanbod</p>
+      </div>
+    </article>
+    <article class="huis-blok-e">
+      <img src="../images/panddetail/fotopand.jpg" alt="Foto pand">
+      <div class="beschrijving-blok-e">
+        <h3>Nieuwbouw woning</h3>
+        <img src="../images/Aanbod/piggy-bank.svg" alt="icon geldvarken">
+        <p>Investment: €270 727,16</p>
+        <img src="../images/Aanbod/Compass-48.png" alt="icon locatie">
+        <p>Locatie: Overpelt</p>
+      </div>
+      <div class="aanbod-blok-e">
+        <p>Bekijk aanbod</p>
+      </div>
+    </article>
 
-  <section class="in-de-kijker-e">
-    <h1>&lt;</h1>
-    <img src="../images/panddetail/fotopand.jpg" alt="Foto pand">
-    <img src="../images/Aanbod/typisch_brugs_huisje.jpeg" alt="Foto pand">
-    <h1>&gt;</h1>
-  </section>
+    <section class="in-de-kijker-blok-e">
+      <h1>In de kijker</h1>
+      <div class="scroll-blok-e">
+        <img src="../images/Aanbod/duplex-appartement.jpeg" alt="Foto pand">
+        <img src="../images/panddetail/fotopand.jpg" alt="Foto pand">
+        <img src="../images/Aanbod/nieuwbouw.jpeg" alt="Foto pand">
+        <img src="../images/Aanbod/duplex-appartement.jpeg" alt="Foto pand">
+        <img src="../images/Aanbod/nieuwbouw.jpeg" alt="Foto pand">
+      </div>
+    </section>
+  </div>
+
+
 
 
 </body>
