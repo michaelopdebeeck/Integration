@@ -118,14 +118,12 @@ a.menu-knop:link,
 a.menu-knop:visited,
 a.menu-knop:active {
     float: right;
-    
     text-decoration: none;
     color: white;
-    
     border-bottom: 3px solid #0E446D;
-
     padding: 0.5em 0;
     margin: 1.5em;
+    margin-bottom: 0.5em;
 }
 
 a.menu-knop:hover {
@@ -146,6 +144,10 @@ a.menu-knop:focus {
     color: white;
     
     border-bottom: 3px solid #F0652F;
+}
+
+header a#taal, header div.aanmelden {
+    display: none;
 }
 
 header nav {
