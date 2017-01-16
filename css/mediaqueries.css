@@ -132,9 +132,16 @@
         width: 45%;
     }
     
-    main#login form {
+    main#login form#registreren {
         float: left;
         width: 50%;
     }
-
+    
+    main#login form#login {
+        max-width: 400px;
+    }
+    
+    main#login form#login a img {
+        max-width: 200px;
+    }
 }
