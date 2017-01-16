@@ -39,7 +39,7 @@
         
     }
 
-    div.container {
+    .container {
         max-width: 75%;
         margin: 0 auto;
         position: relative;
@@ -53,6 +53,10 @@
         position: relative;
         z-index:3;
     }
+    
+    header nav {
+    clear: both;
+}
     
     header nav ul li a:link,
     header nav ul li a:visited,
@@ -120,3 +124,17 @@
         color: #F0652F;
     }
 
+}
+@media screen and (min-width: 750px) {
+    main#login ul#voordelen {
+        float: right;
+        display: block;
+        width: 45%;
+    }
+    
+    main#login form {
+        float: left;
+        width: 50%;
+    }
+
+}

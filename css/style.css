@@ -88,6 +88,11 @@ header {
     font-family: 'montserratsemibold';
     text-transform: uppercase;
 }
+.container {
+    max-width: 75%;
+    margin: 0 auto;
+    position: relative;
+}
 
 a.logo:link,
 a.logo:visited,
@@ -102,7 +107,6 @@ a.logo:active {
     text-indent: -9999px;
     
     margin-top: 1.75em;
-    margin-left: 1.75em;
 }
 
 a.menu-knop:link,
@@ -115,6 +119,7 @@ a.menu-knop:active {
     padding: 0.5em 0;
     margin: 1.5em;
     margin-bottom: 0.5em;
+    margin-right: 0em;
 }
 
 a.menu-knop:hover {
@@ -159,7 +164,6 @@ header nav ul li a:hover {
 header ul#register {
     display: none;
 }
-
 
 footer {
     background-color: #E2E0DF;
@@ -230,7 +234,7 @@ footer div.powered p a:hover {
 ------------------------------------------ */
 
 /* ------------------------------------------
-           NIEUWS
+           LOGIN en REGISTREREN
 ------------------------------------------ */
 main#login h1 {
     text-align: center;
@@ -242,13 +246,28 @@ main#login h2 {
     color: #1E7BB7;
 }
 
+main#login ul#voordelen {
+    list-style:initial;
+}
+
+main#login ul#voordelen li {
+    font-family: 'montserratlight';
+    font-size: 0.85em;
+    color: #0E446D;
+    margin: 1em 0;
+}
+
+main#login ul#voordelen li span { 
+    font-family: 'montserratregular';
+}
+
 main#login form {
-    width: 80%;
+    width: 100%;
     margin: 1em auto;
 }
 
 main#login form input[type="text"] {
-    width: 98%;
+    width: 95%;
     margin: 0.5em 0;
     display: block;
     color: #0E446D;
@@ -263,7 +282,8 @@ main#login form input[type="radio"] {
 }
     
 main#login form input[type="submit"] {
-    width: 90%;
+    width: 75%;
+    display: block;
     border: 0;
     background-color: #F0652F;
     color: white;
@@ -271,17 +291,15 @@ main#login form input[type="submit"] {
     border-radius: 2px;
     cursor: pointer;
     padding: 0.5em;
-    margin: 1em;
+    margin: 1em auto;
     }
 
-main#login a {
-    width: 50%;
-    margin-bottom: 1em;
-}
+
 
 main#login a img {
-    width: 90%;
-    margin: 0.24em 1em;
+    width: 65%;
+    display: block;
+    margin: 1em auto;
 }
 
 main#login p {
