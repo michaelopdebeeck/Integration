@@ -231,6 +231,14 @@ body h1 {
   padding: .7em;
 }
 
+.aanbod-blok-e a {
+  text-decoration: none;
+}
+
+.aanbod-e a {
+  text-decoration: none;
+}
+
 .scroll-blok-e {
   width: 700%px;
   overflow-y: hidden;
