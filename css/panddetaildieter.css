@@ -47,13 +47,7 @@
     display: block;
 }
 
-/*
-.detailpand h1{
-    font-family: 'montserratbold';
-    color: #0E446D;
-    font-size: 1.2em;
-}
-*/
+
 .detailpand hr{
     margin: 0;
 }
@@ -116,13 +110,6 @@
     background-color: #082840;
     text-decoration: underline;
 }
-/*
-.panduitleg h3{
-    font-family: 'montserratregular';
-    color: darkgray;
-    font-size: 1em;
-}
-*/
 
 .panduitleg article p{
     font-weight: 600;
@@ -155,19 +142,9 @@
     font-weight: 600;
 }
 
-/*
-.detailpand h4{
-    font-family: 'montserratbold';
-    color: #0E446D;
-    font-size: 1em;
-    margin-top: 50px;
-}
-*/
-
 .brugshuizen{
     width: 100%;
     margin: 0px auto;
-/*    text-align: center;*/
 }
 
 .brugshuisje{
@@ -178,11 +155,9 @@
     margin-right: 2%;
 }
 
-/*
 .brugshuisje:last-of-type{
     margin: 0;
 }
-*/
 
 .brugshuisje figure img{
     width: 100%;
@@ -328,6 +303,34 @@
 
 /*Mediaqueries*/
 
-@media screen and (min-width: 650px)
+@media screen and (max-width: 650px){
+
+    .detailpand{
+        width: 90%;
+    }  
+    .limbo{
+    width: 70px;
+    height: 35px;
+}
+    .panduitleg{
+        width: 100%;
+}
+    .panduitleg img{
+    width: 100%;
+}
+    .dbutton, .cbutton{
+    width: 100%;
+}
+    .pandtables{
+    width: 100%;
+    margin-top: 10px;
+    float: none;
+}
+    .pandtables li .email{
+    width: 20%;
+    padding: 4.5px 0;
+}
+
+}
     
     
