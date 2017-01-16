@@ -7,7 +7,7 @@
 }
 
 footer {
-  height : 50px;
+
 }
 
 .photo-container-s p{
@@ -60,8 +60,14 @@ footer {
   background-color : rgba(10,10,10,0.5);
 }
 
-.overons h3 {
+.overons h2 {
   padding : 30px 10px 15px 0px;
+  margin-left : 10px;
+  margin-right : 10px;
+  margin-top : 0px;
+}
+.overons h1 {
+  margin-left : 5px;
 }
 /*----------------------------------TEXT CONTAINER-------------------------------*/
 .text-container-s{
@@ -128,13 +134,20 @@ footer {
   .text-container-s {
     clear : both;
   }
-  .overons h2 {
-    width : 800px;
-    margin : 50px auto 5px auto;
+  .text-container-s p {
+    margin-left : 0px;
+    padding-left : 5%;
+    padding-right : 5%;
+  }
+  .overons h1 {
+   margin-top : 50px;
   }
   .overons hr {
     width : 800px;
     margin : 0px auto 1px auto;
+  }
+  .overons h2{
+     margin-left : 5%;
   }
 }
 @media screen and (min-width: 800px) {
@@ -142,7 +155,7 @@ footer {
     margin-left : 12.5%;
     width : 75%;
   }
-  .overons h2 {
+  .overons h1 {
     margin-left : 12.5%;
   }
   .photo-container-s {
