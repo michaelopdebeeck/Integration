@@ -3,6 +3,7 @@
 
 <head>
   <title>Home - Investr</title>
+  <link rel="icon" type="image/png" href="images/Investr_logo_header.png">
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="css/reset.css" />
   <link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -16,7 +17,7 @@
 
 <body>
   <section class="EEN_L">
-    <header>
+    <header id="top">
       <div class="container"> <a class="logo" href="../index.html" title="Investr">investr</a> <a class="menu-knop" href="#"><span class="hamburger-lines">&#9776;</span> menu</a>
         <nav class="menu">
           <ul>
@@ -47,7 +48,8 @@
       <form>
         <h1>Investing Made Easy</h1>
         <input class="Zoekbalk" type="text" placeholder="Locatie (stad of postcode)">
-        <input class="button" type="button" value="Zoek">
+        <a href="pages/aanbod.html">
+          <input type="button" class="button" value="Zoek"> </a>
         <div class="details">
           <select name="type vastgoed" class="type_vastgoed">
             <option value="Huis">Huis </option>
@@ -79,22 +81,30 @@
             <option value="25 jaar">25 jaar</option>
           </select>
         </div>
-        <input class="button_M" type="button" value="Zoek"> </form>
+        <a href="pages/aanbod.html">
+          <input class="button_M" type="button" value="Zoek"> </a>
+      </form>
   </section>
   <section class="TWEE_L">
     <h1>Waarom Investr?</h1>
     <div class="BOL1">
       <h2>Zoek</h2> <img src="images/Homepage/Bol1.png">
       <p>Geef zoekcriteria in die voor uw investeringen belangrijk zijn en maak uw persoonlijke shortlist van vastgoedinvesteringen.</p>
-      <input type="button" class="button" value="Zoek"> </div>
+      <a href="#top">
+        <input type="button" class="button" value="Zoek"> </a>
+    </div>
     <div class="BOL2">
       <h2>Bekijk</h2> <img src="images/Homepage/Bol2.png">
       <p>Onze site biedt u de mogelijkheid om ons aanbod van panden op eigen tempo te bekijken en uw investering te plannen van vastgoedinvesteringen.</p>
-      <input type="button" class="button" value="Aanbod"> </div>
+      <a href="pages/aanbod.html">
+        <input type="button" class="button" value="Aanbod"> </a>
+    </div>
     <div class="BOL3">
       <h2>Vergelijk</h2> <img src="images/Homepage/Bol3.png">
       <p>Dankzij de door ons berekende gegevens en onze handige vergelijk functie kan u snel en eenvoudig vergelijken en de investering zoeken die het best bij u past </p>
-      <input type="button" class="button" value="Registreer"> </div>
+      <a href="pages/registreren.html">
+        <input type="button" class="button" value="Registreer"> </a>
+    </div>
     <div class="Appear"></div>
     <div class="OverLay">
       <svg width="100%" height="100%" viewBox="0 0 100 70" version="1.1" xmlns="http://www.w3.org/2000/svg">>
@@ -112,30 +122,32 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nulla dui, lobortis a dignissim et, ultrices ut magna. Sed eu mauris nec arcu facilisis posuere. Donec risus ligula, tincidunt at finibus quis, fringilla quis odio. Vestibulum lobortis aliquet tellus, vitae consequat ligula aliquam ac. </p>
       </div>
     </article>
-    <article> <img src="images/Homepage/Nieuws3.png" alt="Huizen ook in de supermarkt">
+    <article> <img src="images/Homepage/Nieuws2.png" alt="Huizen ook in de supermarkt">
       <div class="Tekst">
         <h2>Huizen ook in de supermarkt</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nulla dui, lobortis a dignissim et, ultrices ut magna. Sed eu mauris nec arcu facilisis posuere. Donec risus ligula, tincidunt at finibus quis, fringilla quis odio. Vestibulum lobortis aliquet tellus, vitae consequat ligula aliquam ac.</p>
       </div>
     </article>
-    <input class="button" type="button" value="Meer nieuws"> </section>
+    <a href="pages/nieuws.html">
+      <input class="button" type="button" value="Meer nieuws"> </a>
+  </section>
   <section class="VIER_L">
     <h1>Social media</h1>
-    <div class="social">
+    <div class="social ">
       <a href="https://www.facebook.com/investr.be/?ref=hl">
-        <article class="FB"> <img src="images/Homepage/facebook_47004.png" alt="facebook">
+        <article class="FB link"> <img src="images/Homepage/facebook_47004.png" alt="facebook">
           <div class="Tekst">
             <h2>Like op Facebook</h2> </div>
         </article>
       </a>
       <a href="https://twitter.com/Investr_be">
-        <article class="Twitter"> <img src="images/Homepage/Twitter_bird_logo_2012.svg" alt="twitter">
+        <article class="Twitter link"> <img src="images/Homepage/Twitter_bird_logo_2012.svg" alt="twitter">
           <div class="Tekst">
             <h2>Tweet ons op Twitter</h2> </div>
         </article>
       </a>
       <a href="https://www.linkedin.com/company/10421591?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A10421591%2Cidx%3A2-2-5%2CtarId%3A1457539887516%2Ctas%3AINvestr">
-        <article class="LinkedIn"> <img src="images/Homepage/Linkedin_circle.svg_.png" alt="Steeds meer huizen te koop">
+        <article class="LinkedIn link"> <img src="images/Homepage/Linkedin_circle.svg_.png" alt="LinkedIn">
           <div class="Tekst">
             <h2>Vind ons op LinkedIn</h2> </div>
         </article>

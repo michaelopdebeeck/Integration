@@ -40,6 +40,7 @@ h1 {
   width: 80%;
   margin: 0% 10%;
   padding: 0;
+  padding-left: 1%;
 }
 
 .button_M {
@@ -183,7 +184,8 @@ select {
 
 .VIER_L h2 {
   float: left;
-  font-size: 1em;
+  text-align: center;
+  width: 70%;
   padding-top: 2%;
 }
 
@@ -199,10 +201,15 @@ select {
 
 .Blog h2 {
   margin-bottom: 5%;
+  text-align: left;
 }
 
 .Blog button {
   margin-top: 10%;
+}
+
+.VIER_L p {
+  margin-top: 5%;
 }
 
 .scroll {
@@ -220,6 +227,16 @@ select {
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MEDIA-------*/
 
 @media screen and (min-width: 650px) {
+  a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .button:hover {
+    background-color: white;
+    color: #F0652F;
+    border: solid #F0652F;
+    cursor: pointer;
+  }
   .EEN_L {
     box-sizing: border-box;
     background: fixed;
@@ -249,9 +266,15 @@ select {
     color: white;
     box-sizing: border-box;
     background-color: #F0652F;
+    text-decoration: none;
+  }
+  .EEN_L .button:hover {
+    border: none;
+    background-color: white;
+    color: #F0652F;
   }
   .details {
-    width: 70%;
+    width: 71.4%;
     margin-left: 10%;
   }
   .EEN_L .button_M {
@@ -265,7 +288,7 @@ select {
     width: 32.5%;
     margin: 0.8% 0%;
   }
-  /*------------------------------------*/
+  /*---------------WIE---------------------*/
   .OverLay {
     display: block;
     z-index: -2;
@@ -275,6 +298,7 @@ select {
   }
   .Appear {
     display: block;
+    float: right;
     z-index: -1;
     padding-bottom: 70%;
     width: 100%;
@@ -331,7 +355,8 @@ select {
   }
   .TWEE_L h2 {
     text-align: center;
-    width: 100%;
+    width: 70%;
+    margin-left: 10%;
   }
   .TWEE_L img {
     width: 70%;
@@ -366,6 +391,9 @@ select {
     background-image: url("../images/Homepage/Background.2.png");
     background-size: cover;
     background-repeat: no-repeat;
+  }
+  .DRIE_L .button:hover {
+    border: none;
   }
   .DRIE_L h1 {
     width: 80%;
@@ -426,14 +454,14 @@ select {
     margin: 5% 0;
     width: 14%;
     float: right;
-    margin: 3% 6.5% 5% 0%;
+    margin: 3% 7% 5% 0%;
   }
   /*---------------------------------SOCIAL MEDIA-----*/
   .VIER_L {
     box-sizing: border-box;
     overflow: hidden;
     display: inline-block;
-    padding-bottom: 6%;
+    padding-bottom: 4%;
     height: 100%;
     width: 100%;
     background-color: #e6e6e6;
@@ -452,7 +480,7 @@ select {
     width: 30%;
     height: 50%;
   }
-  .VIER_L article {
+  .VIER_ .VIER_L article {
     background-color: white;
     float: left;
     width: 100%;
@@ -468,6 +496,7 @@ select {
     width: 15%;
     padding: 0;
     float: left;
+    color: black;
   }
   .VIER_L p {
     width: 80%;
@@ -484,9 +513,9 @@ select {
     top: 0;
     text-decoration: none;
     opacity: 0.8;
-    width: 100%;
+    width: 110%;
     padding-bottom: 0%;
-    margin-left: 4%;
+    margin-left: %;
     margin-top: 11%;
     background: white;
   }
@@ -504,7 +533,7 @@ select {
     float: left;
     width: 60%;
     margin-left: 5%;
-    margin-bottom: 0%;
+    margin-bottom: 1%;
     width: 54%;
   }
   .Blog p {
@@ -532,19 +561,24 @@ select {
   }
   .scroll {
     position: relative;
-    margin: 5% 5% 0% 20%;
+    margin: 0% 5% 0% 15%;
     width: 80%;
-    float: left height: 160px;
+    float: left;
     overflow: scroll;
   }
   .Blog img {
-    width: 10%;
+    width: 6%;
     float: left;
   }
 }
 
-VIER_L article:hover {
-  box-shadow: 10px 10px 5px black;
+.VIER_L .link:hover {
+  box-sizing: border-box;
+  background-color: #F0652F
+}
+
+.link:hover h2 {
+  background-color: #F0652F
 }
 
 
