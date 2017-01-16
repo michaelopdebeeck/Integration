@@ -106,16 +106,6 @@
 .cbutton{
     background-color: #0E446D;
 }
-
-.dbutton:hover{
-    background-color: #dc4910;
-    text-decoration: underline;
-}
-
-.cbutton:hover{
-    background-color: #082840;
-    text-decoration: underline;
-}
 /*
 .panduitleg h3{
     font-family: 'montserratregular';
@@ -276,7 +266,6 @@
     background-color: #0E446D;
     color: white;
     padding: 10px 0 10px 30px;
-    margin: 0;
 }
 
 .pandtables iframe{
@@ -289,7 +278,6 @@
     color: white;
     background-color: #F0652F;
     padding: 10px 0 10px 0;
-    margin: 0;
 }
 
 .socialmediad{
@@ -309,17 +297,10 @@
     float: left;
     background-color: #F0652F;
     color: white;
-    padding: 5px 0 0 0;
+    padding: 10px 0 10px 0;
     border-top: 1px solid white;
 }
-.pandtables li img{
-    width: 20%;
-}
 
-.pandtables li .email{
-    width: 20%;
-    padding: 3px 0;
-}
 .fb{
     border-left: 1px solid white;
     border-right: 1px solid white;
