@@ -294,8 +294,6 @@ main#login form input[type="submit"] {
     margin: 1em auto;
     }
 
-
-
 main#login a img {
     width: 65%;
     display: block;
@@ -316,4 +314,46 @@ main#login p a:visited {
 
 main#login p a:hover {
     color: #F0652F;
+}
+
+/* ------------------------------------------
+           EINDE LOGIN en REGISTREREN
+------------------------------------------ */
+
+/* ------------------------------------------
+           NIEUWS
+------------------------------------------ */
+main#nieuws a img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+main#nieuws h2 {
+    background-color: #F0652F;
+    text-align-last: center;
+    color: white;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    font-family: 'montserratregular';
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+main#nieuws div.nieuwsartikel {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 1em 0;
+}
+
+main#nieuws div.nieuwsartikel a img {
+    width: 35%;
+    display: block;
+    float: left;
+}
+
+main#nieuws div.nieuwsartikel a p {
+    width: 60%;
+    display: block;
+    float: right;
+    font-family: 'montserratlight';
+    font-size: 0.8em;
 }
