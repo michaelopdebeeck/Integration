@@ -159,17 +159,30 @@
     margin: 0;
 }
 
-.brugshuisje figure img{
+.brugshuisje img{
     width: 100%;
 }
 
-.brugshuisje figcaption{
+.brugshuisje{
     font-family:'montserratbold';
-    color: black;
+    color: black; 
     font-size: 1em;
-    padding: 10px 0;
+    padding: 0 0 10px 0;
     text-align: center;
-    background-color: #E2E0DF;
+    background-color: 	#FFFAFA;
+}
+
+.brugshuisje p{
+    font-family:'montserratbold';
+    color: black; 
+    font-size: 1em;
+    padding: 0 0 5px 0;
+    text-align: center;
+    border-bottom: 3px solid darkgrey;
+}
+
+.brugshuisje .bekijkd{
+    border: 0;
 }
 
 .brugshuisje table, .brugshuisje th, .brugshuisje td{
