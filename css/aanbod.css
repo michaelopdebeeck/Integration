@@ -296,7 +296,7 @@ body h1 {
     background-color: #F0652F;
   }
   .details {
-    width: 70%;
+    width: 70.6%;
     margin-left: 10%;
   }
   .EEN_L .button_M {
@@ -382,7 +382,7 @@ body h1 {
     white-space: nowrap;
   }
   .in-de-kijker-e {
-    margin: 1em;
+    margin: 1em 0;
   }
   /*--------------------- AANBOD BLOK 650px ---------------------*/
   .weergave-blok-e {
@@ -488,12 +488,21 @@ body h1 {
     margin: 0 auto;
     position: relative;
   }
+  .details {
+    width: 70.9%;
+    margin-left: 10%;
+  }
 }
 
 @media screen and (min-width: 1020px) {
+  .details {
+    width: 71.2%;
+    margin-left: 10%;
+  }
   .sorteren-e {
     max-width: 12.5%;
-    margin: 2% auto 0 0;
+    margin: 1.6% auto 0 0;
+    padding-left: 2%;
     position: relative;
     float: left;
     display: block;
@@ -522,7 +531,8 @@ body h1 {
   }
   .panden-vergelijken-e {
     max-width: 12.5%;
-    margin: 2% auto 0 0;
+    margin: 1.6% auto 0 0;
+    padding-right: 2%;
     position: relative;
     text-align: right;
     float: right;
@@ -572,13 +582,14 @@ body h1 {
     text-align: left;
     padding: .5em;
   }
-  .container-blok-e {
+  .container-e {
     max-width: 732px;
   }
   /*--------------------- AANBOD BLOK ---------------------*/
   .sorteren-blok-e {
     max-width: 12.5%;
-    margin: 2% auto 0 0;
+    margin: 1.6% auto 0 0;
+    padding-left: 2%;
     position: relative;
     float: left;
     display: block;
@@ -607,7 +618,8 @@ body h1 {
   }
   .panden-vergelijken-blok-e {
     max-width: 12.5%;
-    margin: 2% auto 0 0;
+    margin: 1.6% auto 0 0;
+    padding-right: 2%;
     position: relative;
     text-align: right;
     float: right;
@@ -656,5 +668,8 @@ body h1 {
     display: block;
     text-align: left;
     padding: .5em;
+  }
+  .container-blok-e {
+    max-width: 732px;
   }
 }
