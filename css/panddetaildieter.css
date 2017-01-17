@@ -52,6 +52,9 @@
     margin: 0;
 }
 
+.detailpand h3{
+    margin: 10px 0;
+}
 .detailpand .adres{
     font-family: 'montserratregular';
     color: darkgray;
@@ -63,6 +66,7 @@
 
 .detailpand h2{
     color: darkgrey;
+    margin: 20px 0 30px 0;
 }
 
 .limbo{
@@ -99,6 +103,7 @@
 
 .cbutton{
     background-color: #0E446D;
+    margin-bottom: 30px;
 }
 
 .dbutton:hover{
@@ -114,6 +119,7 @@
 .panduitleg article p{
     font-weight: 600;
     font-size: 1em;
+    margin-bottom: 30px;
 }
 
 .panduitleg table{
@@ -145,7 +151,7 @@
 
 .brugshuizen{
     width: 100%;
-    margin: 0px auto;
+    margin: 50px auto;
 }
 
 .brugshuisje{
@@ -225,7 +231,7 @@
 
 .pandtables table{
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 .pandtables th{
@@ -278,7 +284,7 @@
 
 .pandtables iframe{
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 .pandtables h3{
