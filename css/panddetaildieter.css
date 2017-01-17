@@ -299,6 +299,7 @@
     color: white;
     padding: 5px 0 0 0;
     border-top: 1px solid white;
+    
 }
 .pandtables li img{
     width: 20%;
@@ -306,7 +307,7 @@
 
 .pandtables li .email{
     width: 20%;
-    padding: 3px 0;
+    padding: 3.5px 0;
 }
 .fb{
     border-left: 1px solid white;
@@ -322,8 +323,8 @@
         width: 90%;
     }  
     .limbo{
-    width: 70px;
-    height: 35px;
+    width: 60px;
+    height: 30px;
 }
     .panduitleg{
         width: 100%;
@@ -343,7 +344,27 @@
     width: 20%;
     padding: 4.5px 0;
 }
+    .vergunningen{
+        font-size: 0.6em;
+    }
+    .panduitleg article p{
+        font-size{
+            0.1em;
+        }
+    }
 
+}
+
+@media screen and (max-width: 1530px){
+   
+    .detailpand{
+    width: 80%;
+    }
+    
+    .pandtables li{
+    display: inline;
+    width: 33.15%;
+}
 }
     
     
