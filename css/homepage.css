@@ -338,8 +338,8 @@ select {
     padding-bottom: 5%;
   }
   .TWEE_L h1 {
-    width: 80%;
-    margin: 5% 20% 0% 10%;
+    width: 70%;
+    margin: 5% 15% 0% 15%;
     text-align: center;
     font-size: 40px;
   }
@@ -348,7 +348,7 @@ select {
     width: 20%;
     margin-top: 0%;
     margin-right: 0%;
-    margin-left: 12%;
+    margin-left: 10%;
     height: 100%;
   }
   .BOL2 {
@@ -356,14 +356,14 @@ select {
     width: 20%;
     margin-top: 10%;
     margin-right: 0;
-    margin-left: 9%;
+    margin-left: 10%;
   }
   .BOL3 {
     float: left;
     width: 20%;
     margin-top: 5%;
     margin-right: 0;
-    margin-left: 7%;
+    margin-left: 10%;
   }
   .button {
     font-family: 'montserratbold';
@@ -379,28 +379,28 @@ select {
   .TWEE_L h2 {
     text-align: center;
     width: 70%;
-    margin-left: 10%;
+    margin-left: 15%;
   }
   .TWEE_L img {
-    width: 70%;
+    width: 80%;
     margin-left: 10%;
     filter: grayscale(100%)
   }
   .TWEE_L:hover img {
-    width: 70%;
-    margin-left: 10%;
     transition: filter 2s;
     filter: none;
   }
   .TWEE_L p {
     text-align: center;
+    font-size: 0.8em;
     width: 70%;
     margin: 0;
-    margin-left: 10%;
+    margin-left: 15%;
   }
-  .TWEE_L button {
-    width: 50%;
-    margin-left: 25%;
+  .TWEE_L .button {
+    width: 70%;
+    margin-top: 10%;
+    margin-left: 15%;
     text-align: center;
   }
   /*---------------NIEUWS--------------*/
@@ -448,7 +448,7 @@ select {
   .DRIE_L p {
     width: 80%;
     margin-top: 2%;
-    margin-bottom: 10%;
+    margin-bottom: 15%;
     top: 0;
   }
   .DRIE_L h2 {
@@ -607,7 +607,7 @@ select {
     width: 78%;
     margin-left: 15%;
     margin-right: 5%;
-    margin-bottom: 3%;
+    margin-bottom: 0%;
   }
 }
 
