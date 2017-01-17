@@ -152,6 +152,7 @@
     }
     
     
+    main#nieuws a.nieuwsartikel:nth-child(odd) {
         width: 49%;
         display: block;
         float: left;
