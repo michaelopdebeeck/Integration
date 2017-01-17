@@ -237,7 +237,7 @@ select {
   .next {
     display: block;
     width: 20%;
-    margin-left: 42%;
+    margin-left: 44%;
     margin-top: 10%;
     margin-bottom: 2%;
     filter: grayscale(80);
@@ -594,7 +594,11 @@ select {
   }
   .VIER_L .link:hover {
     box-sizing: border-box;
-    background-color: #F0652F
+    background-color: #F0652F;
+    color: white;
+  }
+  .VIER_L .link:hover h2 {
+    color: white;
   }
   .link:hover h2 {
     background-color: #F0652F
