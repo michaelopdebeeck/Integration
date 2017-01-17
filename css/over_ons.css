@@ -9,7 +9,10 @@
 footer {
 
 }
-
+.overons p {
+  margin-top : 0px;
+  margin-bottom : 0px;
+}
 .photo-container-s p{
   text-align : center;
   color : white;
@@ -81,6 +84,8 @@ footer {
 }
 .text-container-s p {
   color : black;
+  margin-top : 0px;
+  margin-bottom : 0px;
   padding : 0px 10px 20px 10px;
   font-size : 12px;
 }
@@ -135,7 +140,8 @@ footer {
     clear : both;
   }
   .text-container-s p {
-    margin-left : 0px;
+    margin-top : 0px;
+    margin-bottom : 0px;
     padding-left : 5%;
     padding-right : 5%;
   }
