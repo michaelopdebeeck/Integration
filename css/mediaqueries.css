@@ -150,4 +150,15 @@
     main#login form#login a img {
         max-width: 200px;
     }
+    
+    main#nieuws div.nieuwsartikel a img {
+        width: 150px;
+    }
+    
+    main#nieuws div.nieuwsartikel a p {
+        vertical-align: middle;
+        font-size: 1em;
+        width: 70%
+    }
+    
 }
