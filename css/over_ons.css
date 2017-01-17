@@ -36,10 +36,11 @@
   width : 100%;
 }
 .photo-container-s figure{
-  position: relative;
+
   display : block;
   width : 100%;
   background-color : #0E446D;
+  
 }
 .photo-container-s:first-of-type figure {
   background-color : white;
@@ -50,9 +51,9 @@
   display : block;
   text-align : center;
   box-sizing: border-box;
-  width: 100%;
-  position: absolute;
+  width: 90%;
   top : 0;
+  margin : 20px auto 0px auto;
   padding : 10px 10px;
   left: 0;
   z-index : 5;
@@ -60,10 +61,8 @@
 }
 
 .overons h2 {
-  padding : 30px 10px 15px 0px;
-  margin-left : 10px;
-  margin-right : 10px;
-  margin-top : 0px;
+  padding : 30px 10px 40px 0px;
+  margin : 0px 10px 0px 10px;
 }
 .overons h1 {
   text-align : center;
@@ -93,7 +92,7 @@
 /*---------------------------------------QUERRIES------------------------------------*/
 @media screen and (min-width: 440px) {
   .photo-container-s div {
-    100%;
+    padding-bottom : 40px;
   }
   .photo-container-s figure {
     width : 50%;
@@ -117,6 +116,7 @@
     width : 33.333%;
     float : left;
     clear : none;
+    padding-bottom : 0px;
   }
   .photo-container-s p {
     box-sizing : border-box;
