@@ -113,6 +113,7 @@
 
 .panduitleg article p{
     font-weight: 600;
+    font-size: 1em;
 }
 
 .panduitleg table{
@@ -148,6 +149,12 @@
 }
 
 .brugshuisje{
+    font-family:'montserratbold';
+    color: black; 
+    font-size: 1em;
+    padding: 0;
+    text-align: center;
+    background-color: 	#FFFAFA;
     width: 30%;
     display: inline-block;
     border: 3px solid darkgrey;
@@ -163,26 +170,28 @@
     width: 100%;
 }
 
-.brugshuisje{
-    font-family:'montserratbold';
-    color: black; 
-    font-size: 1em;
-    padding: 0 0 10px 0;
-    text-align: center;
-    background-color: 	#FFFAFA;
-}
-
 .brugshuisje p{
     font-family:'montserratbold';
     color: black; 
     font-size: 1em;
-    padding: 0 0 5px 0;
+    padding: 5px 0;
     text-align: center;
     border-bottom: 3px solid darkgrey;
 }
 
 .brugshuisje .bekijkd{
     border: 0;
+    color: white;
+    background-color: #F0652F;
+    border-radius: 5px;
+}
+
+.brugshuisje .bekijkd:hover{
+    border: 0;
+    color: white;
+    text-decoration: underline;
+    background-color: #dc4910;
+    border-radius: 5px;
 }
 
 .brugshuisje table, .brugshuisje th, .brugshuisje td{
@@ -294,12 +303,16 @@
 .pandtables li{
     display: inline;
     width: 33.20%;
+    height: 30px;
     float: left;
     background-color: #F0652F;
     color: white;
-    padding: 5px 0 0 0;
-    border-top: 1px solid white;
-    
+    padding: 5px 0;
+    border-top: 1px solid white;  
+}
+
+.pandtables li:hover{
+    background-color: #dc4910;
 }
 .pandtables li img{
     width: 20%;
@@ -340,31 +353,63 @@
     margin-top: 10px;
     float: none;
 }
+    .pandtables li{
+        height: 30px;
+    }
     .pandtables li .email{
-    width: 20%;
-    padding: 4.5px 0;
+        width: 20%;
+        padding-bottom: 5px;
 }
+     .pandtables li img{
+        width: 15%;
+}
+
     .vergunningen{
-        font-size: 0.6em;
+        font-size: 0.8em;
     }
     .panduitleg article p{
-        font-size{
-            0.1em;
-        }
+        font-size: 0.7em;
     }
+    .pandtables{
+        font-size: 0.8em;
+    }
+    .brugshuisje{
+        padding: 0;
+        margin-right: 0.5%;
+}
+    .brugshuisje th{
+    font-size: 0.5em;
+        padding: 10px 7px;
+}
+    .brugshuisje td{
+    font-size: 0.3em;
+        padding-right: 7px;
+}
+
 
 }
 
-@media screen and (max-width: 1530px){
+@media screen and (max-width: 1024px){
    
     .detailpand{
-    width: 80%;
+        width: 85%;
     }
     
     .pandtables li{
-    display: inline;
-    width: 33.15%;
+        display: inline;
+        height: 10px;
+        width: 30%;
 }
+    .pandtables{
+        font-size: 0.9em;
+    }
+    .financieeldetail td, .financieeldetail th{
+        font-size: 0.7em;
+        padding: 10px 10px;
+    }
+    .vergunningen{
+        font-size: 0.7em;
+    }
 }
     
     
