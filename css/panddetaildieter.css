@@ -117,8 +117,6 @@
 }
 
 .panduitleg article p{
-    font-weight: 600;
-    font-size: 1em;
     margin-bottom: 30px;
 }
 
@@ -133,7 +131,8 @@
 }
 
 .vergunningen th{
-    font-family:'montserratbold';
+    font-family:'montserratregular';
+    font-weight: 600;
     color: black;
     background-color: #E2E0DF;
     font-size: 0.7em;
@@ -146,7 +145,6 @@
     color: black;
     font-size: 0.7em;
     padding: 10px;
-    font-weight: 600;
 }
 
 .brugshuizen{
