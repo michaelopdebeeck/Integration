@@ -127,14 +127,14 @@
 }
 
 .panduitleg th, .panduitleg td{
-    border: 1px solid #d9d9d9;
+    border: 1px solid #979797;
 }
 
 .vergunningen th{
     font-family:'montserratregular';
     font-weight: 600;
     color: black;
-    background-color: #E2E0DF;
+    background-color: #f0efef;
     font-size: 0.7em;
     padding: 10px;
     text-align: left;
@@ -142,7 +142,7 @@
 
 .vergunningen td{
     font-family:'montserratregular';
-    color: black;
+    color: #0E446D;
     font-size: 0.7em;
     padding: 10px;
 }
@@ -205,8 +205,9 @@
 }
 
 .brugshuisje th{
-    font-family: 'montserratbold';
-    color: black;
+    font-family: 'montserratlight';
+    color: #0E446D;
+    font-weight: 600;
     font-size: 0.8em;
     width: 50%;
     text-align: left;
@@ -214,7 +215,7 @@
 }
 
 .brugshuisje td{
-    font-family: 'montserratregular';
+    font-family: 'montserratlight';
     color: grey;
     font-size: 0.7em;
     padding-right: 15px;
@@ -233,7 +234,7 @@
 }
 
 .pandtables th{
-    font-family: 'montserratregular';
+    font-family: 'montserratlight';
     color: grey;
     font-size: 1em;
     text-align: left;
@@ -241,16 +242,15 @@
 }
 
 .pandtables td{
-    font-family: 'montserratregular';
+    font-family: 'montserratlight';
     color: #0E446D;
     font-size: 1em;
-    font-weight: 600;
     padding-bottom: 50px;
 }
 
 .financieeldetail td, .financieeldetail th{
     color: white;
-    padding: 10px 30px;
+    padding: 10px 10px;
 }
 
 .financieeldetail td{
@@ -273,10 +273,10 @@
     background-color: #58595B;
 }
 
-.pandtables h2{
+.pandtables h3{
     background-color: #0E446D;
     color: white;
-    padding: 10px 0 10px 30px;
+    padding: 10px 0 10px 10px;
     margin: 0;
 }
 
@@ -285,7 +285,7 @@
     margin-bottom: 60px;
 }
 
-.pandtables h3{
+.pandtables .delenvia{
     text-align: center;
     color: white;
     background-color: #F0652F;
