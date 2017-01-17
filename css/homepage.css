@@ -233,6 +233,10 @@ select {
     margin-left: 42%;
     margin-top: 10%;
     margin-bottom: 3%;
+    filter: grayscale(80);
+  }
+  .next:hover {
+    filter: grayscale(0);
   }
   a {
     text-decoration: none;
