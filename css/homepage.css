@@ -227,6 +227,13 @@ select {
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MEDIA-------*/
 
 @media screen and (min-width: 650px) {
+  .next {
+    display: block;
+    width: 20%;
+    margin-left: 42%;
+    margin-top: 10%;
+    margin-bottom: 3%;
+  }
   a {
     text-decoration: none;
     cursor: pointer;
@@ -241,6 +248,7 @@ select {
     box-sizing: border-box;
     background: fixed;
     height: 100%;
+    padding: 0;
     width: 100%;
     background-image: url("../images/Homepage/Background.png");
     background-size: cover;
