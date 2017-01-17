@@ -19,6 +19,10 @@ header {
   display: none;
 }
 
+.Registreer {
+  text-decoration: underline;
+}
+
 
 /*---------------------------------*/
 
@@ -109,9 +113,9 @@ select {
 }
 
 .TWEE_L img {
-  width: 80%;
+  width: 60%;
   margin-left: 5%;
-  margin: 0 10% 4% 10%;
+  margin: 0 20% 4% 20%;
 }
 
 .TWEE_L p {
@@ -119,9 +123,9 @@ select {
   margin: 5% 5% 5% 5%;
 }
 
-.TWEE_L button {
-  width: 90%;
-  margin-left: 5%;
+.TWEE_L .button {
+  width: 60%;
+  margin-left: 20%;
 }
 
 
@@ -133,8 +137,8 @@ select {
 }
 
 .DRIE_L article {
-  width: 80%;
-  margin: 0 10% 4% 10%;
+  width: 100%;
+  margin: 0 0% 5% 0%;
   background: white;
   overflow: hidden;
 }
@@ -200,7 +204,8 @@ select {
 }
 
 .VIER_L .Blog {
-  width: 80%;
+  width: 100%;
+  margin-left: 0
 }
 
 .Blog h2 {
@@ -219,10 +224,8 @@ select {
 .scroll {
   position: relative;
   margin-top: 5%;
-  width: 80%;
-  height: 160px;
-  overflow: scroll;
-  margin-left: 20%;
+  width: 90%;
+  margin-left: 5%;
   margin-right: 5%;
   margin-bottom: 5%;
 }
@@ -312,19 +315,23 @@ select {
     width: 100%;
     position: absolute;
   }
+  .X {
+    position: relative;
+    width: 100%;
+  }
   .Appear {
     display: block;
-    float: right;
+    float: left;
     z-index: -1;
     padding-bottom: 70%;
     width: 100%;
     position: absolute;
     background-color: white;
-    -webkit-transition: width 2s;
-    transition: width 2s;
+    -webkit-transition: margin-left 2s;
+    transition: margin-left 2s;
   }
   .TWEE_L:hover .Appear {
-    width: 0%;
+    margin-left: 100%;
   }
   .TWEE_L {
     overflow: hidden;
@@ -524,15 +531,14 @@ select {
     font-family: 'montserratbold';
     color: #0E446D;
     font-size: 1.2em;
-    line-height: 1;
+    line-height: ;
     position: inherit;
     top: 0;
     text-decoration: none;
     opacity: 0.8;
     width: 110%;
     padding-bottom: 0%;
-    margin-left: %;
-    margin-top: 11%;
+    margin-top: 8%;
     background: white;
   }
   .FB h2 {
@@ -553,7 +559,7 @@ select {
     width: 54%;
   }
   .Blog p {
-    width: 90%;
+    width: 95%;
     margin-left: 0;
     margin-right: 5%;
     margin-bottom: 5%;
@@ -561,7 +567,7 @@ select {
   .Blog h2 {
     width: 80%;
     margin-top: 2%;
-    margin-left: 6%;
+    margin-left: 4%;
     float: left;
   }
   .Blog h3 {
@@ -586,15 +592,23 @@ select {
     width: 6%;
     float: left;
   }
-}
-
-.VIER_L .link:hover {
-  box-sizing: border-box;
-  background-color: #F0652F
-}
-
-.link:hover h2 {
-  background-color: #F0652F
+  .VIER_L .link:hover {
+    box-sizing: border-box;
+    background-color: #F0652F
+  }
+  .link:hover h2 {
+    background-color: #F0652F
+  }
+  .scroll {
+    position: relative;
+    overflow: auto;
+    margin-top: 0%;
+    height: 160px;
+    width: 78%;
+    margin-left: 15%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+  }
 }
 
 
