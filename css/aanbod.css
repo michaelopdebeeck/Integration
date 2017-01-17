@@ -16,7 +16,7 @@ form h1 {
   border: none;
   width: 80%;
   margin: 0% 10%;
-  padding: 0;
+  padding-left: 1%;
 }
 
 .button_M {
@@ -369,6 +369,10 @@ body h1 {
     border-bottom-right-radius: 5px;
     float: inherit;
   }
+  .aanbod-e p:hover {
+    background-color: #dc4910;
+    text-decoration: underline;
+  }
   .scroll-e {
     width: 700%px;
     overflow-y: hidden;
@@ -461,6 +465,10 @@ body h1 {
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
   }
+  .aanbod-blok-e p:hover {
+    background-color: #dc4910;
+    text-decoration: underline;
+  }
   .scroll-blok-e {
     width: 700%px;
     overflow-y: hidden;
@@ -552,6 +560,11 @@ body h1 {
     width: 90%;
     border-radius: 7px;
     border: none;
+    text-decoration: none;
+  }
+  .panden-vergelijken-e input:hover {
+    background-color: #dc4910;
+    text-decoration: underline;
   }
   .panden-vergelijken-e h3 {
     font-family: 'montserratregular';
