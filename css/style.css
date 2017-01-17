@@ -332,29 +332,29 @@ main#nieuws h2 {
     text-align-last: center;
     color: white;
     padding: 0.5em;
-    margin: 0.5em 0;
+    margin: 0.25em 0;
     font-family: 'montserratregular';
     font-size: 1em;
     text-transform: uppercase;
 }
 
-main#nieuws div.nieuwsartikel {
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    margin: 1em 0;
-    display: block;
+main#nieuws a.nieuwsartikel {
     width: 100%;
+    display: block;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 0.5em 0
 }
 
-main#nieuws div.nieuwsartikel a img {
+main#nieuws a.nieuwsartikel li img {
     width: 35%;
     display: block;
     float: left;
 }
 
-main#nieuws div.nieuwsartikel a p {
-    width: 60%;
+main#nieuws a.nieuwsartikel li p {
+    width: 64%;
     display: block;
     float: right;
     font-family: 'montserratlight';
-    font-size: 0.8em;
+    font-size: 1em;
 }

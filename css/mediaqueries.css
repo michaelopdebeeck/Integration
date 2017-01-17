@@ -151,14 +151,15 @@
         max-width: 200px;
     }
     
-    main#nieuws div.nieuwsartikel a img {
-        width: 150px;
+    
+        width: 49%;
+        display: block;
+        float: left;
     }
     
-    main#nieuws div.nieuwsartikel a p {
-        vertical-align: middle;
-        font-size: 1em;
-        width: 70%
+    main#nieuws a.nieuwsartikel:nth-child(even) {
+        width: 49%;
+        display: block;
+        float: right;
     }
-    
 }
