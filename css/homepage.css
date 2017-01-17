@@ -1,4 +1,4 @@
-body {
+.Lennert body {
   width: 100%;
 }
 
@@ -25,6 +25,10 @@ header {
 .EEN_L {
   background-color: #0E446D;
   padding-bottom: 24%;
+}
+
+.next {
+  display: none;
 }
 
 h1 {
@@ -245,6 +249,7 @@ select {
     background-image: url("../images/Homepage/Background.png");
     background-size: cover;
     background-repeat: no-repeat;
+    padding-bottom: 0;
   }
   .EEN_L h1 {
     margin-top: 10%;
@@ -287,6 +292,14 @@ select {
     height: 40px;
     width: 32.5%;
     margin: 0.8% 0%;
+  }
+  .next {
+    display: block;
+    width: 2%;
+    margin-left: 48%;
+    margin-top: 13%;
+    opacity: 0.4;
+    margin-bottom: 5%;
   }
   /*---------------WIE---------------------*/
   .OverLay {
