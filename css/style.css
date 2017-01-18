@@ -275,10 +275,6 @@ main#login form input[type="text"] {
     border-radius: 2px;
     padding: 0.5em;
 }
-
-main#login form input[type="radio"] {
-   
-}
     
 main#login form input[type="submit"] {
     width: 75%;
@@ -324,31 +320,33 @@ main#login p a:hover {
 ------------------------------------------ */
 main#nieuws a img {
     width: 100%;
-    margin: 0 auto;
+    margin: 0.5em auto;
+}
+
+main#nieuws h1 {
+    text-align: center;
 }
 
 main#nieuws h2 {
-    background-color: #F0652F;
-    text-align-last: center;
-    color: white;
-    padding: 0.5em;
     margin: 0.25em 0;
-    font-family: 'montserratregular';
-    font-size: 1em;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
+main#nieuws ul {
+    
+}
 main#nieuws a.nieuwsartikel {
     width: 100%;
     display: block;
     border: 1px solid rgba(0, 0, 0, 0.2);
-    margin: 0.5em 0
+    margin: 0.5em 0;
 }
 
 main#nieuws a.nieuwsartikel li img {
     width: 35%;
     display: block;
     float: left;
+    margin: 0;
 }
 
 main#nieuws a.nieuwsartikel li p {

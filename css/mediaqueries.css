@@ -126,10 +126,6 @@
 
 }
 @media screen and (min-width: 750px) {
-    main#login h1, main#login h2 {
-        text-align: left;
-    }
-    
     main#login ul#voordelen {
         float: right;
         display: block;
@@ -144,7 +140,9 @@
     main#login form#login {
         max-width: 400px;
         display: block;
-        float: left;
+        width: 100%;
+        margin: 1em auto;
+
     }
     
     main#login form#login a img {
