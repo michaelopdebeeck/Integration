@@ -169,6 +169,18 @@ header ul#register {
   display: none;
 }
 
+header nav ul.login_mobile li:nth-child(1) a:link,
+header nav ul.login_mobile li:nth-child(1) a:visited,
+header nav ul.login_mobile li:nth-child(1) a:active {
+    background-color: #F0652F;
+    border-bottom: 3px solid #F0652F;
+}
+
+header nav ul.login_mobile li:nth-child(1) a:hover {
+    background-color: #0E446D;
+    border-bottom: 3px solid #F0652F;
+}
+
 footer {
   background-color: #E2E0DF;
 }

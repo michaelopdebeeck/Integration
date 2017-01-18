@@ -123,6 +123,10 @@
         background-color: white;
         color: #F0652F;
     }
+    
+    header nav ul.login_mobile {
+        display: none;
+    }
 
 }
 @media screen and (min-width: 750px) {
