@@ -264,6 +264,18 @@ a{
 
 .financieeldetail1{
     background-color: #0E446D;
+    font-weight: 600;
+}
+.financieeldetailinfo p{
+    text-decoration: underline;
+    color: white;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.financieeldetailinfo span{
+    text-decoration: none;
+    display: inline-block;
 }
 
 .financieeldetail2{
