@@ -141,7 +141,7 @@
         width: 50%;
     }
     
-    main#login form#login {
+    main#login form#login2 {
         max-width: 400px;
         display: block;
         width: 100%;
@@ -149,18 +149,18 @@
 
     }
     
-    main#login form#login a img {
+    main#login form#login2 a img {
         max-width: 200px;
     }
     
     
-    main#nieuws a.nieuwsartikel:nth-child(odd) {
+    main#nieuws li.nieuwsartikel:nth-child(odd) {
         width: 49%;
         display: block;
         float: left;
     }
     
-    main#nieuws a.nieuwsartikel:nth-child(even) {
+    main#nieuws li.nieuwsartikel:nth-child(even) {
         width: 49%;
         display: block;
         float: right;

@@ -361,27 +361,27 @@ main#nieuws h2 {
   margin: 0.25em 0;
   text-transform: capitalize;
 }
-main#nieuws a.nieuwsartikel {
+main#nieuws li.nieuwsartikel {
     width: 100%;
     display: block;
     border: 1px solid rgba(0, 0, 0, 0.2);
     margin: 0.5em 0;
 }
 
-main#nieuws a.nieuwsartikel li img {
+main#nieuws li.nieuwsartikel a img {
     width: 35%;
     display: block;
     float: left;
     margin: 0;
 }
 
-main#nieuws a.nieuwsartikel li img {
+main#nieuws li.nieuwsartikel a img {
   width: 35%;
   display: block;
   float: left;
 }
 
-main#nieuws a.nieuwsartikel li p {
+main#nieuws li.nieuwsartikel a p {
   width: 64%;
   display: block;
   float: right;
