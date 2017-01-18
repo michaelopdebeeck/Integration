@@ -370,6 +370,9 @@ body h1 {
     border-bottom-right-radius: 5px;
     float: inherit;
   }
+  .aanbod-e a {
+    text-decoration: none;
+  }
   .aanbod-e p:hover {
     background-color: #dc4910;
     text-decoration: underline;
