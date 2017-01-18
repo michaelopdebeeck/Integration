@@ -555,6 +555,9 @@ body h1 {
     display: block;
     background-color: #E2E0DF;
   }
+  .panden-vergelijken-e a {
+    text-decoration: none;
+  }
   .panden-vergelijken-e ul {
     display: block;
   }
@@ -646,6 +649,9 @@ body h1 {
     float: right;
     display: block;
     background-color: #E2E0DF;
+  }
+  .panden-vergelijken-blok-e a {
+    text-decoration: none;
   }
   .panden-vergelijken-blok-e ul {
     display: block;
