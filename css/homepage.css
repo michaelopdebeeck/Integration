@@ -239,7 +239,7 @@ select {
     width: 20%;
     margin-left: 44%;
     margin-top: 10%;
-    margin-bottom: 2%;
+    margin-bottom: 4%;
     filter: grayscale(80);
   }
   .next:hover {
