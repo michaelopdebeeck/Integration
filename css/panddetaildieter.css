@@ -87,6 +87,9 @@ a{
 .panduitleg img{
     width: 75%;
 }
+.panduitleg img:hover{
+    background-image: url(../images/panddetail/fotopandhover.png);
+}
 
 .dbutton, .cbutton{
     font-family: 'montserratregular';
