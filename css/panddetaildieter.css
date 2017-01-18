@@ -393,8 +393,13 @@ a{
     }
     .brugshuisje{
         padding: 0;
-        margin-right: 0.5%;
+        margin-right: 1px;
+        width: 29%;
 }
+    .brugshuizen:last-of-type{
+    margin-right: 0;
+}
+    
     .brugshuisje th{
     font-size: 0.5em;
         padding: 10px 7px;
