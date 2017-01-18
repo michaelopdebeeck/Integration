@@ -69,7 +69,7 @@ a{
 
 .detailpand h2{
     color: darkgrey;
-    margin: 20px 0 30px 0;
+    margin: 30px 0 30px 0;
 }
 
 .limbo{
@@ -86,7 +86,6 @@ a{
 
 .panduitleg img{
     width: 75%;
-    display: block;
 }
 
 .dbutton, .cbutton{
@@ -158,6 +157,10 @@ a{
     margin: 50px auto;
 }
 
+.brugshuizen:last-of-type{
+    margin-right: 0;
+}
+
 .brugshuisje{
     font-family:'montserratbold';
     color: black; 
@@ -170,10 +173,6 @@ a{
     border: 3px solid darkgrey;
     border-radius: 7px;
     margin-right: 2%;
-}
-
-.brugshuisje:last-of-type{
-    margin: 0;
 }
 
 .brugshuisje img{
@@ -320,6 +319,7 @@ a{
     color: white;
     padding: 5px 0 0 0;
     border-top: 1px solid white;  
+    margin-bottom: 50px;
 }
 
 .pandtables li:hover{
@@ -370,6 +370,7 @@ a{
     }
     .pandtables li .email{
         padding-bottom: 5px;
+        width: 15%;
 }
      .pandtables li img{
         width: 15%;
@@ -419,6 +420,9 @@ a{
     }
     .vergunningen{
         font-size: 0.8em;
+    }
+    .brugshuisje{
+        margin-right: 1%;
     }
 }
     
