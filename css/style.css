@@ -172,13 +172,13 @@ header ul#register {
 header nav ul.login_mobile li:nth-child(1) a:link,
 header nav ul.login_mobile li:nth-child(1) a:visited,
 header nav ul.login_mobile li:nth-child(1) a:active {
-    background-color: #F0652F;
-    border-bottom: 3px solid #F0652F;
+  background-color: #F0652F;
+  border-bottom: 3px solid #F0652F;
 }
 
 header nav ul.login_mobile li:nth-child(1) a:hover {
-    background-color: #0E446D;
-    border-bottom: 3px solid #F0652F;
+  background-color: #0E446D;
+  border-bottom: 3px solid #F0652F;
 }
 
 footer {
@@ -330,6 +330,8 @@ main#login p a:hover {
   color: #F0652F;
 }
 
+#registreren a {}
+
 
 /* ------------------------------------------
            EINDE LOGIN en REGISTREREN
@@ -341,18 +343,18 @@ main#login p a:hover {
 ------------------------------------------ */
 
 main#nieuws a img {
-    width: 100%;
-    margin: 0.5em auto;
-    margin: 0.5em 0;
+  width: 100%;
+  margin: 0.5em auto;
+  margin: 0.5em 0;
 }
 
 main#nieuws h1 {
-    text-align: center;
+  text-align: center;
 }
 
 main#nieuws h2 {
-    margin: 0.25em 0;
-    text-transform: capitalize;
+  margin: 0.25em 0;
+  text-transform: capitalize;
   width: 100%;
   margin: 0 auto;
 }
@@ -361,18 +363,19 @@ main#nieuws h2 {
   margin: 0.25em 0;
   text-transform: capitalize;
 }
+
 main#nieuws li.nieuwsartikel {
-    width: 100%;
-    display: block;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    margin: 0.5em 0;
+  width: 100%;
+  display: block;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 0.5em 0;
 }
 
 main#nieuws li.nieuwsartikel a img {
-    width: 35%;
-    display: block;
-    float: left;
-    margin: 0;
+  width: 35%;
+  display: block;
+  float: left;
+  margin: 0;
 }
 
 main#nieuws li.nieuwsartikel a img {
