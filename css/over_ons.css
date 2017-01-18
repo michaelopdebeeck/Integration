@@ -78,7 +78,7 @@
 */
 }
 .text-container-s p {
-  color : #0E446D;
+  color : #0c273c;
   padding : 0px 10px 20px 10px;
 /*  font-size : 12px;*/
 }
@@ -87,7 +87,7 @@
 /*  border-bottom: 0px solid #0E446D;*/
 }
 .text-container-s:nth-of-type(3) p{
-  color : #0E446D;
+  color : #0c273c;
 }
 /*---------------------------------------QUERRIES------------------------------------*/
 @media screen and (min-width: 440px) {
