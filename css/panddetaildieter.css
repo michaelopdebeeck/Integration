@@ -63,7 +63,7 @@ a{
     color: darkgray;
     font-size: 0.8em;
     width: 85%;
-    margin: 8px 0px;
+    margin: 10px 0;
     float: left;
 }
 
@@ -75,7 +75,7 @@ a{
 .limbo{
     width: 100px;
     height: 50px;
-    margin-top: 7px;
+    margin-top: 10px;
 }
 
 .panduitleg{
@@ -99,9 +99,6 @@ a{
     border-radius: 10px;
 }
 
-.panduitleg a{
-    text-decoration: none;
-}
 .dbutton{
     background-color: #F0652F;
 }
