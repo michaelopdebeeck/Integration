@@ -3,324 +3,335 @@
 ---------------------------------- */
 
 @font-face {
-    font-family: 'montserratbold';
-    src: url('../font/montserrat-bold-webfont.woff2') format('woff2'), url('../font/montserrat-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'montserratbold';
+  src: url('../font/montserrat-bold-webfont.woff2') format('woff2'), url('../font/montserrat-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
-  
+
 @font-face {
-    font-family: 'montserratsemibold';
-    src: url('../font/montserrat-semibold-webfont.woff2') format('woff2'), url('../font/montserrat-semibold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'montserratsemibold';
+  src: url('../font/montserrat-semibold-webfont.woff2') format('woff2'), url('../font/montserrat-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
-  
+
 @font-face {
-    font-family: 'montserratlight';
-    src: url('../font/montserrat-light-webfont.woff2') format('woff2'), url('../font/montserrat-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'montserratlight';
+  src: url('../font/montserrat-light-webfont.woff2') format('woff2'), url('../font/montserrat-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
-  
+
 @font-face {
-    font-family: 'montserratregular';
-    src: url('../font/montserrat-regular-webfont.woff2') format('woff2'), url('../font/montserrat-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'montserratregular';
+  src: url('../font/montserrat-regular-webfont.woff2') format('woff2'), url('../font/montserrat-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
+
+
 /*--------------------------------------*/
-  
+
 .clearfix {
-    clear: both;
+  clear: both;
 }
 
 body {
-    font-family: 'montserratregular';
-    margin: 0;
-  }
-  
+  font-family: 'montserratregular';
+  margin: 0;
+}
+
 h1 {
-    font-family: 'montserratbold';
-    color: #0E446D;
-    font-size: 2em;
-    margin: 0.5em 0;
+  font-family: 'montserratbold';
+  color: #0E446D;
+  font-size: 2em;
+  margin: 0.5em 0;
 }
-  
+
 h2 {
-    font-family: 'montserratbold';
-    color: #0E446D;
-    font-size: 1.5em;
-    margin: 0.25em 0;
+  font-family: 'montserratbold';
+  color: #0E446D;
+  font-size: 1.5em;
+  margin: 0.25em 0;
 }
-  
+
 h3 {
-    font-family: 'montserratbold';
-    color: #0E446D;
-    font-size: 1em;
+  font-family: 'montserratbold';
+  color: #0E446D;
+  font-size: 1em;
 }
-  
+
 h4 {
-    font-family: 'montserratbold';
-    color: #0E446D;
-    font-size: 0.7em;
+  font-family: 'montserratbold';
+  color: #0E446D;
+  font-size: 0.7em;
 }
-  
+
 h5 {
-    font-family: 'montserratbold';
-    color: #0E446D;
-    font-size: 0.5em;
+  font-family: 'montserratbold';
+  color: #0E446D;
+  font-size: 0.5em;
 }
-  
+
 p {
-    font-family: 'montserratlight';
-    line-height: 1.4;
-    color: #0E446D;
-    font-weight: 400;
-    font-size: 1em;
+  font-family: 'montserratlight';
+  line-height: 1.4;
+  color: #0E446D;
+  font-weight: 400;
+  font-size: 1em;
 }
+
+
 /* ------------------------------------------
             HEADER & FOOTER
 ------------------------------------------ */
+
 header {
-    background-color: #0E446D;
-    font-family: 'montserratsemibold';
-    text-transform: uppercase;
+  background-color: #0E446D;
+  font-family: 'montserratsemibold';
+  text-transform: uppercase;
 }
+
 .container {
-    max-width: 75%;
-    margin: 0 auto;
-    position: relative;
+  max-width: 75%;
+  margin: 0 auto;
+  position: relative;
 }
 
 a.logo:link,
 a.logo:visited,
 a.logo:hover,
 a.logo:active {
-    background-image: url(../images/Investr_logo.svg);
-    background-repeat: no-repeat;
-    display: block;
-    float: left;
-    height: 1.5em;
-    width: 100px;
-    text-indent: -9999px;
-    
-    margin-top: 1.75em;
+  background-image: url(../images/Investr_logo.svg);
+  background-repeat: no-repeat;
+  display: block;
+  float: left;
+  height: 1.5em;
+  width: 100px;
+  text-indent: -9999px;
+  margin-top: 1.75em;
 }
 
 a.menu-knop:link,
 a.menu-knop:visited,
 a.menu-knop:active {
-    float: right;
-    text-decoration: none;
-    color: white;
-    border-bottom: 3px solid #0E446D;
-    padding: 0.5em 0;
-    margin: 1.5em;
-    margin-bottom: 0.5em;
-    margin-right: 0em;
+  float: right;
+  text-decoration: none;
+  color: white;
+  border-bottom: 3px solid #0E446D;
+  padding: 0.5em 0;
+  margin: 1.5em;
+  margin-bottom: 0.5em;
+  margin-right: 0em;
 }
 
 a.menu-knop:hover {
-    display: block;
-    float: right;
-    text-decoration: none;
-    color: white;
-    border-bottom: 3px solid #F0652F;
+  display: block;
+  float: right;
+  text-decoration: none;
+  color: white;
+  border-bottom: 3px solid #F0652F;
 }
 
-header a#taal, header div.aanmelden {
-    display: none;
+header a#taal,
+header div.aanmelden {
+  display: none;
 }
 
 header nav {
-    clear: both;
+  clear: both;
 }
 
 header nav ul li a:link,
 header nav ul li a:visited,
 header nav ul li a:active {
-    display: block;
-    text-decoration: none;
-    text-align: center;
-    color: white;
-    font-family: 'montserratregular';
-    border-bottom: 3px solid #0E446D;
-    padding: 0.5em 0;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-family: 'montserratregular';
+  border-bottom: 3px solid #0E446D;
+  padding: 0.5em 0;
 }
 
 header nav ul li a:hover {
-    display: block;
-    text-decoration: none;
-    text-align: center;
-    color: white;
-    
-    font-family: 'montserratregular';
-    border-bottom: 3px solid #F0652F;
-    padding: 0.5em 0;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-family: 'montserratregular';
+  border-bottom: 3px solid #F0652F;
+  padding: 0.5em 0;
 }
 
 header ul#register {
-    display: none;
+  display: none;
 }
 
 footer {
-    background-color: #E2E0DF;
+  background-color: #E2E0DF;
 }
 
 footer div.fMenu {
-    display: block;
-    width: 25%;
-    float: left;
-    
-    padding: 1em 0;
-    text-align: center;
+  display: block;
+  width: 25%;
+  float: left;
+  padding: 1em 0;
+  text-align: center;
 }
 
 footer div.fMenu h4 {
-    text-transform: uppercase;
-    font-family: 'montserratregular';
-    font-size: 0.6em;
-    color: #58595B;
+  text-transform: uppercase;
+  font-family: 'montserratregular';
+  font-size: 0.6em;
+  color: #58595B;
 }
 
 footer div.fMenu a:link,
 footer div.fMenu a:visited,
 footer div.fMenu a:active {
-    text-transform: uppercase;
-    font-family: 'montserratlight';
-    font-size: 0.5em;
-    color: #58595B;
-    text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'montserratlight';
+  font-size: 0.5em;
+  color: #58595B;
+  text-decoration: none;
 }
 
 footer div.fMenu a:hover {
-    color: #000000;
-    text-decoration: underline;
+  color: #000000;
+  text-decoration: underline;
 }
 
 footer div.powered {
-    text-align: center;
-    background-color: white;
-    padding-bottom: 1em;
+  text-align: center;
+  background-color: white;
+  padding-bottom: 1em;
 }
 
 footer div.powered img {
-    margin: 1em;
-    width: 20%;
-    max-width: 100px;
+  margin: 1em;
+  width: 20%;
+  max-width: 100px;
 }
 
 footer div.powered p {
-    font-size: 0.5em;
-    margin-bottom: 1em;
-    color: #58595B;
+  font-size: 0.5em;
+  margin-bottom: 1em;
+  color: #58595B;
 }
 
 footer div.powered p a:link,
 footer div.powered p a:visited,
 footer div.powered p a:active {
-    color: #0E446D;
-    text-decoration: none;
+  color: #0E446D;
+  text-decoration: none;
 }
 
 footer div.powered p a:hover {
-    border-bottom: 1px solid #F0652F;
+  border-bottom: 1px solid #F0652F;
 }
+
 
 /* ------------------------------------------
             EINDE HEADER & FOOTER
 ------------------------------------------ */
 
+
 /* ------------------------------------------
            LOGIN en REGISTREREN
 ------------------------------------------ */
+
 main#login h1 {
-    text-align: center;
+  text-align: center;
 }
 
 main#login h2 {
-    text-align: center;
-    font-size: 0.9em;
-    color: #1E7BB7;
+  text-align: center;
+  font-size: 0.9em;
+  color: #1E7BB7;
 }
 
 main#login ul#voordelen {
-    list-style:initial;
+  list-style: initial;
 }
 
 main#login ul#voordelen li {
-    font-family: 'montserratlight';
-    font-size: 0.85em;
-    color: #0E446D;
-    margin: 1em 0;
+  font-family: 'montserratlight';
+  font-size: 0.85em;
+  color: #0E446D;
+  margin: 1em 0;
 }
 
-main#login ul#voordelen li span { 
-    font-family: 'montserratregular';
+main#login ul#voordelen li span {
+  font-family: 'montserratregular';
 }
 
 main#login form {
-    width: 100%;
-    margin: 1em auto;
+  width: 100%;
+  margin: 1em auto;
 }
 
 main#login form input[type="text"] {
-    width: 95%;
-    margin: 0.5em 0;
-    display: block;
-    color: #0E446D;
-    font-size: 0.8em;
-    border: 1px solid rgba(128, 128, 128, 0.5);
-    border-radius: 2px;
-    padding: 0.5em;
+  width: 95%;
+  margin: 0.5em 0;
+  display: block;
+  color: #0E446D;
+  font-size: 0.8em;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  border-radius: 2px;
+  padding: 0.5em;
 }
-    
+
 main#login form input[type="submit"] {
-    width: 75%;
-    display: block;
-    border: 0;
-    background-color: #F0652F;
-    color: white;
-    font-size: 1em;
-    border-radius: 2px;
-    cursor: pointer;
-    padding: 0.5em;
-    margin: 1em auto;
-    }
+  width: 75%;
+  display: block;
+  border: 0;
+  background-color: #F0652F;
+  color: white;
+  font-size: 1em;
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 0.5em;
+  margin: 1em auto;
+}
 
 main#login a img {
-    width: 65%;
-    display: block;
-    margin: 1em auto;
+  width: 65%;
+  display: block;
+  margin: 1em auto;
 }
 
 main#login p {
-    width: 100%;
-    text-align: center;
-    font-size: 0.8em;
+  width: 100%;
+  text-align: center;
+  font-size: 0.8em;
 }
 
 main#login p a:link,
 main#login p a:active,
 main#login p a:visited {
-    color: black;
+  color: black;
 }
 
 main#login p a:hover {
-    color: #F0652F;
+  color: #F0652F;
 }
+
 
 /* ------------------------------------------
            EINDE LOGIN en REGISTREREN
 ------------------------------------------ */
 
+
 /* ------------------------------------------
            NIEUWS
 ------------------------------------------ */
+
 main#nieuws a img {
     width: 100%;
     margin: 0.5em auto;
+    margin: 0.5em 0;
 }
 
 main#nieuws h1 {
@@ -330,10 +341,13 @@ main#nieuws h1 {
 main#nieuws h2 {
     margin: 0.25em 0;
     text-transform: capitalize;
+  width: 100%;
+  margin: 0 auto;
 }
 
-main#nieuws ul {
-    
+main#nieuws h2 {
+  margin: 0.25em 0;
+  text-transform: capitalize;
 }
 main#nieuws a.nieuwsartikel {
     width: 100%;
@@ -349,10 +363,16 @@ main#nieuws a.nieuwsartikel li img {
     margin: 0;
 }
 
+main#nieuws a.nieuwsartikel li img {
+  width: 35%;
+  display: block;
+  float: left;
+}
+
 main#nieuws a.nieuwsartikel li p {
-    width: 64%;
-    display: block;
-    float: right;
-    font-family: 'montserratlight';
-    font-size: 1em;
+  width: 64%;
+  display: block;
+  float: right;
+  font-family: 'montserratlight';
+  font-size: 1em;
 }
